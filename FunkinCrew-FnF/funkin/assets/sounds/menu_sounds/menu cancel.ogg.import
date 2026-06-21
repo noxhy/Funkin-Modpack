@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dyy2yik0yf60r"
+path="res://.godot/imported/menu cancel.ogg-bb356dd378399a3a32965ac0f3648c1d.oggvorbisstr"
+
+[deps]
+
+source_file="res://FunkinCrew-FnF/funkin/assets/sounds/menu_sounds/menu cancel.ogg"
+dest_files=["res://.godot/imported/menu cancel.ogg-bb356dd378399a3a32965ac0f3648c1d.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dy5bmpjexk1x6"
+path="res://.godot/imported/countdown 3.ogg-4dddaf453b7c99cb61069008a2f9e42d.oggvorbisstr"
+
+[deps]
+
+source_file="res://FunkinCrew-FnF/funkin/assets/sounds/game_sounds/countdown/default/countdown 3.ogg"
+dest_files=["res://.godot/imported/countdown 3.ogg-4dddaf453b7c99cb61069008a2f9e42d.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

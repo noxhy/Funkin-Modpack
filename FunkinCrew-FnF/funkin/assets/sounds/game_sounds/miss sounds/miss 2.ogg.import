@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cfnrxgladhi2w"
+path="res://.godot/imported/miss 2.ogg-83dc2f5a487c7fe9df33a892df3dfd96.oggvorbisstr"
+
+[deps]
+
+source_file="res://FunkinCrew-FnF/funkin/assets/sounds/game_sounds/miss sounds/miss 2.ogg"
+dest_files=["res://.godot/imported/miss 2.ogg-83dc2f5a487c7fe9df33a892df3dfd96.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

@@ -1,26 +1,35 @@
 [gd_scene format=3 uid="uid://cd3leoxyqnk4m"]
 
 [ext_resource type="Script" uid="uid://bgx1imb2x4q8y" path="res://noah/game/stage.gd" id="1_5a47v"]
-[ext_resource type="Texture2D" uid="uid://dej37slirtnpw" path="res://FunkinCrew-FnF/funkin/assets/stages/weeb_school/weebStreet.png" id="2_awjbp"]
-[ext_resource type="Texture2D" uid="uid://ujnjqntvrmf8" path="res://FunkinCrew-FnF/funkin/assets/stages/weeb_school/weebSchool.png" id="3_v5aas"]
-[ext_resource type="Texture2D" uid="uid://d0dc2dvbd0mms" path="res://FunkinCrew-FnF/funkin/assets/stages/weeb_school/weebSky.png" id="4_aghp0"]
-[ext_resource type="Texture2D" uid="uid://c3qg0srsh8tu6" path="res://FunkinCrew-FnF/funkin/assets/stages/weeb_school/weebTrees.png" id="5_fs3li"]
-[ext_resource type="PackedScene" uid="uid://ch1yo286ve0mt" path="res://FunkinCrew-FnF/funkin/assets/stages/weeb_school/simps.tscn" id="5_hrt6l"]
-[ext_resource type="Texture2D" uid="uid://8djsvg5er6g1" path="res://FunkinCrew-FnF/funkin/assets/stages/weeb_school/weebTreesBack.png" id="6_8vprs"]
-[ext_resource type="SpriteFrames" uid="uid://c8ixpbjgxpku5" path="res://FunkinCrew-FnF/funkin/assets/stages/weeb_school/petals.res" id="7_52auc"]
+[ext_resource type="Texture2D" uid="uid://dej37slirtnpw" path="res://Funkin-Modpack/funkin/assets/stages/weeb_school/weebStreet.png" id="2_awjbp"]
+[ext_resource type="Script" uid="uid://bj7tgh8jkngdx" path="res://noah/game/character.gd" id="2_vr4b0"]
+[ext_resource type="Texture2D" uid="uid://ujnjqntvrmf8" path="res://Funkin-Modpack/funkin/assets/stages/weeb_school/weebSchool.png" id="3_v5aas"]
+[ext_resource type="Texture2D" uid="uid://d0dc2dvbd0mms" path="res://Funkin-Modpack/funkin/assets/stages/weeb_school/weebSky.png" id="4_aghp0"]
+[ext_resource type="Texture2D" uid="uid://c3qg0srsh8tu6" path="res://Funkin-Modpack/funkin/assets/stages/weeb_school/weebTrees.png" id="5_fs3li"]
+[ext_resource type="PackedScene" uid="uid://ch1yo286ve0mt" path="res://Funkin-Modpack/funkin/assets/stages/weeb_school/simps.tscn" id="5_hrt6l"]
+[ext_resource type="Texture2D" uid="uid://8djsvg5er6g1" path="res://Funkin-Modpack/funkin/assets/stages/weeb_school/weebTreesBack.png" id="6_8vprs"]
+[ext_resource type="SpriteFrames" uid="uid://c8ixpbjgxpku5" path="res://Funkin-Modpack/funkin/assets/stages/weeb_school/petals.res" id="7_52auc"]
 [ext_resource type="Script" uid="uid://d17yv6wfgl74w" path="res://noah/offset_sprite.gd" id="8_njc57"]
 
 [node name="weed_school" type="Node2D" unique_id=2028769937]
 texture_filter = 1
 script = ExtResource("1_5a47v")
 
-[node name="Simps" parent="." unique_id=853978315 groups=["slow_bop", "tween_bop"] instance=ExtResource("5_hrt6l")]
+[node name="Simps2" type="Node2D" parent="." unique_id=1099519637 node_paths=PackedStringArray("animation_player")]
+script = ExtResource("2_vr4b0")
+animation_player = NodePath("Simps")
+animation_names = Dictionary[StringName, StringName]({
+&"idle": &"BG girls group",
+&"idle_left": &"idle_left",
+&"idle_right": &"idle_right"
+})
+dance_rate = 4
+
+[node name="Simps" parent="Simps2" unique_id=853978315 instance=ExtResource("5_hrt6l")]
 z_index = 80
 position = Vector2(-646, 222)
 scale = Vector2(6, 6)
-autoplay = "BG girls group"
-frame = 29
-frame_progress = 1.0
+animation = &"idle_left"
 centered = false
 
 [node name="WeebStreet" type="Sprite2D" parent="." unique_id=717263029]

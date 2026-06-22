@@ -1,15 +1,16 @@
 [gd_scene format=3 uid="uid://ofcr80jgray3"]
 
 [ext_resource type="Script" uid="uid://bgx1imb2x4q8y" path="res://noah/game/stage.gd" id="1_8gejj"]
-[ext_resource type="Shader" uid="uid://bgwusoh6kicj3" path="res://FunkinCrew-FnF/funkin/assets/shaders/adjust_hsv.gdshader" id="2_l4rv2"]
-[ext_resource type="SpriteFrames" uid="uid://bloyytxjba2pp" path="res://FunkinCrew-FnF/funkin/assets/stages/mall/santa.res" id="2_uhonm"]
-[ext_resource type="SpriteFrames" uid="uid://bhckl31rft307" path="res://FunkinCrew-FnF/funkin/assets/stages/mall/bottom_boppers.res" id="3_imb35"]
-[ext_resource type="Texture2D" uid="uid://bcrb2ympbpysw" path="res://FunkinCrew-FnF/funkin/assets/stages/mall/fgSnow.png" id="4_8lbyi"]
-[ext_resource type="Texture2D" uid="uid://e3d1icg8o1a8" path="res://FunkinCrew-FnF/funkin/assets/stages/mall/bgWalls.png" id="5_amhim"]
-[ext_resource type="Texture2D" uid="uid://dx3vw7sod57fy" path="res://FunkinCrew-FnF/funkin/assets/stages/mall/white.png" id="5_efmgv"]
-[ext_resource type="Texture2D" uid="uid://cq7egni0f15p3" path="res://FunkinCrew-FnF/funkin/assets/stages/mall/christmasTree.png" id="8_80ofe"]
-[ext_resource type="Texture2D" uid="uid://heetxdcoewng" path="res://FunkinCrew-FnF/funkin/assets/stages/mall/bgEscalator.png" id="9_qsvqw"]
-[ext_resource type="SpriteFrames" uid="uid://s0ft3n06lttj" path="res://FunkinCrew-FnF/funkin/assets/stages/mall/upper_boppers.res" id="10_gfjtv"]
+[ext_resource type="Shader" uid="uid://bgwusoh6kicj3" path="res://Funkin-Modpack/funkin/assets/shaders/adjust_hsv.gdshader" id="2_l4rv2"]
+[ext_resource type="SpriteFrames" uid="uid://bloyytxjba2pp" path="res://Funkin-Modpack/funkin/assets/stages/mall/santa.res" id="2_uhonm"]
+[ext_resource type="SpriteFrames" uid="uid://bhckl31rft307" path="res://Funkin-Modpack/funkin/assets/stages/mall/bottom_boppers.res" id="3_imb35"]
+[ext_resource type="Texture2D" uid="uid://bcrb2ympbpysw" path="res://Funkin-Modpack/funkin/assets/stages/mall/fgSnow.png" id="4_8lbyi"]
+[ext_resource type="Script" uid="uid://bj7tgh8jkngdx" path="res://noah/game/character.gd" id="4_58jk2"]
+[ext_resource type="Texture2D" uid="uid://e3d1icg8o1a8" path="res://Funkin-Modpack/funkin/assets/stages/mall/bgWalls.png" id="5_amhim"]
+[ext_resource type="Texture2D" uid="uid://dx3vw7sod57fy" path="res://Funkin-Modpack/funkin/assets/stages/mall/white.png" id="5_efmgv"]
+[ext_resource type="Texture2D" uid="uid://cq7egni0f15p3" path="res://Funkin-Modpack/funkin/assets/stages/mall/christmasTree.png" id="8_80ofe"]
+[ext_resource type="Texture2D" uid="uid://heetxdcoewng" path="res://Funkin-Modpack/funkin/assets/stages/mall/bgEscalator.png" id="9_qsvqw"]
+[ext_resource type="SpriteFrames" uid="uid://s0ft3n06lttj" path="res://Funkin-Modpack/funkin/assets/stages/mall/upper_boppers.res" id="10_gfjtv"]
 
 [sub_resource type="Gradient" id="Gradient_l4rv2"]
 colors = PackedColorArray(0, 0, 0, 1, 0.933594, 0.984436, 1, 1)
@@ -37,13 +38,23 @@ metadata/_custom_type_script = "uid://bgx1imb2x4q8y"
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1481511836]
 environment = SubResource("Environment_80ofe")
 
-[node name="Santa" type="AnimatedSprite2D" parent="." unique_id=1824852701 groups=["fast_bop"]]
+[node name="Character" type="Node2D" parent="." unique_id=1155714145 node_paths=PackedStringArray("animation_player")]
 z_index = 200
-material = SubResource("ShaderMaterial_s1ajr")
 scale = Vector2(0.8, 0.8)
+script = ExtResource("4_58jk2")
+animation_player = NodePath("Santa")
+animation_names = Dictionary[StringName, StringName]({
+&"idle": &"santa idle in fear"
+})
+dance_rate = 4
+
+[node name="Santa" type="AnimatedSprite2D" parent="Character" unique_id=1824852701]
+material = SubResource("ShaderMaterial_s1ajr")
 sprite_frames = ExtResource("2_uhonm")
 animation = &"santa idle in fear"
 autoplay = "idle"
+frame = 13
+frame_progress = 1.0
 centered = false
 offset = Vector2(-840, 150)
 
@@ -52,14 +63,24 @@ z_index = -10
 scale = Vector2(0.8, 0.8)
 
 [node name="Parallax2D3" type="Parallax2D" parent="foreground" unique_id=821253901]
-z_index = 50
 scroll_scale = Vector2(0.9, 0.9)
 
-[node name="Lower Boppers" type="AnimatedSprite2D" parent="foreground/Parallax2D3" unique_id=1256061269 groups=["fast_bop"]]
+[node name="Character" type="Node2D" parent="foreground/Parallax2D3" unique_id=30460662 node_paths=PackedStringArray("animation_player")]
+z_index = 50
+script = ExtResource("4_58jk2")
+animation_player = NodePath("Lower Boppers")
+animation_names = Dictionary[StringName, StringName]({
+&"idle": &"bottomBop"
+})
+dance_rate = 4
+
+[node name="Lower Boppers" type="AnimatedSprite2D" parent="foreground/Parallax2D3/Character" unique_id=1256061269]
 material = SubResource("ShaderMaterial_s1ajr")
 sprite_frames = ExtResource("3_imb35")
 animation = &"bottomBop"
 autoplay = "bottomBop"
+frame = 13
+frame_progress = 1.0
 centered = false
 offset = Vector2(-410, 100)
 
@@ -68,7 +89,7 @@ z_index = 49
 scroll_scale = Vector2(0.85, 0.85)
 
 [node name="Fog" type="Sprite2D" parent="foreground/Parallax2D" unique_id=1339951869]
-scale = Vector2(0.9, 0.9)
+scale = Vector2(0.89999986, 0.89999986)
 texture = ExtResource("5_efmgv")
 centered = false
 offset = Vector2(-1000, 100)
@@ -88,7 +109,7 @@ z_index = 60
 offset_left = -1200.0
 offset_top = 800.0
 offset_right = 4200.0
-offset_bottom = 990.0
+offset_bottom = 1360.0
 color = Color(0.952941, 0.956863, 0.960784, 1)
 
 [node name="Backround" type="Node2D" parent="." unique_id=523248777]
@@ -129,11 +150,20 @@ metadata/_edit_lock_ = true
 z_index = 20
 scroll_scale = Vector2(0.33, 0.33)
 
-[node name="Upper Boppers" type="AnimatedSprite2D" parent="Backround/Parallax2D2" unique_id=1254117781 groups=["fast_bop"]]
-position = Vector2(0, 160)
-scale = Vector2(0.85, 0.85)
+[node name="Character" type="Node2D" parent="Backround/Parallax2D2" unique_id=529154859 node_paths=PackedStringArray("animation_player")]
+script = ExtResource("4_58jk2")
+animation_player = NodePath("Upper Boppers")
+animation_names = Dictionary[StringName, StringName]({
+&"idle": &"upperBop"
+})
+dance_rate = 4
+
+[node name="Upper Boppers" type="AnimatedSprite2D" parent="Backround/Parallax2D2/Character" unique_id=1254117781]
+position = Vector2(0, 128)
 sprite_frames = ExtResource("10_gfjtv")
 animation = &"upperBop"
+frame = 13
+frame_progress = 1.0
 centered = false
 offset = Vector2(-240, -40)
 metadata/_edit_lock_ = true

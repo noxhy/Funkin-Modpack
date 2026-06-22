@@ -1,15 +1,11 @@
-[gd_resource type="Resource" script_class="PlayableCharacter" format=3 uid="uid://dxqhmrv2rrdkc"]
+[gd_resource type="Resource" script_class="FunkinPlayableCharacter" format=3 uid="uid://dskdxvwa3xf5t"]
 
-[ext_resource type="Resource" uid="uid://b30g8jurwop0d" path="res://FunkinCrew-FnF/funkin/assets/albums/pico_songs.tres" id="1_h434c"]
-[ext_resource type="Texture2D" uid="uid://cemqnoop727he" path="res://FunkinCrew-FnF/funkin/assets/images/menus/freeplay/characters/pico/freeplayBGweek1-pico.png" id="1_trvgy"]
-[ext_resource type="PackedScene" uid="uid://bnx6yfjfa6wcj" path="res://FunkinCrew-FnF/funkin/menus/freeplay/characters/pico.tscn" id="2_h434c"]
-[ext_resource type="Script" uid="uid://baldo0u3dda86" path="res://noah/resources/playable_character.gd" id="11_r1hcg"]
+[ext_resource type="Script" uid="uid://bfyx0vdrm1c1" path="res://Funkin-Modpack/funkin/playable_characters/funkin_playable_character.gd" id="1_g7587"]
+[ext_resource type="Resource" uid="uid://b30g8jurwop0d" path="res://Funkin-Modpack/funkin/assets/albums/pico_songs.tres" id="1_h434c"]
 
 [resource]
-script = ExtResource("11_r1hcg")
-album = ExtResource("1_h434c")
-dj = ExtResource("2_h434c")
-background = ExtResource("1_trvgy")
+script = ExtResource("1_g7587")
+dj = "uid://bnx6yfjfa6wcj"
 result_songs = Dictionary[String, String]({
 "excellent": "uid://c06o50jnsmcxy",
 "gold": "uid://bjw4ot02i6liv",
@@ -28,3 +24,5 @@ result_nodes = Dictionary[String, String]({
 "loss": "uid://cbgr3nsw1eu3k",
 "perfect": "uid://b3d1p53teyugf"
 })
+album = ExtResource("1_h434c")
+metadata/_custom_type_script = "uid://bfyx0vdrm1c1"

@@ -1,18 +1,16 @@
-[gd_resource type="Resource" script_class="PlayableCharacter" format=3 uid="uid://c73l5wk1k58mp"]
+[gd_resource type="Resource" script_class="FunkinPlayableCharacter" format=3 uid="uid://bkhhp2v4u756o"]
 
-[ext_resource type="Resource" uid="uid://c0coafka6m5vs" path="res://FunkinCrew-FnF/funkin/assets/albums/boyfriend_songs.tres" id="1_5cuee"]
-[ext_resource type="Script" uid="uid://baldo0u3dda86" path="res://noah/resources/playable_character.gd" id="1_la1qj"]
-[ext_resource type="Texture2D" uid="uid://dkupmrky3qwx" path="res://FunkinCrew-FnF/funkin/assets/images/menus/freeplay/characters/boyfriend/freeplayBGweek1-bf.png" id="2_7l6ng"]
-[ext_resource type="PackedScene" uid="uid://c1s7cbxg2o4m0" path="res://FunkinCrew-FnF/funkin/menus/freeplay/characters/boyfriend.tscn" id="3_7ikay"]
+[ext_resource type="Resource" uid="uid://c0coafka6m5vs" path="res://Funkin-Modpack/funkin/assets/albums/boyfriend_songs.tres" id="1_5cuee"]
+[ext_resource type="Texture2D" uid="uid://dkupmrky3qwx" path="res://Funkin-Modpack/funkin/assets/images/menus/freeplay/characters/boyfriend/freeplayBGweek1-bf.png" id="2_7l6ng"]
+[ext_resource type="Script" uid="uid://bfyx0vdrm1c1" path="res://Funkin-Modpack/funkin/playable_characters/funkin_playable_character.gd" id="2_k1fhv"]
 
 [resource]
-script = ExtResource("1_la1qj")
-album = ExtResource("1_5cuee")
-dj = ExtResource("3_7ikay")
+script = ExtResource("2_k1fhv")
+dj = "uid://c1s7cbxg2o4m0"
 background = ExtResource("2_7l6ng")
 result_songs = Dictionary[String, String]({
 "excellent": "uid://brvwivjswbekg",
-"gold": "uid://ce35a74i5sv80",
+"gold": "uid://dxg0jrm60tjm",
 "good": "uid://dxg0jrm60tjm",
 "great": "uid://dxg0jrm60tjm",
 "loss": "uid://dla8l3ws7tid8",
@@ -28,3 +26,5 @@ result_nodes = Dictionary[String, String]({
 "loss": "uid://c5suhy07ww51g",
 "perfect": "uid://dyrcehub5js66"
 })
+album = ExtResource("1_5cuee")
+metadata/_custom_type_script = "uid://bfyx0vdrm1c1"

@@ -1,4 +1,4 @@
-[gd_scene format=3 uid="uid://o04ewby7jkf1"]
+[gd_scene format=3 uid="uid://biiwntgdifgm1"]
 
 [ext_resource type="Script" uid="uid://df3mvgqvkhgri" path="res://FunkinCrew-FnF/funkin/assets/stages/philly_streets/philly.gd" id="1_osrb8"]
 [ext_resource type="Shader" uid="uid://cn1tl4764rmon" path="res://FunkinCrew-FnF/funkin/assets/shaders/raindrops.gdshader" id="2_0df5w"]

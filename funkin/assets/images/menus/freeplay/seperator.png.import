@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ckfsscmfe5ark"
-path="res://.godot/imported/seperator.png-04a4d25f54a8fdef3dd9bcf1f57fd13e.ctex"
+path="res://.godot/imported/seperator.png-1d847003ac8ef31d27e8bee0dfffccd4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/images/menus/freeplay/seperator.png"
-dest_files=["res://.godot/imported/seperator.png-04a4d25f54a8fdef3dd9bcf1f57fd13e.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/images/menus/freeplay/seperator.png"
+dest_files=["res://.godot/imported/seperator.png-1d847003ac8ef31d27e8bee0dfffccd4.ctex"]
 
 [params]
 

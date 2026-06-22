@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cwa8lxlus1bon"
-path="res://.godot/imported/menu_freeplay.png-438908671ed70f6c0d55c1188ce085d2.ctex"
+path="res://.godot/imported/menu_freeplay.png-89d52b09217ccd02289d2ce71af11a0b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/images/menus/main menu/menu_freeplay.png"
-dest_files=["res://.godot/imported/menu_freeplay.png-438908671ed70f6c0d55c1188ce085d2.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/images/menus/main menu/menu_freeplay.png"
+dest_files=["res://.godot/imported/menu_freeplay.png-89d52b09217ccd02289d2ce71af11a0b.ctex"]
 
 [params]
 

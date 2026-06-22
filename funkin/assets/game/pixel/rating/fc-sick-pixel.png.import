@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c83yeo3ltedlb"
-path="res://.godot/imported/fc-sick-pixel.png-08041ea83b2a6f918bc5cfd2e235ebf6.ctex"
+path="res://.godot/imported/fc-sick-pixel.png-bd41d9d224619bf5321477812917bfc1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/game/pixel/rating/fc-sick-pixel.png"
-dest_files=["res://.godot/imported/fc-sick-pixel.png-08041ea83b2a6f918bc5cfd2e235ebf6.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/game/pixel/rating/fc-sick-pixel.png"
+dest_files=["res://.godot/imported/fc-sick-pixel.png-bd41d9d224619bf5321477812917bfc1.ctex"]
 
 [params]
 

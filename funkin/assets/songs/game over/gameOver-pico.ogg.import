@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://bx2dp4n1416a5"
-path="res://.godot/imported/gameOver-pico.ogg-8a81ee97c35ca4ac1c78676b6cfb88f1.oggvorbisstr"
+path="res://.godot/imported/gameOver-pico.ogg-ee7592f0f75c1e164724cfc4c45ad8cd.oggvorbisstr"
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/songs/game over/gameOver-pico.ogg"
-dest_files=["res://.godot/imported/gameOver-pico.ogg-8a81ee97c35ca4ac1c78676b6cfb88f1.oggvorbisstr"]
+source_file="res://Funkin-Modpack/funkin/assets/songs/game over/gameOver-pico.ogg"
+dest_files=["res://.godot/imported/gameOver-pico.ogg-ee7592f0f75c1e164724cfc4c45ad8cd.oggvorbisstr"]
 
 [params]
 

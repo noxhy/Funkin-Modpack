@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bcrb2ympbpysw"
-path="res://.godot/imported/fgSnow.png-2f2750fb03d59df62f3e80fbaebbc317.ctex"
+path="res://.godot/imported/fgSnow.png-26ba23234ac244457f5244cbbc861ac1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/stages/mall/fgSnow.png"
-dest_files=["res://.godot/imported/fgSnow.png-2f2750fb03d59df62f3e80fbaebbc317.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/stages/mall/fgSnow.png"
+dest_files=["res://.godot/imported/fgSnow.png-26ba23234ac244457f5244cbbc861ac1.ctex"]
 
 [params]
 

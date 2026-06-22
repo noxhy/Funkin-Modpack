@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://dmnmbpo1uy8px"
-path="res://.godot/imported/fnf_font_outline.ttf-eea24a26e1cef39bccf07b442cefe181.fontdata"
+path="res://.godot/imported/fnf_font_outline.ttf-2a61e7febf154853208a822eeeb1ffe5.fontdata"
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/fonts/fnf_font_outline.ttf"
-dest_files=["res://.godot/imported/fnf_font_outline.ttf-eea24a26e1cef39bccf07b442cefe181.fontdata"]
+source_file="res://Funkin-Modpack/funkin/assets/fonts/fnf_font_outline.ttf"
+dest_files=["res://.godot/imported/fnf_font_outline.ttf-2a61e7febf154853208a822eeeb1ffe5.fontdata"]
 
 [params]
 

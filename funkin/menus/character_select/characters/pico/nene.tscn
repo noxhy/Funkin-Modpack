@@ -1,13 +1,13 @@
 [gd_scene format=3 uid="uid://1ds41w4uwiao"]
 
-[ext_resource type="Script" uid="uid://cblocwqwyjjjy" path="res://FunkinCrew-FnF/funkin/menus/freeplay/atlas_sprite.gd" id="1_xix07"]
+[ext_resource type="Script" uid="uid://cblocwqwyjjjy" path="res://Funkin-Modpack/funkin/menus/freeplay/atlas_sprite.gd" id="1_xix07"]
 [ext_resource type="Script" uid="uid://c5ju3u657fyae" path="res://addons/gdanimate-rewrite-main/animate_symbol.gd" id="2_5km72"]
 [ext_resource type="Script" uid="uid://dy4vnmv4435ty" path="res://addons/gdanimate-rewrite-main/animate_atlas.gd" id="3_durdr"]
 [ext_resource type="Script" uid="uid://dkyyuwqo0dy7q" path="res://addons/gdanimate-rewrite-main/adobe/adobe_atlas.gd" id="4_wmtgs"]
 
 [sub_resource type="Resource" id="Resource_ttk8m"]
 script = ExtResource("4_wmtgs")
-folder_path = "res://FunkinCrew-FnF/funkin/assets/images/menus/character_select/characters/pico/neneChill/"
+folder_path = "res://Funkin-Modpack/funkin/assets/images/menus/character_select/characters/pico/neneChill/"
 format = "adobe"
 metadata/_custom_type_script = "uid://dkyyuwqo0dy7q"
 

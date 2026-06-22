@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://m0c46wd3pqwd"
-path="res://.godot/imported/sparkle-fullanim.png-f6b614cf344f46f8774a6c5348d75326.ctex"
+path="res://.godot/imported/sparkle-fullanim.png-347963eb88647865b086859192657865.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/game/default/rating/sparkle-fullanim.png"
-dest_files=["res://.godot/imported/sparkle-fullanim.png-f6b614cf344f46f8774a6c5348d75326.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/game/default/rating/sparkle-fullanim.png"
+dest_files=["res://.godot/imported/sparkle-fullanim.png-347963eb88647865b086859192657865.ctex"]
 
 [params]
 

@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://bwra5et2s4wsj"
-path="res://.godot/imported/Voices-tankman-pico.ogg-5463d2be49438ae8f925e071909e69bd.oggvorbisstr"
+path="res://.godot/imported/Voices-tankman-pico.ogg-623112cd4ac48cc1c31e55b332f2f31c.oggvorbisstr"
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/playable_songs/stress/audio/Voices-tankman-pico.ogg"
-dest_files=["res://.godot/imported/Voices-tankman-pico.ogg-5463d2be49438ae8f925e071909e69bd.oggvorbisstr"]
+source_file="res://Funkin-Modpack/funkin/playable_songs/stress/audio/Voices-tankman-pico.ogg"
+dest_files=["res://.godot/imported/Voices-tankman-pico.ogg-623112cd4ac48cc1c31e55b332f2f31c.oggvorbisstr"]
 
 [params]
 

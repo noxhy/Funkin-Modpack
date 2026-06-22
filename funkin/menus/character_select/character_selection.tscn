@@ -1,43 +1,43 @@
 [gd_scene format=3 uid="uid://cffkc1rbk4pcv"]
 
-[ext_resource type="Script" uid="uid://brxadx3uf2n27" path="res://FunkinCrew-FnF/funkin/menus/character_select/character_selection.gd" id="1_4oy2p"]
+[ext_resource type="Script" uid="uid://brxadx3uf2n27" path="res://Funkin-Modpack/funkin/menus/character_select/character_selection.gd" id="1_4oy2p"]
 [ext_resource type="Script" uid="uid://b1blhjns06ilt" path="res://noah/conductor.gd" id="1_xnc8d"]
-[ext_resource type="AudioStream" uid="uid://bova01kqk3s1m" path="res://FunkinCrew-FnF/funkin/assets/songs/character_select/stayFunky.ogg" id="2_xehc6"]
-[ext_resource type="AudioStream" uid="uid://bdig7mekw6cmd" path="res://FunkinCrew-FnF/funkin/assets/sounds/character_select/CS_confirm.ogg" id="3_4tnne"]
-[ext_resource type="AudioStream" uid="uid://cqrmxvh0sig2q" path="res://FunkinCrew-FnF/funkin/assets/sounds/character_select/CS_select.ogg" id="4_206il"]
-[ext_resource type="Texture2D" uid="uid://cheqv5tx4cvjp" path="res://FunkinCrew-FnF/funkin/assets/images/menus/character_select/placement.png" id="5_xehc6"]
-[ext_resource type="Texture2D" uid="uid://c8abolokulimn" path="res://FunkinCrew-FnF/funkin/assets/images/menus/character_select/charSelectBG.png" id="6_4tnne"]
-[ext_resource type="AudioStream" uid="uid://c4yg7qr8m3cud" path="res://FunkinCrew-FnF/funkin/assets/sounds/character_select/CS_locked.ogg" id="6_mgwtl"]
-[ext_resource type="Texture2D" uid="uid://co32pcaa122dd" path="res://FunkinCrew-FnF/funkin/assets/images/menus/character_select/curtains.png" id="8_umvhs"]
-[ext_resource type="Texture2D" uid="uid://c383kly37xe27" path="res://FunkinCrew-FnF/funkin/assets/images/menus/character_select/foregroundBlur.png" id="9_n7bm8"]
+[ext_resource type="AudioStream" uid="uid://bova01kqk3s1m" path="res://Funkin-Modpack/funkin/assets/songs/character_select/stayFunky.ogg" id="2_xehc6"]
+[ext_resource type="AudioStream" uid="uid://bdig7mekw6cmd" path="res://Funkin-Modpack/funkin/assets/sounds/character_select/CS_confirm.ogg" id="3_4tnne"]
+[ext_resource type="AudioStream" uid="uid://cqrmxvh0sig2q" path="res://Funkin-Modpack/funkin/assets/sounds/character_select/CS_select.ogg" id="4_206il"]
+[ext_resource type="Texture2D" uid="uid://cheqv5tx4cvjp" path="res://Funkin-Modpack/funkin/assets/images/menus/character_select/placement.png" id="5_xehc6"]
+[ext_resource type="Texture2D" uid="uid://c8abolokulimn" path="res://Funkin-Modpack/funkin/assets/images/menus/character_select/charSelectBG.png" id="6_4tnne"]
+[ext_resource type="AudioStream" uid="uid://c4yg7qr8m3cud" path="res://Funkin-Modpack/funkin/assets/sounds/character_select/CS_locked.ogg" id="6_mgwtl"]
+[ext_resource type="Texture2D" uid="uid://co32pcaa122dd" path="res://Funkin-Modpack/funkin/assets/images/menus/character_select/curtains.png" id="8_umvhs"]
+[ext_resource type="Texture2D" uid="uid://c383kly37xe27" path="res://Funkin-Modpack/funkin/assets/images/menus/character_select/foregroundBlur.png" id="9_n7bm8"]
 [ext_resource type="Script" uid="uid://c5ju3u657fyae" path="res://addons/gdanimate-rewrite-main/animate_symbol.gd" id="9_nit2l"]
-[ext_resource type="Texture2D" uid="uid://blrompebh3ov1" path="res://FunkinCrew-FnF/funkin/assets/images/menus/character_select/chooseDipshit.png" id="9_svyfo"]
-[ext_resource type="Texture2D" uid="uid://bue740k5rsunv" path="res://FunkinCrew-FnF/funkin/assets/images/menus/character_select/charLight.png" id="10_1divh"]
-[ext_resource type="SpriteFrames" uid="uid://dexqtp6l3yipy" path="res://FunkinCrew-FnF/funkin/assets/images/menus/character_select/dipshit_blue.res" id="10_4oy2p"]
+[ext_resource type="Texture2D" uid="uid://blrompebh3ov1" path="res://Funkin-Modpack/funkin/assets/images/menus/character_select/chooseDipshit.png" id="9_svyfo"]
+[ext_resource type="Texture2D" uid="uid://bue740k5rsunv" path="res://Funkin-Modpack/funkin/assets/images/menus/character_select/charLight.png" id="10_1divh"]
+[ext_resource type="SpriteFrames" uid="uid://dexqtp6l3yipy" path="res://Funkin-Modpack/funkin/assets/images/menus/character_select/dipshit_blue.res" id="10_4oy2p"]
 [ext_resource type="Script" uid="uid://dy4vnmv4435ty" path="res://addons/gdanimate-rewrite-main/animate_atlas.gd" id="10_db2f0"]
 [ext_resource type="Script" uid="uid://dkyyuwqo0dy7q" path="res://addons/gdanimate-rewrite-main/adobe/adobe_atlas.gd" id="11_433y0"]
-[ext_resource type="SpriteFrames" uid="uid://bwlxrvv47wu6t" path="res://FunkinCrew-FnF/funkin/assets/images/menus/character_select/dipshit_blur.res" id="11_svyfo"]
-[ext_resource type="Texture2D" uid="uid://c2wobr2kiu2f6" path="res://FunkinCrew-FnF/funkin/assets/images/menus/character_select/charSelector.png" id="15_uas1p"]
-[ext_resource type="Shader" uid="uid://8da73ihtigpd" path="res://FunkinCrew-FnF/funkin/assets/shaders/pixelate.gdshader" id="16_1wyqx"]
-[ext_resource type="Texture2D" uid="uid://cpuxhdp8jn5wf" path="res://FunkinCrew-FnF/funkin/assets/images/menus/character_select/characters/boyfriend/boyfriendNametag.png" id="16_4n84g"]
-[ext_resource type="Texture2D" uid="uid://dfhgmtfjtqli5" path="res://FunkinCrew-FnF/funkin/assets/images/menus/character_select/characters/lockedNametag.png" id="17_1wyqx"]
-[ext_resource type="Texture2D" uid="uid://cx4xphj6wiep7" path="res://FunkinCrew-FnF/funkin/assets/images/menus/character_select/characters/pico/picoNametag.png" id="18_mgwtl"]
+[ext_resource type="SpriteFrames" uid="uid://bwlxrvv47wu6t" path="res://Funkin-Modpack/funkin/assets/images/menus/character_select/dipshit_blur.res" id="11_svyfo"]
+[ext_resource type="Texture2D" uid="uid://c2wobr2kiu2f6" path="res://Funkin-Modpack/funkin/assets/images/menus/character_select/charSelector.png" id="15_uas1p"]
+[ext_resource type="Shader" uid="uid://8da73ihtigpd" path="res://Funkin-Modpack/funkin/assets/shaders/pixelate.gdshader" id="16_1wyqx"]
+[ext_resource type="Texture2D" uid="uid://cpuxhdp8jn5wf" path="res://Funkin-Modpack/funkin/assets/images/menus/character_select/characters/boyfriend/boyfriendNametag.png" id="16_4n84g"]
+[ext_resource type="Texture2D" uid="uid://dfhgmtfjtqli5" path="res://Funkin-Modpack/funkin/assets/images/menus/character_select/characters/lockedNametag.png" id="17_1wyqx"]
+[ext_resource type="Texture2D" uid="uid://cx4xphj6wiep7" path="res://Funkin-Modpack/funkin/assets/images/menus/character_select/characters/pico/picoNametag.png" id="18_mgwtl"]
 
 [sub_resource type="Resource" id="Resource_4k7j0"]
 script = ExtResource("11_433y0")
-folder_path = "res://FunkinCrew-FnF/funkin/assets/images/menus/character_select/crowd/"
+folder_path = "res://Funkin-Modpack/funkin/assets/images/menus/character_select/crowd/"
 format = "adobe"
 metadata/_custom_type_script = "uid://dkyyuwqo0dy7q"
 
 [sub_resource type="Resource" id="Resource_db2f0"]
 script = ExtResource("11_433y0")
-folder_path = "res://FunkinCrew-FnF/funkin/assets/images/menus/character_select/charSelectStage/"
+folder_path = "res://Funkin-Modpack/funkin/assets/images/menus/character_select/charSelectStage/"
 format = "adobe"
 metadata/_custom_type_script = "uid://dkyyuwqo0dy7q"
 
 [sub_resource type="Resource" id="Resource_433y0"]
 script = ExtResource("11_433y0")
-folder_path = "res://FunkinCrew-FnF/funkin/assets/images/menus/character_select/charSelectSpeakers/"
+folder_path = "res://Funkin-Modpack/funkin/assets/images/menus/character_select/charSelectSpeakers/"
 format = "adobe"
 metadata/_custom_type_script = "uid://dkyyuwqo0dy7q"
 
@@ -46,7 +46,7 @@ blend_mode = 3
 
 [sub_resource type="Resource" id="Resource_sxj4d"]
 script = ExtResource("11_433y0")
-folder_path = "res://FunkinCrew-FnF/funkin/assets/images/menus/character_select/barThing/"
+folder_path = "res://Funkin-Modpack/funkin/assets/images/menus/character_select/barThing/"
 format = "adobe"
 metadata/_custom_type_script = "uid://dkyyuwqo0dy7q"
 
@@ -161,7 +161,7 @@ z_index = -10
 position = Vector2(-704, -104)
 script = ExtResource("9_nit2l")
 symbol = "crowd"
-frame = 1
+frame = 10
 autoplay = true
 playing = true
 loop = true
@@ -175,7 +175,7 @@ scroll_scale = Vector2(0.5, 0.5)
 position = Vector2(-680, 80)
 script = ExtResource("9_nit2l")
 symbol = "stage full"
-frame = 41
+frame = 235
 autoplay = true
 playing = true
 loop = true
@@ -275,7 +275,7 @@ material = SubResource("CanvasItemMaterial_uas1p")
 position = Vector2(-688, -664.2)
 script = ExtResource("9_nit2l")
 symbol = "name bar animated"
-frame = 1
+frame = 3
 autoplay = true
 playing = true
 loop = true

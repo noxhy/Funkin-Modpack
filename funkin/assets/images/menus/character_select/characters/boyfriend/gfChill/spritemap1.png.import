@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bg3ruyqx58rn"
-path="res://.godot/imported/spritemap1.png-1110659b6190f4158ac4a7c972ab7fb2.ctex"
+path="res://.godot/imported/spritemap1.png-85b258acb34e55edd9e829f0e3fa250a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/images/menus/character_select/characters/boyfriend/gfChill/spritemap1.png"
-dest_files=["res://.godot/imported/spritemap1.png-1110659b6190f4158ac4a7c972ab7fb2.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/images/menus/character_select/characters/boyfriend/gfChill/spritemap1.png"
+dest_files=["res://.godot/imported/spritemap1.png-85b258acb34e55edd9e829f0e3fa250a.ctex"]
 
 [params]
 

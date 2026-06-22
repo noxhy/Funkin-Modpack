@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ee2igx8pcqyw"
-path="res://.godot/imported/icon-senpai.png-b6cbd938e4778499c85d203c80191574.ctex"
+path="res://.godot/imported/icon-senpai.png-0ca8e8b96a28f6ec46b733107f75905c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/characters/senpai/icon-senpai.png"
-dest_files=["res://.godot/imported/icon-senpai.png-b6cbd938e4778499c85d203c80191574.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/characters/senpai/icon-senpai.png"
+dest_files=["res://.godot/imported/icon-senpai.png-0ca8e8b96a28f6ec46b733107f75905c.ctex"]
 
 [params]
 

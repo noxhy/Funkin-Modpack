@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ddfq2f1mflgx2"
-path="res://.godot/imported/bgFreaks.png-44c2ac7bb8634501f5c12994e9c93e59.ctex"
+path="res://.godot/imported/bgFreaks.png-a1f1c7d387cbaa33534f6e24be54db23.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/stages/weeb_school/bgFreaks.png"
-dest_files=["res://.godot/imported/bgFreaks.png-44c2ac7bb8634501f5c12994e9c93e59.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/stages/weeb_school/bgFreaks.png"
+dest_files=["res://.godot/imported/bgFreaks.png-a1f1c7d387cbaa33534f6e24be54db23.ctex"]
 
 [params]
 

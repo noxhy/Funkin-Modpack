@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://c7t6ab85b1td1"
-path="res://.godot/imported/offset song.ogg-6de691e7f3eaed414ff0d3b2439ff5c2.oggvorbisstr"
+path="res://.godot/imported/offset song.ogg-dcf35f23825107583d9d65378036852e.oggvorbisstr"
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/songs/offset song.ogg"
-dest_files=["res://.godot/imported/offset song.ogg-6de691e7f3eaed414ff0d3b2439ff5c2.oggvorbisstr"]
+source_file="res://Funkin-Modpack/funkin/assets/songs/offset song.ogg"
+dest_files=["res://.godot/imported/offset song.ogg-dcf35f23825107583d9d65378036852e.oggvorbisstr"]
 
 [params]
 

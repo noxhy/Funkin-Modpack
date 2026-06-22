@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ujnjqntvrmf8"
-path="res://.godot/imported/weebSchool.png-53773720f1c46d02eda941829e999896.ctex"
+path="res://.godot/imported/weebSchool.png-81dabfd013c38e0a2af4505202d435df.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/stages/weeb_school/weebSchool.png"
-dest_files=["res://.godot/imported/weebSchool.png-53773720f1c46d02eda941829e999896.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/stages/weeb_school/weebSchool.png"
+dest_files=["res://.godot/imported/weebSchool.png-81dabfd013c38e0a2af4505202d435df.ctex"]
 
 [params]
 

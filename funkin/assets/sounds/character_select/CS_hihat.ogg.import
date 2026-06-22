@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://btoc2cobehpcx"
-path="res://.godot/imported/CS_hihat.ogg-1ada919111deae422e157961d06e8834.oggvorbisstr"
+path="res://.godot/imported/CS_hihat.ogg-24b6bb52d8c70f62375bbbde343df004.oggvorbisstr"
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/sounds/character_select/CS_hihat.ogg"
-dest_files=["res://.godot/imported/CS_hihat.ogg-1ada919111deae422e157961d06e8834.oggvorbisstr"]
+source_file="res://Funkin-Modpack/funkin/assets/sounds/character_select/CS_hihat.ogg"
+dest_files=["res://.godot/imported/CS_hihat.ogg-24b6bb52d8c70f62375bbbde343df004.oggvorbisstr"]
 
 [params]
 

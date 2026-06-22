@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c2wb3d8olk51s"
-path="res://.godot/imported/mistMid.png-dd7e03af5696cf3399f3c7653074b1a3.ctex"
+path="res://.godot/imported/mistMid.png-381b521257e64eaf3190df9722f65acd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/stages/philly_fog/mistMid.png"
-dest_files=["res://.godot/imported/mistMid.png-dd7e03af5696cf3399f3c7653074b1a3.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/stages/philly_fog/mistMid.png"
+dest_files=["res://.godot/imported/mistMid.png-381b521257e64eaf3190df9722f65acd.ctex"]
 
 [params]
 

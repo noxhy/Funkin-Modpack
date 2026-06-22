@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dyirktplwu8if"
-path="res://.godot/imported/spooky_kids_assets.png-6e2b58ff271d8d622483e102e11294cf.ctex"
+path="res://.godot/imported/spooky_kids_assets.png-8593e0e10c3b89018ce4e7f51a569338.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/characters/spooky kids/spooky_kids_assets.png"
-dest_files=["res://.godot/imported/spooky_kids_assets.png-6e2b58ff271d8d622483e102e11294cf.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/characters/spooky kids/spooky_kids_assets.png"
+dest_files=["res://.godot/imported/spooky_kids_assets.png-8593e0e10c3b89018ce4e7f51a569338.ctex"]
 
 [params]
 

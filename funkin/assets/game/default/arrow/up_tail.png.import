@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cr8c4bu1tacic"
-path="res://.godot/imported/up_tail.png-96772cfa36989f856f30ab98bb956c25.ctex"
+path="res://.godot/imported/up_tail.png-07c36ebac1ef1a37c2febe810533cf72.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/game/default/arrow/up_tail.png"
-dest_files=["res://.godot/imported/up_tail.png-96772cfa36989f856f30ab98bb956c25.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/game/default/arrow/up_tail.png"
+dest_files=["res://.godot/imported/up_tail.png-07c36ebac1ef1a37c2febe810533cf72.ctex"]
 
 [params]
 

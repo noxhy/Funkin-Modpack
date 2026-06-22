@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://w03f46s66daa"
-path="res://.godot/imported/spritemap1.png-a29a75a7f92135a6ed5dcfc19f650ce6.ctex"
+path="res://.godot/imported/spritemap1.png-9a7de04cc707a49897ad775768ba88a3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/images/menus/character_select/characters/pico/neneChill/spritemap1.png"
-dest_files=["res://.godot/imported/spritemap1.png-a29a75a7f92135a6ed5dcfc19f650ce6.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/images/menus/character_select/characters/pico/neneChill/spritemap1.png"
+dest_files=["res://.godot/imported/spritemap1.png-9a7de04cc707a49897ad775768ba88a3.ctex"]
 
 [params]
 

@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://bn43d7v7scepo"
-path="res://.godot/imported/hitsound.wav-e580d5547452d959de74c718a5846c86.sample"
+path="res://.godot/imported/hitsound.wav-37f9c18465edd70c10dc7bbecb00c87f.sample"
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/sounds/game_sounds/hit sounds/hitsound.wav"
-dest_files=["res://.godot/imported/hitsound.wav-e580d5547452d959de74c718a5846c86.sample"]
+source_file="res://Funkin-Modpack/funkin/assets/sounds/game_sounds/hit sounds/hitsound.wav"
+dest_files=["res://.godot/imported/hitsound.wav-37f9c18465edd70c10dc7bbecb00c87f.sample"]
 
 [params]
 

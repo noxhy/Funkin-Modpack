@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c4entdcbmkag8"
-path="res://.godot/imported/pixelNoteHoldCover.png-5cfe4852aaf9b76912010f3dffa37d61.ctex"
+path="res://.godot/imported/pixelNoteHoldCover.png-211307ecc6a6b8ad31e1c3fc0b44e2da.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/game/pixel/hold_covers/pixelNoteHoldCover.png"
-dest_files=["res://.godot/imported/pixelNoteHoldCover.png-5cfe4852aaf9b76912010f3dffa37d61.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/game/pixel/hold_covers/pixelNoteHoldCover.png"
+dest_files=["res://.godot/imported/pixelNoteHoldCover.png-211307ecc6a6b8ad31e1c3fc0b44e2da.ctex"]
 
 [params]
 

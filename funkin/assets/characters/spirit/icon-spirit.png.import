@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://rkb3ksfhkja1"
-path="res://.godot/imported/icon-spirit.png-1121364eecf88bc14de101a81d81ea22.ctex"
+path="res://.godot/imported/icon-spirit.png-da74f2e18ed6452820cbc74a459b56e3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/characters/spirit/icon-spirit.png"
-dest_files=["res://.godot/imported/icon-spirit.png-1121364eecf88bc14de101a81d81ea22.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/characters/spirit/icon-spirit.png"
+dest_files=["res://.godot/imported/icon-spirit.png-da74f2e18ed6452820cbc74a459b56e3.ctex"]
 
 [params]
 

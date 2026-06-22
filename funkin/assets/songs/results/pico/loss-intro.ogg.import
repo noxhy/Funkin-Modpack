@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://bb3dlwx5dct1e"
-path="res://.godot/imported/loss-intro.ogg-91bb58afb71684796eff7565db632bd1.oggvorbisstr"
+path="res://.godot/imported/loss-intro.ogg-04fb2f3f6b83a5b796473481d762eb19.oggvorbisstr"
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/songs/results/pico/loss-intro.ogg"
-dest_files=["res://.godot/imported/loss-intro.ogg-91bb58afb71684796eff7565db632bd1.oggvorbisstr"]
+source_file="res://Funkin-Modpack/funkin/assets/songs/results/pico/loss-intro.ogg"
+dest_files=["res://.godot/imported/loss-intro.ogg-04fb2f3f6b83a5b796473481d762eb19.oggvorbisstr"]
 
 [params]
 

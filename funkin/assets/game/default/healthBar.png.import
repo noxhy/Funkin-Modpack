@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dn1u3aq6xly7g"
-path="res://.godot/imported/healthBar.png-cfa2bfd0d49273981f100b16ed6e5c96.ctex"
+path="res://.godot/imported/healthBar.png-7546b248a6fb0556ddd485c79c884667.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/game/default/healthBar.png"
-dest_files=["res://.godot/imported/healthBar.png-cfa2bfd0d49273981f100b16ed6e5c96.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/game/default/healthBar.png"
+dest_files=["res://.godot/imported/healthBar.png-7546b248a6fb0556ddd485c79c884667.ctex"]
 
 [params]
 

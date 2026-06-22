@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://brvwivjswbekg"
-path="res://.godot/imported/resultsEXCELLENT.ogg-88ff8628fde92caaf7e0708204a2471b.oggvorbisstr"
+path="res://.godot/imported/resultsEXCELLENT.ogg-8f0943e9994ad1aa2dda6536edb388ce.oggvorbisstr"
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/songs/results/boyfriend/resultsEXCELLENT.ogg"
-dest_files=["res://.godot/imported/resultsEXCELLENT.ogg-88ff8628fde92caaf7e0708204a2471b.oggvorbisstr"]
+source_file="res://Funkin-Modpack/funkin/assets/songs/results/boyfriend/resultsEXCELLENT.ogg"
+dest_files=["res://.godot/imported/resultsEXCELLENT.ogg-8f0943e9994ad1aa2dda6536edb388ce.oggvorbisstr"]
 
 [params]
 

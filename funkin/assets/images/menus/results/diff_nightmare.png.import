@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://g1fi6qskp1rs"
-path="res://.godot/imported/diff_nightmare.png-89913a29c677fd90574830d4452f11ac.ctex"
+path="res://.godot/imported/diff_nightmare.png-ffe9c9839a8788f97c6135e5dc6d3415.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/images/menus/results/diff_nightmare.png"
-dest_files=["res://.godot/imported/diff_nightmare.png-89913a29c677fd90574830d4452f11ac.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/images/menus/results/diff_nightmare.png"
+dest_files=["res://.godot/imported/diff_nightmare.png-ffe9c9839a8788f97c6135e5dc6d3415.ctex"]
 
 [params]
 

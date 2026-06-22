@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://de8juw7ox1kfd"
-path="res://.godot/imported/Week_1_Variants_Background_showcase.webp-8e7084681ed6bdd06fc1ecba976379a8.ctex"
+path="res://.godot/imported/Week_1_Variants_Background_showcase.webp-6bfda2dc0761ca6a5ccc61c9350eb0df.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/stages/stage/Week_1_Variants_Background_showcase.webp"
-dest_files=["res://.godot/imported/Week_1_Variants_Background_showcase.webp-8e7084681ed6bdd06fc1ecba976379a8.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/stages/stage/Week_1_Variants_Background_showcase.webp"
+dest_files=["res://.godot/imported/Week_1_Variants_Background_showcase.webp-6bfda2dc0761ca6a5ccc61c9350eb0df.ctex"]
 
 [params]
 

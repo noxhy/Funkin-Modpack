@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://bhwea5frxw2kr"
-path="res://.godot/imported/freeplay_song.ttf-ce8fdaf44db0d2b37f6f108cb032896a.fontdata"
+path="res://.godot/imported/freeplay_song.ttf-40c3db1489e8a51c5397b7ec633903bd.fontdata"
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/fonts/freeplay_song.ttf"
-dest_files=["res://.godot/imported/freeplay_song.ttf-ce8fdaf44db0d2b37f6f108cb032896a.fontdata"]
+source_file="res://Funkin-Modpack/funkin/assets/fonts/freeplay_song.ttf"
+dest_files=["res://.godot/imported/freeplay_song.ttf-40c3db1489e8a51c5397b7ec633903bd.fontdata"]
 
 [params]
 

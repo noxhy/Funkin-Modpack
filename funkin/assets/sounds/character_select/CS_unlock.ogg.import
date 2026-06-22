@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://buhkhp86put4p"
-path="res://.godot/imported/CS_unlock.ogg-8d22331d6c0dfef527117642ea410dc2.oggvorbisstr"
+path="res://.godot/imported/CS_unlock.ogg-c365febd15ea5cdd60d7208e9c5e8f80.oggvorbisstr"
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/sounds/character_select/CS_unlock.ogg"
-dest_files=["res://.godot/imported/CS_unlock.ogg-8d22331d6c0dfef527117642ea410dc2.oggvorbisstr"]
+source_file="res://Funkin-Modpack/funkin/assets/sounds/character_select/CS_unlock.ogg"
+dest_files=["res://.godot/imported/CS_unlock.ogg-c365febd15ea5cdd60d7208e9c5e8f80.oggvorbisstr"]
 
 [params]
 

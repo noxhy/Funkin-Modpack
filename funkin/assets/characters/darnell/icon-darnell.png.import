@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cav5txrpdqv2k"
-path="res://.godot/imported/icon-darnell.png-dc4a0d37498c66f0b9371289eda21665.ctex"
+path="res://.godot/imported/icon-darnell.png-dfeb45e2b34c1296bba5fa5291c2fa3e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/characters/darnell/icon-darnell.png"
-dest_files=["res://.godot/imported/icon-darnell.png-dc4a0d37498c66f0b9371289eda21665.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/characters/darnell/icon-darnell.png"
+dest_files=["res://.godot/imported/icon-darnell.png-dfeb45e2b34c1296bba5fa5291c2fa3e.ctex"]
 
 [params]
 

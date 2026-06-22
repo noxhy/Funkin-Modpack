@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://du4qr2rxqjkw"
-path="res://.godot/imported/gettin' freaky.ogg-f15b30c5b99c4996c77b80945caf27f7.oggvorbisstr"
+path="res://.godot/imported/gettin' freaky.ogg-9284a11bbbc6b5d0c32fee962a2d9ca4.oggvorbisstr"
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/songs/gettin' freaky.ogg"
-dest_files=["res://.godot/imported/gettin' freaky.ogg-f15b30c5b99c4996c77b80945caf27f7.oggvorbisstr"]
+source_file="res://Funkin-Modpack/funkin/assets/songs/gettin' freaky.ogg"
+dest_files=["res://.godot/imported/gettin' freaky.ogg-9284a11bbbc6b5d0c32fee962a2d9ca4.oggvorbisstr"]
 
 [params]
 

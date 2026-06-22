@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cdl8l2al2ybdj"
-path="res://.godot/imported/icon-pico-pixel.png-800afd3cb6e48f200a1ea5c6fee8e341.ctex"
+path="res://.godot/imported/icon-pico-pixel.png-fcc38fa854be082b4c098e5412628a7f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/characters/pico/icon-pico-pixel.png"
-dest_files=["res://.godot/imported/icon-pico-pixel.png-800afd3cb6e48f200a1ea5c6fee8e341.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/characters/pico/icon-pico-pixel.png"
+dest_files=["res://.godot/imported/icon-pico-pixel.png-fcc38fa854be082b4c098e5412628a7f.ctex"]
 
 [params]
 

@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://bnhoikcd6i2xw"
-path="res://.godot/imported/Inst-erect.ogg-0b10d500fbcb8d4c990fda74f2c34739.oggvorbisstr"
+path="res://.godot/imported/Inst-erect.ogg-b96368348a1462cc89e2181f7baf639e.oggvorbisstr"
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/playable_songs/fresh/audio/Inst-erect.ogg"
-dest_files=["res://.godot/imported/Inst-erect.ogg-0b10d500fbcb8d4c990fda74f2c34739.oggvorbisstr"]
+source_file="res://Funkin-Modpack/funkin/playable_songs/fresh/audio/Inst-erect.ogg"
+dest_files=["res://.godot/imported/Inst-erect.ogg-b96368348a1462cc89e2181f7baf639e.oggvorbisstr"]
 
 [params]
 

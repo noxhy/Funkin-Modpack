@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dly654678mq07"
-path="res://.godot/imported/ready.png-0ce86ab30fcb5b20191c826fa2adc2a2.ctex"
+path="res://.godot/imported/ready.png-e3c2a81a43951b9c5e7329755946e6f3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/game/default/countdown/ready.png"
-dest_files=["res://.godot/imported/ready.png-0ce86ab30fcb5b20191c826fa2adc2a2.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/game/default/countdown/ready.png"
+dest_files=["res://.godot/imported/ready.png-e3c2a81a43951b9c5e7329755946e6f3.ctex"]
 
 [params]
 

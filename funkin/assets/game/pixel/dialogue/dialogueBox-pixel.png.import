@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d3o410kg0x70d"
-path="res://.godot/imported/dialogueBox-pixel.png-46d0812727051fdee50b3c4d948c8379.ctex"
+path="res://.godot/imported/dialogueBox-pixel.png-44a3e078ace464eddf70953b9072cfe9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/game/pixel/dialogue/dialogueBox-pixel.png"
-dest_files=["res://.godot/imported/dialogueBox-pixel.png-46d0812727051fdee50b3c4d948c8379.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/game/pixel/dialogue/dialogueBox-pixel.png"
+dest_files=["res://.godot/imported/dialogueBox-pixel.png-44a3e078ace464eddf70953b9072cfe9.ctex"]
 
 [params]
 

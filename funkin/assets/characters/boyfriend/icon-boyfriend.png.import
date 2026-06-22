@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dkvwg2x5r5kbe"
-path="res://.godot/imported/icon-boyfriend.png-4ecb14a6174723cc5d33431fe2742be3.ctex"
+path="res://.godot/imported/icon-boyfriend.png-e55890fb6d58dbcb401364141df6f211.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/characters/boyfriend/icon-boyfriend.png"
-dest_files=["res://.godot/imported/icon-boyfriend.png-4ecb14a6174723cc5d33431fe2742be3.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/characters/boyfriend/icon-boyfriend.png"
+dest_files=["res://.godot/imported/icon-boyfriend.png-e55890fb6d58dbcb401364141df6f211.ctex"]
 
 [params]
 

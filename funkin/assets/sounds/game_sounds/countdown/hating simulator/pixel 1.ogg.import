@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://cybys1r3vlpvm"
-path="res://.godot/imported/pixel 1.ogg-70e1663e4ddbbd629c20e587fe57444c.oggvorbisstr"
+path="res://.godot/imported/pixel 1.ogg-da2d3a2fdee37f4477d3dd63221c0700.oggvorbisstr"
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/sounds/game_sounds/countdown/hating simulator/pixel 1.ogg"
-dest_files=["res://.godot/imported/pixel 1.ogg-70e1663e4ddbbd629c20e587fe57444c.oggvorbisstr"]
+source_file="res://Funkin-Modpack/funkin/assets/sounds/game_sounds/countdown/hating simulator/pixel 1.ogg"
+dest_files=["res://.godot/imported/pixel 1.ogg-da2d3a2fdee37f4477d3dd63221c0700.oggvorbisstr"]
 
 [params]
 

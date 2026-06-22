@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://dyy2yik0yf60r"
-path="res://.godot/imported/menu cancel.ogg-bb356dd378399a3a32965ac0f3648c1d.oggvorbisstr"
+path="res://.godot/imported/menu cancel.ogg-afa2dff7c1dca0cb8dc9efaa60dd5574.oggvorbisstr"
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/sounds/menu_sounds/menu cancel.ogg"
-dest_files=["res://.godot/imported/menu cancel.ogg-bb356dd378399a3a32965ac0f3648c1d.oggvorbisstr"]
+source_file="res://Funkin-Modpack/funkin/assets/sounds/menu_sounds/menu cancel.ogg"
+dest_files=["res://.godot/imported/menu cancel.ogg-afa2dff7c1dca0cb8dc9efaa60dd5574.oggvorbisstr"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dmbb27t8qe072"
-path="res://.godot/imported/miss0003.png-18ab4ef5cd8b074d86ab927b47590bf0.ctex"
+path="res://.godot/imported/miss0003.png-c216728ae4137378dcaa3796b0789acc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/game/default/rating/miss0003.png"
-dest_files=["res://.godot/imported/miss0003.png-18ab4ef5cd8b074d86ab927b47590bf0.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/game/default/rating/miss0003.png"
+dest_files=["res://.godot/imported/miss0003.png-c216728ae4137378dcaa3796b0789acc.ctex"]
 
 [params]
 

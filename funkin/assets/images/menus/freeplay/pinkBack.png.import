@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d38vcbkkjx571"
-path="res://.godot/imported/pinkBack.png-89406b9dd545616df72fe0db270399cc.ctex"
+path="res://.godot/imported/pinkBack.png-7e568b9484453e1ed1df6425b887ac5f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/images/menus/freeplay/pinkBack.png"
-dest_files=["res://.godot/imported/pinkBack.png-89406b9dd545616df72fe0db270399cc.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/images/menus/freeplay/pinkBack.png"
+dest_files=["res://.godot/imported/pinkBack.png-7e568b9484453e1ed1df6425b887ac5f.ctex"]
 
 [params]
 

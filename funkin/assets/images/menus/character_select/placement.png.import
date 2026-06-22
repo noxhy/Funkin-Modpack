@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cheqv5tx4cvjp"
-path="res://.godot/imported/placement.png-9ab5010d537bce90fdf15cef79d98afd.ctex"
+path="res://.godot/imported/placement.png-15d11eafea82f998bcc6a957739d59dc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/images/menus/character_select/placement.png"
-dest_files=["res://.godot/imported/placement.png-9ab5010d537bce90fdf15cef79d98afd.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/images/menus/character_select/placement.png"
+dest_files=["res://.godot/imported/placement.png-15d11eafea82f998bcc6a957739d59dc.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://jhsaf0m3u7d5"
-path="res://.godot/imported/score-digital-numbers.png-d985c76eb29fa024abd745ae0d5c5d22.ctex"
+path="res://.godot/imported/score-digital-numbers.png-454547e3fc09e1dab7e51baae96c9039.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/images/menus/results/score-digital-numbers.png"
-dest_files=["res://.godot/imported/score-digital-numbers.png-d985c76eb29fa024abd745ae0d5c5d22.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/images/menus/results/score-digital-numbers.png"
+dest_files=["res://.godot/imported/score-digital-numbers.png-454547e3fc09e1dab7e51baae96c9039.ctex"]
 
 [params]
 

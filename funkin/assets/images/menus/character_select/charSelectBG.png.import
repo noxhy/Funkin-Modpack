@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c8abolokulimn"
-path="res://.godot/imported/charSelectBG.png-249643405613236bd8d5daa7d90030ae.ctex"
+path="res://.godot/imported/charSelectBG.png-2005665e56127fd34c8bb42f7ee518ae.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/images/menus/character_select/charSelectBG.png"
-dest_files=["res://.godot/imported/charSelectBG.png-249643405613236bd8d5daa7d90030ae.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/images/menus/character_select/charSelectBG.png"
+dest_files=["res://.godot/imported/charSelectBG.png-2005665e56127fd34c8bb42f7ee518ae.ctex"]
 
 [params]
 

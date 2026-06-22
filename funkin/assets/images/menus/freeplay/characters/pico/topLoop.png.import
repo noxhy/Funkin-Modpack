@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ddli7hca8yk8q"
-path="res://.godot/imported/topLoop.png-2f0feb25addebd5753fbc956b2d46953.ctex"
+path="res://.godot/imported/topLoop.png-f95e9dbe6a90a5ed4e9f32babf0d9ab8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/images/menus/freeplay/characters/pico/topLoop.png"
-dest_files=["res://.godot/imported/topLoop.png-2f0feb25addebd5753fbc956b2d46953.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/images/menus/freeplay/characters/pico/topLoop.png"
+dest_files=["res://.godot/imported/topLoop.png-f95e9dbe6a90a5ed4e9f32babf0d9ab8.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bwxact2hluls0"
-path="res://.godot/imported/volume4.png-1798a187a57782657a95c4cb064fba27.ctex"
+path="res://.godot/imported/volume4.png-0c762124d302dd2b72e037d4f25a2260.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/images/menus/freeplay/album covers/volume4.png"
-dest_files=["res://.godot/imported/volume4.png-1798a187a57782657a95c4cb064fba27.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/images/menus/freeplay/album covers/volume4.png"
+dest_files=["res://.godot/imported/volume4.png-0c762124d302dd2b72e037d4f25a2260.ctex"]
 
 [params]
 

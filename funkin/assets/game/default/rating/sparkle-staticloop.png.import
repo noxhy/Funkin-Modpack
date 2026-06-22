@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dsqtugcf70gja"
-path="res://.godot/imported/sparkle-staticloop.png-94ed150900351cb7b9865a3d57968384.ctex"
+path="res://.godot/imported/sparkle-staticloop.png-df21cfefcec7f82bb861ddd15f616f23.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/game/default/rating/sparkle-staticloop.png"
-dest_files=["res://.godot/imported/sparkle-staticloop.png-94ed150900351cb7b9865a3d57968384.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/game/default/rating/sparkle-staticloop.png"
+dest_files=["res://.godot/imported/sparkle-staticloop.png-df21cfefcec7f82bb861ddd15f616f23.ctex"]
 
 [params]
 

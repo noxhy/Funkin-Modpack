@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://n4kx1aek2ssv"
-path="res://.godot/imported/noah.png-9230d13868607e9812bdacab42a0c326.ctex"
+path="res://.godot/imported/noah.png-8bc77740874dc6f1ebdf7a8e23186221.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/images/menus/credits/icons/noah.png"
-dest_files=["res://.godot/imported/noah.png-9230d13868607e9812bdacab42a0c326.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/images/menus/credits/icons/noah.png"
+dest_files=["res://.godot/imported/noah.png-8bc77740874dc6f1ebdf7a8e23186221.ctex"]
 
 [params]
 

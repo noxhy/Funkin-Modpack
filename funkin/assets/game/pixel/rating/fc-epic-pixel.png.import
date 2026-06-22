@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cy2losy1xqs57"
-path="res://.godot/imported/fc-epic-pixel.png-e331b969b1a0045f09d7dc81b44f7437.ctex"
+path="res://.godot/imported/fc-epic-pixel.png-779e4453c929627ae87509b282715ba6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/game/pixel/rating/fc-epic-pixel.png"
-dest_files=["res://.godot/imported/fc-epic-pixel.png-e331b969b1a0045f09d7dc81b44f7437.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/game/pixel/rating/fc-epic-pixel.png"
+dest_files=["res://.godot/imported/fc-epic-pixel.png-779e4453c929627ae87509b282715ba6.ctex"]
 
 [params]
 

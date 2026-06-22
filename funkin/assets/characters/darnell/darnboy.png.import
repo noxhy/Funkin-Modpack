@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dxdrxlvcd02xu"
-path="res://.godot/imported/darnboy.png-2126863548469653252ccfbcea49555f.ctex"
+path="res://.godot/imported/darnboy.png-b9f9f85fa4f27c4c1693fc98ec260874.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/characters/darnell/darnboy.png"
-dest_files=["res://.godot/imported/darnboy.png-2126863548469653252ccfbcea49555f.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/characters/darnell/darnboy.png"
+dest_files=["res://.godot/imported/darnboy.png-b9f9f85fa4f27c4c1693fc98ec260874.ctex"]
 
 [params]
 

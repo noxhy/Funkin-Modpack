@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://bo022dgqs5iv6"
-path="res://.godot/imported/vcr.ttf-433bf5c0711b9ae2d366637fadd00088.fontdata"
+path="res://.godot/imported/vcr.ttf-48b0f71b5fb4e5b26663c281e754c9eb.fontdata"
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/fonts/vcr.ttf"
-dest_files=["res://.godot/imported/vcr.ttf-433bf5c0711b9ae2d366637fadd00088.fontdata"]
+source_file="res://Funkin-Modpack/funkin/assets/fonts/vcr.ttf"
+dest_files=["res://.godot/imported/vcr.ttf-48b0f71b5fb4e5b26663c281e754c9eb.fontdata"]
 
 [params]
 

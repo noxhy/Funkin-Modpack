@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://bdig7mekw6cmd"
-path="res://.godot/imported/CS_confirm.ogg-be830d5522cd83a8ffd95269185781b2.oggvorbisstr"
+path="res://.godot/imported/CS_confirm.ogg-61aea9e3e388a05a6cfb6f722b45e0a6.oggvorbisstr"
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/sounds/character_select/CS_confirm.ogg"
-dest_files=["res://.godot/imported/CS_confirm.ogg-be830d5522cd83a8ffd95269185781b2.oggvorbisstr"]
+source_file="res://Funkin-Modpack/funkin/assets/sounds/character_select/CS_confirm.ogg"
+dest_files=["res://.godot/imported/CS_confirm.ogg-61aea9e3e388a05a6cfb6f722b45e0a6.oggvorbisstr"]
 
 [params]
 

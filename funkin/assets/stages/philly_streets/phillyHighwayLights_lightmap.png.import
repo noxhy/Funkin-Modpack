@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b2v8falt6oedu"
-path="res://.godot/imported/phillyHighwayLights_lightmap.png-50cd63628cf4e1ce0dfd634a90d426b1.ctex"
+path="res://.godot/imported/phillyHighwayLights_lightmap.png-e218780ce72edf0e78d5910b1e085831.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/stages/philly_streets/phillyHighwayLights_lightmap.png"
-dest_files=["res://.godot/imported/phillyHighwayLights_lightmap.png-50cd63628cf4e1ce0dfd634a90d426b1.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/stages/philly_streets/phillyHighwayLights_lightmap.png"
+dest_files=["res://.godot/imported/phillyHighwayLights_lightmap.png-e218780ce72edf0e78d5910b1e085831.ctex"]
 
 [params]
 

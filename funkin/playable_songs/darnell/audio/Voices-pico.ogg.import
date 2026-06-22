@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://bt86n7p0cydn3"
-path="res://.godot/imported/Voices-pico.ogg-e138a925d4fa05bfbacd50e55e5ac8cc.oggvorbisstr"
+path="res://.godot/imported/Voices-pico.ogg-8823eb14ea29e7145c4c727746777c42.oggvorbisstr"
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/playable_songs/darnell/audio/Voices-pico.ogg"
-dest_files=["res://.godot/imported/Voices-pico.ogg-e138a925d4fa05bfbacd50e55e5ac8cc.oggvorbisstr"]
+source_file="res://Funkin-Modpack/funkin/playable_songs/darnell/audio/Voices-pico.ogg"
+dest_files=["res://.godot/imported/Voices-pico.ogg-8823eb14ea29e7145c4c727746777c42.oggvorbisstr"]
 
 [params]
 

@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://bmggbtser1g3u"
-path="res://.godot/imported/miss 1.ogg-0d057f4f7f7be6f454658838fa58cd1a.oggvorbisstr"
+path="res://.godot/imported/miss 1.ogg-20fc251fc0383464a69ce09c693b4240.oggvorbisstr"
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/sounds/game_sounds/miss sounds/miss 1.ogg"
-dest_files=["res://.godot/imported/miss 1.ogg-0d057f4f7f7be6f454658838fa58cd1a.oggvorbisstr"]
+source_file="res://Funkin-Modpack/funkin/assets/sounds/game_sounds/miss sounds/miss 1.ogg"
+dest_files=["res://.godot/imported/miss 1.ogg-20fc251fc0383464a69ce09c693b4240.oggvorbisstr"]
 
 [params]
 

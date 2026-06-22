@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://l6dd1uikw5cy"
-path="res://.godot/imported/clearPercentNumberSmall.png-d5175cddbf4e5ab6c0ee0e8df9cf864f.ctex"
+path="res://.godot/imported/clearPercentNumberSmall.png-a270cc14202e5efec135c234bd266aed.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/images/menus/results/clearPercent/clearPercentNumberSmall.png"
-dest_files=["res://.godot/imported/clearPercentNumberSmall.png-d5175cddbf4e5ab6c0ee0e8df9cf864f.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/images/menus/results/clearPercent/clearPercentNumberSmall.png"
+dest_files=["res://.godot/imported/clearPercentNumberSmall.png-a270cc14202e5efec135c234bd266aed.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://co32pcaa122dd"
-path="res://.godot/imported/curtains.png-b0d9432948391f472bae27644d47fe35.ctex"
+path="res://.godot/imported/curtains.png-df18b3dbb575347bb66ce54cd0b5fd6d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/images/menus/character_select/curtains.png"
-dest_files=["res://.godot/imported/curtains.png-b0d9432948391f472bae27644d47fe35.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/images/menus/character_select/curtains.png"
+dest_files=["res://.godot/imported/curtains.png-df18b3dbb575347bb66ce54cd0b5fd6d.ctex"]
 
 [params]
 

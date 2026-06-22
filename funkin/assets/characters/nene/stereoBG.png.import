@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c52jx1hd3csrh"
-path="res://.godot/imported/stereoBG.png-f9f0a6bda20e96d2d340c5bdb66174fd.ctex"
+path="res://.godot/imported/stereoBG.png-3ea6e9554e6b8449e0c4f7cdfa3b0a09.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/characters/nene/stereoBG.png"
-dest_files=["res://.godot/imported/stereoBG.png-f9f0a6bda20e96d2d340c5bdb66174fd.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/characters/nene/stereoBG.png"
+dest_files=["res://.godot/imported/stereoBG.png-3ea6e9554e6b8449e0c4f7cdfa3b0a09.ctex"]
 
 [params]
 

@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://bova01kqk3s1m"
-path="res://.godot/imported/stayFunky.ogg-978175b1e07df4807e6e06a3aedbc8f3.oggvorbisstr"
+path="res://.godot/imported/stayFunky.ogg-70be0da63facdff7527049a0b74229de.oggvorbisstr"
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/songs/character_select/stayFunky.ogg"
-dest_files=["res://.godot/imported/stayFunky.ogg-978175b1e07df4807e6e06a3aedbc8f3.oggvorbisstr"]
+source_file="res://Funkin-Modpack/funkin/assets/songs/character_select/stayFunky.ogg"
+dest_files=["res://.godot/imported/stayFunky.ogg-70be0da63facdff7527049a0b74229de.oggvorbisstr"]
 
 [params]
 

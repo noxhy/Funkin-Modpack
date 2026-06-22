@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://bjwjegy8gdhva"
-path="res://.godot/imported/Voices-bf-christmas-erect.ogg-f660171b3813dc953a3e8489cf5ee985.oggvorbisstr"
+path="res://.godot/imported/Voices-bf-christmas-erect.ogg-cffb68e167f7dbb6b928df959220f65e.oggvorbisstr"
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/playable_songs/eggnog/audio/Voices-bf-christmas-erect.ogg"
-dest_files=["res://.godot/imported/Voices-bf-christmas-erect.ogg-f660171b3813dc953a3e8489cf5ee985.oggvorbisstr"]
+source_file="res://Funkin-Modpack/funkin/playable_songs/eggnog/audio/Voices-bf-christmas-erect.ogg"
+dest_files=["res://.godot/imported/Voices-bf-christmas-erect.ogg-cffb68e167f7dbb6b928df959220f65e.oggvorbisstr"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dfpc6gk4v32uv"
-path="res://.godot/imported/dipshitBlur.png-aa493e9becca33c5ba5d72b1c110717a.ctex"
+path="res://.godot/imported/dipshitBlur.png-f8780bbce02e4f87e7d358c3d314cd43.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/images/menus/character_select/dipshitBlur.png"
-dest_files=["res://.godot/imported/dipshitBlur.png-aa493e9becca33c5ba5d72b1c110717a.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/images/menus/character_select/dipshitBlur.png"
+dest_files=["res://.godot/imported/dipshitBlur.png-f8780bbce02e4f87e7d358c3d314cd43.ctex"]
 
 [params]
 

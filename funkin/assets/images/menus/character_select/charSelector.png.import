@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c2wobr2kiu2f6"
-path="res://.godot/imported/charSelector.png-8f16bd98b500952db60d0ae4e7576121.ctex"
+path="res://.godot/imported/charSelector.png-215465904a6ea99e313a54742000d115.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/images/menus/character_select/charSelector.png"
-dest_files=["res://.godot/imported/charSelector.png-8f16bd98b500952db60d0ae4e7576121.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/images/menus/character_select/charSelector.png"
+dest_files=["res://.godot/imported/charSelector.png-215465904a6ea99e313a54742000d115.ctex"]
 
 [params]
 

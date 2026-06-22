@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://br4dwdxdg6est"
-path="res://.godot/imported/bfPixelsDEAD.png-1d28f2c954e8604f9c9271b26bba99f6.ctex"
+path="res://.godot/imported/bfPixelsDEAD.png-02e677c64bd8f1b663f48900de973571.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/characters/boyfriend pixel/bfPixelsDEAD.png"
-dest_files=["res://.godot/imported/bfPixelsDEAD.png-1d28f2c954e8604f9c9271b26bba99f6.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/characters/boyfriend pixel/bfPixelsDEAD.png"
+dest_files=["res://.godot/imported/bfPixelsDEAD.png-02e677c64bd8f1b663f48900de973571.ctex"]
 
 [params]
 

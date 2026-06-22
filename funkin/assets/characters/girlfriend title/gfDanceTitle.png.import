@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://uum1604btndo"
-path="res://.godot/imported/gfDanceTitle.png-346419f12febe0afe17d26862b2fa7c4.ctex"
+path="res://.godot/imported/gfDanceTitle.png-0560cae37037198583d62c1f413a0f14.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/characters/girlfriend title/gfDanceTitle.png"
-dest_files=["res://.godot/imported/gfDanceTitle.png-346419f12febe0afe17d26862b2fa7c4.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/characters/girlfriend title/gfDanceTitle.png"
+dest_files=["res://.godot/imported/gfDanceTitle.png-0560cae37037198583d62c1f413a0f14.ctex"]
 
 [params]
 

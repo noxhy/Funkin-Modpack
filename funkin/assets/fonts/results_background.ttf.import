@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://c7hwqqieqbc47"
-path="res://.godot/imported/results_background.ttf-f1af9f62bf5b07aefbc8f39e4f1f2fbc.fontdata"
+path="res://.godot/imported/results_background.ttf-4aac77b172e1509fcd1147dea6de19fb.fontdata"
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/fonts/results_background.ttf"
-dest_files=["res://.godot/imported/results_background.ttf-f1af9f62bf5b07aefbc8f39e4f1f2fbc.fontdata"]
+source_file="res://Funkin-Modpack/funkin/assets/fonts/results_background.ttf"
+dest_files=["res://.godot/imported/results_background.ttf-4aac77b172e1509fcd1147dea6de19fb.fontdata"]
 
 [params]
 

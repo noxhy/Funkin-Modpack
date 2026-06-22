@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ch7jhe2s3cs7e"
-path="res://.godot/imported/combo break.png-15a590f5d44f517907f4dfbcafbf186b.ctex"
+path="res://.godot/imported/combo break.png-6dda02215076a3c28ae9a9e516463d5f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/game/pixel/rating/combo break.png"
-dest_files=["res://.godot/imported/combo break.png-15a590f5d44f517907f4dfbcafbf186b.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/game/pixel/rating/combo break.png"
+dest_files=["res://.godot/imported/combo break.png-6dda02215076a3c28ae9a9e516463d5f.ctex"]
 
 [params]
 

@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://c06o50jnsmcxy"
-path="res://.godot/imported/resultsEXCELLENT-pico.ogg-2b2dd269da0431deb4b903afa10017b7.oggvorbisstr"
+path="res://.godot/imported/resultsEXCELLENT-pico.ogg-856c0b2e03ecd47ecb1ede352819841b.oggvorbisstr"
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/songs/results/pico/resultsEXCELLENT-pico.ogg"
-dest_files=["res://.godot/imported/resultsEXCELLENT-pico.ogg-2b2dd269da0431deb4b903afa10017b7.oggvorbisstr"]
+source_file="res://Funkin-Modpack/funkin/assets/songs/results/pico/resultsEXCELLENT-pico.ogg"
+dest_files=["res://.godot/imported/resultsEXCELLENT-pico.ogg-856c0b2e03ecd47ecb1ede352819841b.oggvorbisstr"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bpf2qnwyag8os"
-path="res://.godot/imported/holdCoverPurple.png-11ec71a7e26f1af68f1ec3535504b7bb.ctex"
+path="res://.godot/imported/holdCoverPurple.png-e995632bb8045addd6f1aa80c1b8a2ee.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/game/default/arrow/hold_covers/holdCoverPurple.png"
-dest_files=["res://.godot/imported/holdCoverPurple.png-11ec71a7e26f1af68f1ec3535504b7bb.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/game/default/arrow/hold_covers/holdCoverPurple.png"
+dest_files=["res://.godot/imported/holdCoverPurple.png-e995632bb8045addd6f1aa80c1b8a2ee.ctex"]
 
 [params]
 

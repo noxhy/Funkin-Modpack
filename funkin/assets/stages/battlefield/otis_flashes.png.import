@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bscy54o2qoemb"
-path="res://.godot/imported/otis_flashes.png-546468ee53983f3b4619f00c62b3fea3.ctex"
+path="res://.godot/imported/otis_flashes.png-46ac3828005fcb4b0940fbda1a87dd14.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/stages/battlefield/otis_flashes.png"
-dest_files=["res://.godot/imported/otis_flashes.png-546468ee53983f3b4619f00c62b3fea3.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/stages/battlefield/otis_flashes.png"
+dest_files=["res://.godot/imported/otis_flashes.png-46ac3828005fcb4b0940fbda1a87dd14.ctex"]
 
 [params]
 

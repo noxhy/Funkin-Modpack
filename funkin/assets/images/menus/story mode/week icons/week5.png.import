@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://lflx76e0s5f5"
-path="res://.godot/imported/week5.png-d5373f69301ff0d6f4016f97ad4f2f7b.ctex"
+path="res://.godot/imported/week5.png-1cd447a93fc883d8c23d1f3b738958f4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/images/menus/story mode/week icons/week5.png"
-dest_files=["res://.godot/imported/week5.png-d5373f69301ff0d6f4016f97ad4f2f7b.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/images/menus/story mode/week icons/week5.png"
+dest_files=["res://.godot/imported/week5.png-1cd447a93fc883d8c23d1f3b738958f4.ctex"]
 
 [params]
 

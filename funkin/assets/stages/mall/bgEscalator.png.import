@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://heetxdcoewng"
-path="res://.godot/imported/bgEscalator.png-3524db7dce36f809471c829b46dd363d.ctex"
+path="res://.godot/imported/bgEscalator.png-99b0cc325d70f5234fe46f41fc2f603e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/stages/mall/bgEscalator.png"
-dest_files=["res://.godot/imported/bgEscalator.png-3524db7dce36f809471c829b46dd363d.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/stages/mall/bgEscalator.png"
+dest_files=["res://.godot/imported/bgEscalator.png-99b0cc325d70f5234fe46f41fc2f603e.ctex"]
 
 [params]
 

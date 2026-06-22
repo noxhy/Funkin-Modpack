@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cdv746ytcqr4p"
-path="res://.godot/imported/hand_textbox.png-8198c60d45475938617e4abd1c0ff0c0.ctex"
+path="res://.godot/imported/hand_textbox.png-a20d5cc1fa778924dbc8cc614f7ffce3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/game/pixel/dialogue/hand_textbox.png"
-dest_files=["res://.godot/imported/hand_textbox.png-8198c60d45475938617e4abd1c0ff0c0.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/game/pixel/dialogue/hand_textbox.png"
+dest_files=["res://.godot/imported/hand_textbox.png-a20d5cc1fa778924dbc8cc614f7ffce3.ctex"]
 
 [params]
 

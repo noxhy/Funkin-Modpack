@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://1cj75niekb8j"
-path="res://.godot/imported/animatedEvilSchool.png-9f448f044f16b810651e5c73a749b074.ctex"
+path="res://.godot/imported/animatedEvilSchool.png-8631803294e8fe8ac3f4c77c654326b1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/stages/evil_school/animatedEvilSchool.png"
-dest_files=["res://.godot/imported/animatedEvilSchool.png-9f448f044f16b810651e5c73a749b074.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/stages/evil_school/animatedEvilSchool.png"
+dest_files=["res://.godot/imported/animatedEvilSchool.png-8631803294e8fe8ac3f4c77c654326b1.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dqpr4spnp76yr"
-path="res://.godot/imported/data5.png-7358ef8e040dc777637f0977a93aa3d3.ctex"
+path="res://.godot/imported/data5.png-e8c4d09a97896b4d3b53326b47ff7967.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/images/menus/credits/icons/data5.png"
-dest_files=["res://.godot/imported/data5.png-7358ef8e040dc777637f0977a93aa3d3.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/images/menus/credits/icons/data5.png"
+dest_files=["res://.godot/imported/data5.png-e8c4d09a97896b4d3b53326b47ff7967.ctex"]
 
 [params]
 

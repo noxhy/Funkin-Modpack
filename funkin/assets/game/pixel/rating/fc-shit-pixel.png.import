@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dvoumg6v7ts87"
-path="res://.godot/imported/fc-shit-pixel.png-14799797f9e895ff3112b004d1e88cd5.ctex"
+path="res://.godot/imported/fc-shit-pixel.png-661e6d03549426338276664da2aaed35.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/game/pixel/rating/fc-shit-pixel.png"
-dest_files=["res://.godot/imported/fc-shit-pixel.png-14799797f9e895ff3112b004d1e88cd5.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/game/pixel/rating/fc-shit-pixel.png"
+dest_files=["res://.godot/imported/fc-shit-pixel.png-661e6d03549426338276664da2aaed35.ctex"]
 
 [params]
 

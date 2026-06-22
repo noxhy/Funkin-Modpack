@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://i5dojrnbbaql"
-path="res://.godot/imported/phillySkybox.png-0c5e32f99ca958302b8dd129f1090538.ctex"
+path="res://.godot/imported/phillySkybox.png-d0f2fd6bc9faa065bb2fa1012f22abfb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/stages/philly_fog/phillySkybox.png"
-dest_files=["res://.godot/imported/phillySkybox.png-0c5e32f99ca958302b8dd129f1090538.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/stages/philly_fog/phillySkybox.png"
+dest_files=["res://.godot/imported/phillySkybox.png-d0f2fd6bc9faa065bb2fa1012f22abfb.ctex"]
 
 [params]
 

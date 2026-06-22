@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cemqnoop727he"
-path="res://.godot/imported/freeplayBGweek1-pico.png-249c3ede59611f933eafed50c01d1946.ctex"
+path="res://.godot/imported/freeplayBGweek1-pico.png-8b80462c235b55698da0bf95d7b47de2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/images/menus/freeplay/characters/pico/freeplayBGweek1-pico.png"
-dest_files=["res://.godot/imported/freeplayBGweek1-pico.png-249c3ede59611f933eafed50c01d1946.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/images/menus/freeplay/characters/pico/freeplayBGweek1-pico.png"
+dest_files=["res://.godot/imported/freeplayBGweek1-pico.png-8b80462c235b55698da0bf95d7b47de2.ctex"]
 
 [params]
 

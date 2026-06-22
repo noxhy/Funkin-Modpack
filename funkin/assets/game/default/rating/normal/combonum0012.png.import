@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://xwlhcry7aewv"
-path="res://.godot/imported/combonum0012.png-58be6a2590b49e3576d614bf102ed320.ctex"
+path="res://.godot/imported/combonum0012.png-9057fe406c40de74e6646c2a3b0d938f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/game/default/rating/normal/combonum0012.png"
-dest_files=["res://.godot/imported/combonum0012.png-58be6a2590b49e3576d614bf102ed320.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/game/default/rating/normal/combonum0012.png"
+dest_files=["res://.godot/imported/combonum0012.png-9057fe406c40de74e6646c2a3b0d938f.ctex"]
 
 [params]
 

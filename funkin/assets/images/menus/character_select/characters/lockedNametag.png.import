@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dfhgmtfjtqli5"
-path="res://.godot/imported/lockedNametag.png-d98834a1ff31712e1508c471fc9d35b7.ctex"
+path="res://.godot/imported/lockedNametag.png-074a7675a3a8dbf1b98c92084f5d302b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/images/menus/character_select/characters/lockedNametag.png"
-dest_files=["res://.godot/imported/lockedNametag.png-d98834a1ff31712e1508c471fc9d35b7.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/images/menus/character_select/characters/lockedNametag.png"
+dest_files=["res://.godot/imported/lockedNametag.png-074a7675a3a8dbf1b98c92084f5d302b.ctex"]
 
 [params]
 

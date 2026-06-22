@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dix7cy7ydksfi"
-path="res://.godot/imported/menuDesat.png-08b7cc6caa164294b211f4ba61a36a95.ctex"
+path="res://.godot/imported/menuDesat.png-2bf87be24175678802360a414c1d15f4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/images/menus/background/menuDesat.png"
-dest_files=["res://.godot/imported/menuDesat.png-08b7cc6caa164294b211f4ba61a36a95.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/images/menus/background/menuDesat.png"
+dest_files=["res://.godot/imported/menuDesat.png-2bf87be24175678802360a414c1d15f4.ctex"]
 
 [params]
 

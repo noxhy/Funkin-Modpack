@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bt5qnnf2qa31j"
-path="res://.godot/imported/cardGlow.png-9ec67019d90f3ab0ffe57cf5ad1d9cc5.ctex"
+path="res://.godot/imported/cardGlow.png-f433fda0212a0d4a411c7b4e412baa82.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/images/menus/freeplay/cardGlow.png"
-dest_files=["res://.godot/imported/cardGlow.png-9ec67019d90f3ab0ffe57cf5ad1d9cc5.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/images/menus/freeplay/cardGlow.png"
+dest_files=["res://.godot/imported/cardGlow.png-f433fda0212a0d4a411c7b4e412baa82.ctex"]
 
 [params]
 

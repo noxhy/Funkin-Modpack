@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c3sgt5pj1cv85"
-path="res://.godot/imported/lowerLoop.png-3346ed87474a8408c769e465330b6c79.ctex"
+path="res://.godot/imported/lowerLoop.png-a0ae66d0daa8671ae446ef8d839d2193.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/images/menus/freeplay/characters/pico/lowerLoop.png"
-dest_files=["res://.godot/imported/lowerLoop.png-3346ed87474a8408c769e465330b6c79.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/images/menus/freeplay/characters/pico/lowerLoop.png"
+dest_files=["res://.godot/imported/lowerLoop.png-a0ae66d0daa8671ae446ef8d839d2193.ctex"]
 
 [params]
 

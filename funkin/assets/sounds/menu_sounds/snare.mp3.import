@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://baajtpwp5hvdp"
-path="res://.godot/imported/snare.mp3-6e0a02da0fdde5f2efc91a4fbdfa973c.mp3str"
+path="res://.godot/imported/snare.mp3-5bff5ff6e399431a41e92167f7351579.mp3str"
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/sounds/menu_sounds/snare.mp3"
-dest_files=["res://.godot/imported/snare.mp3-6e0a02da0fdde5f2efc91a4fbdfa973c.mp3str"]
+source_file="res://Funkin-Modpack/funkin/assets/sounds/menu_sounds/snare.mp3"
+dest_files=["res://.godot/imported/snare.mp3-5bff5ff6e399431a41e92167f7351579.mp3str"]
 
 [params]
 

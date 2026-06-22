@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cccjebisjhp56"
-path="res://.godot/imported/brightLightSmall.png-b09d7fff1d9e0653a693f0a77a9cd39b.ctex"
+path="res://.godot/imported/brightLightSmall.png-0dacec06672c3db2ca364bba613a8863.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/stages/stage/brightLightSmall.png"
-dest_files=["res://.godot/imported/brightLightSmall.png-b09d7fff1d9e0653a693f0a77a9cd39b.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/stages/stage/brightLightSmall.png"
+dest_files=["res://.godot/imported/brightLightSmall.png-0dacec06672c3db2ca364bba613a8863.ctex"]
 
 [params]
 

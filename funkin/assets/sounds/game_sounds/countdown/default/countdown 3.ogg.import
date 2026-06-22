@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://dy5bmpjexk1x6"
-path="res://.godot/imported/countdown 3.ogg-4dddaf453b7c99cb61069008a2f9e42d.oggvorbisstr"
+path="res://.godot/imported/countdown 3.ogg-cea8f1d93d75b62ebe64ab4618555929.oggvorbisstr"
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/sounds/game_sounds/countdown/default/countdown 3.ogg"
-dest_files=["res://.godot/imported/countdown 3.ogg-4dddaf453b7c99cb61069008a2f9e42d.oggvorbisstr"]
+source_file="res://Funkin-Modpack/funkin/assets/sounds/game_sounds/countdown/default/countdown 3.ogg"
+dest_files=["res://.godot/imported/countdown 3.ogg-cea8f1d93d75b62ebe64ab4618555929.oggvorbisstr"]
 
 [params]
 

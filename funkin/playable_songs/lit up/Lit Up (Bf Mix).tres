@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="Song" format=3 uid="uid://r1vewm4pti0w"]
 
-[ext_resource type="SpriteFrames" uid="uid://digynxqrdoj3g" path="res://FunkinCrew-FnF/funkin/assets/characters/darnell/icons.tres" id="1_78jjc"]
+[ext_resource type="SpriteFrames" uid="uid://digynxqrdoj3g" path="res://Funkin-Modpack/funkin/assets/characters/darnell/icons.tres" id="1_78jjc"]
 [ext_resource type="Script" uid="uid://watdarflaprc" path="res://noah/resources/song.gd" id="1_og7cc"]
 
 [resource]
@@ -11,13 +11,13 @@ tempo = 176.0
 scene = "uid://bg3coqaywlx5b"
 difficulties = Dictionary[String, Dictionary]({
 "easy": {
-"chart": "res://FunkinCrew-FnF/funkin/playable_songs/lit up/charts/lit-up-chart-bf.json"
+"chart": "res://Funkin-Modpack/funkin/playable_songs/lit up/charts/lit-up-chart-bf.json"
 },
 "hard": {
-"chart": "res://FunkinCrew-FnF/funkin/playable_songs/lit up/charts/lit-up-chart-bf.json"
+"chart": "res://Funkin-Modpack/funkin/playable_songs/lit up/charts/lit-up-chart-bf.json"
 },
 "normal": {
-"chart": "res://FunkinCrew-FnF/funkin/playable_songs/lit up/charts/lit-up-chart-bf.json"
+"chart": "res://Funkin-Modpack/funkin/playable_songs/lit up/charts/lit-up-chart-bf.json"
 }
 })
 events = "res://playable_songs/lit up/charts/events.tres"

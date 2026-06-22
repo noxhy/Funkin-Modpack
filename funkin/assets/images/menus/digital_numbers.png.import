@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b5e605np35l3e"
-path="res://.godot/imported/digital_numbers.png-332e79548b2682dc4a1be308e23b91b2.ctex"
+path="res://.godot/imported/digital_numbers.png-fc6ea53df4825450e5d9fa9859708db8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/images/menus/digital_numbers.png"
-dest_files=["res://.godot/imported/digital_numbers.png-332e79548b2682dc4a1be308e23b91b2.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/images/menus/digital_numbers.png"
+dest_files=["res://.godot/imported/digital_numbers.png-fc6ea53df4825450e5d9fa9859708db8.ctex"]
 
 [params]
 

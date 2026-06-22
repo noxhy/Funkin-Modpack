@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dbvsa60skuecg"
-path="res://.godot/imported/tankmanCaptain.png-4c380820d6ae991ba6aec877923a16ba.ctex"
+path="res://.godot/imported/tankmanCaptain.png-8ccc2c57a0da882dc73cfa0db9ae2b09.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/characters/tankman/tankmanCaptain.png"
-dest_files=["res://.godot/imported/tankmanCaptain.png-4c380820d6ae991ba6aec877923a16ba.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/characters/tankman/tankmanCaptain.png"
+dest_files=["res://.godot/imported/tankmanCaptain.png-8ccc2c57a0da882dc73cfa0db9ae2b09.ctex"]
 
 [params]
 

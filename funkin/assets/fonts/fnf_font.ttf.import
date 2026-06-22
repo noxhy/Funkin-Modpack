@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://coivso5sghc2p"
-path="res://.godot/imported/fnf_font.ttf-ca6695b454218d7157f7a70dc86ee34f.fontdata"
+path="res://.godot/imported/fnf_font.ttf-5ee9cfd1f565119f7ff7600ff7ee95d9.fontdata"
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/fonts/fnf_font.ttf"
-dest_files=["res://.godot/imported/fnf_font.ttf-ca6695b454218d7157f7a70dc86ee34f.fontdata"]
+source_file="res://Funkin-Modpack/funkin/assets/fonts/fnf_font.ttf"
+dest_files=["res://.godot/imported/fnf_font.ttf-5ee9cfd1f565119f7ff7600ff7ee95d9.fontdata"]
 
 [params]
 

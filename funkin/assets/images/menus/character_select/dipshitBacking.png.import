@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bskyulnl5144d"
-path="res://.godot/imported/dipshitBacking.png-1667b6ad9bf1d534d9ed276caa68f8b8.ctex"
+path="res://.godot/imported/dipshitBacking.png-59aaa23ef1543bf312115d627a8f955f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/images/menus/character_select/dipshitBacking.png"
-dest_files=["res://.godot/imported/dipshitBacking.png-1667b6ad9bf1d534d9ed276caa68f8b8.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/images/menus/character_select/dipshitBacking.png"
+dest_files=["res://.godot/imported/dipshitBacking.png-59aaa23ef1543bf312115d627a8f955f.ctex"]
 
 [params]
 

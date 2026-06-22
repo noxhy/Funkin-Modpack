@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://d2rjiccf1wlul"
-path="res://.godot/imported/breakfast-pico.ogg-cd8dda8f950aaf4e6324d61b04c8bab7.oggvorbisstr"
+path="res://.godot/imported/breakfast-pico.ogg-df8b147d87afd33958f7bb3b68458682.oggvorbisstr"
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/songs/pause_menu/breakfast-pico.ogg"
-dest_files=["res://.godot/imported/breakfast-pico.ogg-cd8dda8f950aaf4e6324d61b04c8bab7.oggvorbisstr"]
+source_file="res://Funkin-Modpack/funkin/assets/songs/pause_menu/breakfast-pico.ogg"
+dest_files=["res://.godot/imported/breakfast-pico.ogg-df8b147d87afd33958f7bb3b68458682.oggvorbisstr"]
 
 [params]
 

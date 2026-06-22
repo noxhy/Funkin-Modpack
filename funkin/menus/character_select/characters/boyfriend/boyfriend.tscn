@@ -1,13 +1,13 @@
 [gd_scene format=3 uid="uid://cdac0swu1gxwh"]
 
-[ext_resource type="Script" uid="uid://cblocwqwyjjjy" path="res://FunkinCrew-FnF/funkin/menus/freeplay/atlas_sprite.gd" id="1_6frv2"]
+[ext_resource type="Script" uid="uid://cblocwqwyjjjy" path="res://Funkin-Modpack/funkin/menus/freeplay/atlas_sprite.gd" id="1_6frv2"]
 [ext_resource type="Script" uid="uid://c5ju3u657fyae" path="res://addons/gdanimate-rewrite-main/animate_symbol.gd" id="2_lt8dr"]
 [ext_resource type="Script" uid="uid://dy4vnmv4435ty" path="res://addons/gdanimate-rewrite-main/animate_atlas.gd" id="3_rbs1r"]
 [ext_resource type="Script" uid="uid://dkyyuwqo0dy7q" path="res://addons/gdanimate-rewrite-main/adobe/adobe_atlas.gd" id="4_vbqi4"]
 
 [sub_resource type="Resource" id="Resource_0ye3j"]
 script = ExtResource("4_vbqi4")
-folder_path = "res://FunkinCrew-FnF/funkin/assets/images/menus/character_select/characters/boyfriend/bfChill/"
+folder_path = "res://Funkin-Modpack/funkin/assets/images/menus/character_select/characters/boyfriend/bfChill/"
 format = "adobe"
 metadata/_custom_type_script = "uid://dkyyuwqo0dy7q"
 

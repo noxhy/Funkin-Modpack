@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cx4xphj6wiep7"
-path="res://.godot/imported/picoNametag.png-a89dcd899148df8e7e98065b98babdeb.ctex"
+path="res://.godot/imported/picoNametag.png-79addc829976b580c008583176159859.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/images/menus/character_select/characters/pico/picoNametag.png"
-dest_files=["res://.godot/imported/picoNametag.png-a89dcd899148df8e7e98065b98babdeb.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/images/menus/character_select/characters/pico/picoNametag.png"
+dest_files=["res://.godot/imported/picoNametag.png-79addc829976b580c008583176159859.ctex"]
 
 [params]
 

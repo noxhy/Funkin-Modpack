@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dxgde6xj50ans"
-path="res://.godot/imported/dad.png-f234b4b7b7e9e324f5c3d2399fe314ea.ctex"
+path="res://.godot/imported/dad.png-c0bb265996f46dfc400131119f0d5924.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/characters/daddy dearest/dad.png"
-dest_files=["res://.godot/imported/dad.png-f234b4b7b7e9e324f5c3d2399fe314ea.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/characters/daddy dearest/dad.png"
+dest_files=["res://.godot/imported/dad.png-c0bb265996f46dfc400131119f0d5924.ctex"]
 
 [params]
 

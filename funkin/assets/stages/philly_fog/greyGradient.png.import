@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dhkih38s4sgjm"
-path="res://.godot/imported/greyGradient.png-a2224d12f2213263e308c50b15f303e2.ctex"
+path="res://.godot/imported/greyGradient.png-cfa65028d3be87db9ddf0ea06e504699.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/stages/philly_fog/greyGradient.png"
-dest_files=["res://.godot/imported/greyGradient.png-a2224d12f2213263e308c50b15f303e2.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/stages/philly_fog/greyGradient.png"
+dest_files=["res://.godot/imported/greyGradient.png-cfa65028d3be87db9ddf0ea06e504699.ctex"]
 
 [params]
 

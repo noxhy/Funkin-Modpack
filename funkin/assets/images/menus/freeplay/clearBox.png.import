@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://5b2u1q1kihtj"
-path="res://.godot/imported/clearBox.png-1d3375a99c9e5ad2b6488833051cd269.ctex"
+path="res://.godot/imported/clearBox.png-5bb16a49e92f31efa841aa5e32631e9e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/images/menus/freeplay/clearBox.png"
-dest_files=["res://.godot/imported/clearBox.png-1d3375a99c9e5ad2b6488833051cd269.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/images/menus/freeplay/clearBox.png"
+dest_files=["res://.godot/imported/clearBox.png-5bb16a49e92f31efa841aa5e32631e9e.ctex"]
 
 [params]
 

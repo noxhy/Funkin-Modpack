@@ -3,12 +3,12 @@
 importer="font_data_image"
 type="FontFile"
 uid="uid://d23vxklp5i75g"
-path="res://.godot/imported/results_song_name.png-942da689d758de4362bb31f134b58bb1.fontdata"
+path="res://.godot/imported/results_song_name.png-ed6a73f4d67df363bb0319b0e81e8c47.fontdata"
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/fonts/results_song_name.png"
-dest_files=["res://.godot/imported/results_song_name.png-942da689d758de4362bb31f134b58bb1.fontdata"]
+source_file="res://Funkin-Modpack/funkin/assets/fonts/results_song_name.png"
+dest_files=["res://.godot/imported/results_song_name.png-ed6a73f4d67df363bb0319b0e81e8c47.fontdata"]
 
 [params]
 

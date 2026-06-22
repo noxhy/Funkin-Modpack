@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://c7jqa5mdxivnd"
-path="res://.godot/imported/lose sfx.ogg-6c598fe9edd354ece2b44478eeae9a2f.oggvorbisstr"
+path="res://.godot/imported/lose sfx.ogg-7fd7e34a8894ffc52f818cc1604e53df.oggvorbisstr"
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/sounds/menu_sounds/lose sfx.ogg"
-dest_files=["res://.godot/imported/lose sfx.ogg-6c598fe9edd354ece2b44478eeae9a2f.oggvorbisstr"]
+source_file="res://Funkin-Modpack/funkin/assets/sounds/menu_sounds/lose sfx.ogg"
+dest_files=["res://.godot/imported/lose sfx.ogg-7fd7e34a8894ffc52f818cc1604e53df.oggvorbisstr"]
 
 [params]
 

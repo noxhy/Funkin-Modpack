@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://bgb4g6xajpj0c"
-path="res://.godot/imported/Inst-bf.ogg-5c1c9da997302fe44d5ffaac2aec5427.oggvorbisstr"
+path="res://.godot/imported/Inst-bf.ogg-4bd79605375fcf189cc70fefa1a6c8ce.oggvorbisstr"
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/playable_songs/darnell/audio/Inst-bf.ogg"
-dest_files=["res://.godot/imported/Inst-bf.ogg-5c1c9da997302fe44d5ffaac2aec5427.oggvorbisstr"]
+source_file="res://Funkin-Modpack/funkin/playable_songs/darnell/audio/Inst-bf.ogg"
+dest_files=["res://.godot/imported/Inst-bf.ogg-4bd79605375fcf189cc70fefa1a6c8ce.oggvorbisstr"]
 
 [params]
 

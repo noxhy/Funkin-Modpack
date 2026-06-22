@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://6sjl7shk0xmj"
-path="res://.godot/imported/numbers small0005.png-c61780806f2386227f6da0fc5d2fa4fc.ctex"
+path="res://.godot/imported/numbers small0005.png-33332b4f5b96f0753c31824621b03dcf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/images/menus/results/clearPercent/numbers small0005.png"
-dest_files=["res://.godot/imported/numbers small0005.png-c61780806f2386227f6da0fc5d2fa4fc.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/images/menus/results/clearPercent/numbers small0005.png"
+dest_files=["res://.godot/imported/numbers small0005.png-33332b4f5b96f0753c31824621b03dcf.ctex"]
 
 [params]
 

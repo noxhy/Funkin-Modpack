@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dg5tlfnodg5e0"
-path="res://.godot/imported/phillyForegroundCity.png-c91b3ccf0ff758e205845eeb6603be25.ctex"
+path="res://.godot/imported/phillyForegroundCity.png-66a26f34b17416d16ccd6ac90fc330ea.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/stages/philly_fog/phillyForegroundCity.png"
-dest_files=["res://.godot/imported/phillyForegroundCity.png-c91b3ccf0ff758e205845eeb6603be25.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/stages/philly_fog/phillyForegroundCity.png"
+dest_files=["res://.godot/imported/phillyForegroundCity.png-66a26f34b17416d16ccd6ac90fc330ea.ctex"]
 
 [params]
 

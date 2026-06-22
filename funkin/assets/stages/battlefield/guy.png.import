@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://oojbvba70kt6"
-path="res://.godot/imported/guy.png-986c4e0604187ee0f1f56cff22680df2.ctex"
+path="res://.godot/imported/guy.png-ad5d04e5c9f749282397a3a914d806b2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FunkinCrew-FnF/funkin/assets/stages/battlefield/guy.png"
-dest_files=["res://.godot/imported/guy.png-986c4e0604187ee0f1f56cff22680df2.ctex"]
+source_file="res://Funkin-Modpack/funkin/assets/stages/battlefield/guy.png"
+dest_files=["res://.godot/imported/guy.png-ad5d04e5c9f749282397a3a914d806b2.ctex"]
 
 [params]
 

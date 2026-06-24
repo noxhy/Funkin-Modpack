@@ -1,7 +1,7 @@
 extends Node
 
 # Called when the node enters the scene tree for the first time.
-func _ready() -> void:
+func _init() -> void:
 	Preload.character_data["boyfriend"] = load("uid://c73l5wk1k58mp")
 	Preload.character_data["pico"] = load("uid://dxqhmrv2rrdkc")
 	

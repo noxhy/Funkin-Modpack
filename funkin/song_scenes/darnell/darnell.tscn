@@ -11,7 +11,6 @@
 [ext_resource type="PackedScene" uid="uid://biw6xh624onjh" path="res://Funkin-Modpack/funkin/assets/characters/nene/nene.tscn" id="11_6d88t"]
 [ext_resource type="PackedScene" uid="uid://cwgvima0s0hbm" path="res://Funkin-Modpack/funkin/funkin_ui.tscn" id="12_a2iw0"]
 
-
 [node name="Darnell" type="Node2D" unique_id=1675426916]
 script = ExtResource("1_mmofa")
 

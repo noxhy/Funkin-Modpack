@@ -29,7 +29,6 @@ dance_rate = 4
 z_index = 80
 position = Vector2(-646, 222)
 scale = Vector2(6, 6)
-animation = &"idle_left"
 centered = false
 
 [node name="WeebStreet" type="Sprite2D" parent="." unique_id=717263029]

@@ -12,7 +12,6 @@
 [ext_resource type="PackedScene" uid="uid://cwgvima0s0hbm" path="res://Funkin-Modpack/funkin/funkin_ui.tscn" id="10_d87sq"]
 [ext_resource type="Script" uid="uid://b4lmffueni5k" path="res://noah/game/camera_controller.gd" id="11_xxo2x"]
 
-
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_040ww"]
 shader = ExtResource("7_un0qr")
 shader_parameter/hue = -5.0

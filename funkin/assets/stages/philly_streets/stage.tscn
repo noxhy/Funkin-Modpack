@@ -78,6 +78,7 @@ color = Color(1, 1, 1, 0)
 scroll_offset = Vector2(640, 360)
 
 [node name="SpraycanPile" type="Sprite2D" parent="Foreground" unique_id=1912360990]
+z_index = 1
 position = Vector2(-328, 256)
 texture = ExtResource("3_iqa2f")
 

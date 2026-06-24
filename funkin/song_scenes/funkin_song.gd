@@ -7,6 +7,7 @@ var current_death_scene = null
 func _ready() -> void:
 	super()
 	current_death_scene = death_scene.instantiate()
+	Signals.connect(&"play_song_finished", self.finished)
 
 func _process(delta: float) -> void:
 	if player:
@@ -24,3 +25,6 @@ func note_hit(note: Note, lane: int, hit_time: float, strum_manager: StrumManage
 
 func died():
 	get_tree().change_scene_to_node(current_death_scene)
+
+func finished():
+	playstate_host.basic_event(0, "camera_position", [2])

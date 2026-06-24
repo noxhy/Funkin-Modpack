@@ -2,8 +2,8 @@ extends Node
 
 # Called when the node enters the scene tree for the first time.
 func _init() -> void:
-	Preload.character_data["boyfriend"] = load("uid://c73l5wk1k58mp")
-	Preload.character_data["pico"] = load("uid://dxqhmrv2rrdkc")
+	Preload.character_data["boyfriend"] = load("uid://bkhhp2v4u756o")
+	Preload.character_data["pico"] = load("uid://dskdxvwa3xf5t")
 	
 	GameManager.current_character = "boyfriend"
 	GameManager.character = Preload.character_data.get(GameManager.current_character)

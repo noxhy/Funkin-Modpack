@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://bp581x6mu5f1w"]
 
-[ext_resource type="Script" uid="uid://dg85pn3cqf6yj" path="res://noah/menus/options/options_submenu.gd" id="1_gawv3"]
+[ext_resource type="Script" uid="uid://bgjrswlnxun3u" path="res://Funkin-Modpack/funkin/menus/options/options_submenu.gd" id="1_kkpli"]
 [ext_resource type="Theme" uid="uid://b02clh77m72y7" path="res://Funkin-Modpack/funkin/themes/options.tres" id="2_fb55p"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_d2gin"]
@@ -12,7 +12,7 @@ bg_color = Color(0.08984375, 0.08984375, 0.08984375, 0.6784314)
 
 [node name="Options Menu" type="Node2D" unique_id=1346411306]
 process_mode = 2
-script = ExtResource("1_gawv3")
+script = ExtResource("1_kkpli")
 
 [node name="UI" type="CanvasLayer" parent="." unique_id=1716943769]
 layer = 10

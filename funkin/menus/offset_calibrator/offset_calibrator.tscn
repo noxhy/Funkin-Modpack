@@ -1,0 +1,97 @@
+[gd_scene format=3 uid="uid://bchoqkhsgg6rb"]
+
+[ext_resource type="Script" uid="uid://disrmsl28koee" path="res://noah/menus/options/offset_calibrator.gd" id="1_3256o"]
+[ext_resource type="Script" uid="uid://b1blhjns06ilt" path="res://noah/conductor.gd" id="2_f7xde"]
+[ext_resource type="FontFile" uid="uid://bo022dgqs5iv6" path="res://Funkin-Modpack/funkin/assets/fonts/vcr.ttf" id="3_3256o"]
+[ext_resource type="AudioStream" uid="uid://c7t6ab85b1td1" path="res://Funkin-Modpack/funkin/assets/songs/offset song.ogg" id="3_kmiol"]
+[ext_resource type="AudioStream" uid="uid://bka17tk7s4w3n" path="res://Funkin-Modpack/funkin/assets/songs/offset drums.ogg" id="4_43832"]
+[ext_resource type="AudioStream" uid="uid://baajtpwp5hvdp" path="res://Funkin-Modpack/funkin/assets/sounds/menu_sounds/snare.mp3" id="5_f14y1"]
+[ext_resource type="Texture2D" uid="uid://crpue80aij4bq" path="res://noah/assets/images/menus/chart_editor/menuDesat.png" id="7_kmiol"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_3110b"]
+font = ExtResource("3_3256o")
+font_size = 36
+outline_size = 12
+outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_kmiol"]
+bg_color = Color(0, 0, 0, 0.2509804)
+
+[node name="Offset Calibrator" type="Node2D" unique_id=1670701705]
+script = ExtResource("1_3256o")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1603673015]
+position = Vector2(640, 360)
+
+[node name="Conductor" type="Node" parent="." unique_id=1284148128 node_paths=PackedStringArray("stream_player")]
+script = ExtResource("2_f7xde")
+stream_player = NodePath("../Audio/Base")
+
+[node name="Audio" type="Node" parent="." unique_id=218804045]
+
+[node name="Base" type="AudioStreamPlayer" parent="Audio" unique_id=968735576]
+stream = ExtResource("3_kmiol")
+bus = &"Music"
+
+[node name="Drums" type="AudioStreamPlayer" parent="Audio" unique_id=634750816]
+stream = ExtResource("4_43832")
+bus = &"Music"
+
+[node name="Hit Sound" type="AudioStreamPlayer" parent="Audio" unique_id=248828459]
+stream = ExtResource("5_f14y1")
+bus = &"SFX"
+
+[node name="UI" type="CanvasLayer" parent="." unique_id=2075707160]
+layer = 0
+follow_viewport_enabled = true
+
+[node name="Offset Label" type="Label" parent="UI" unique_id=1756417995]
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = -16.0
+offset_bottom = 16.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Offset: 0 ms"
+label_settings = SubResource("LabelSettings_3110b")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Instructions" type="Label" parent="UI" unique_id=1143460261]
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -141.0
+grow_horizontal = 2
+grow_vertical = 0
+text = "Press any key to calibrate your offset
+(Positive: Early, Negative: Late)
+(This may not be entirely accurate)"
+label_settings = SubResource("LabelSettings_3110b")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Title" type="Label" parent="UI" unique_id=1601532354]
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 102.0
+grow_horizontal = 2
+theme_override_styles/normal = SubResource("StyleBoxFlat_kmiol")
+text = "OFFSET CALIBRATOR"
+label_settings = SubResource("LabelSettings_3110b")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Visualizer" type="Node2D" parent="UI" unique_id=1949466874]
+position = Vector2(640, 360)
+
+[node name="BG" type="Sprite2D" parent="." unique_id=1154318023]
+modulate = Color(0.19140625, 0.19140625, 0.19140625, 1)
+z_index = -4096
+position = Vector2(640, 360)
+texture = ExtResource("7_kmiol")
+
+[connection signal="new_beat" from="Conductor" to="." method="_on_conductor_new_beat"]

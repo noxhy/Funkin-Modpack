@@ -2,10 +2,12 @@
 
 [ext_resource type="Script" uid="uid://bfyx0vdrm1c1" path="res://Funkin-Modpack/funkin/playable_characters/funkin_playable_character.gd" id="1_g7587"]
 [ext_resource type="Resource" uid="uid://b30g8jurwop0d" path="res://Funkin-Modpack/funkin/assets/albums/pico_songs.tres" id="1_h434c"]
+[ext_resource type="Texture2D" uid="uid://cemqnoop727he" path="res://Funkin-Modpack/funkin/assets/images/menus/freeplay/characters/pico/freeplayBGweek1-pico.png" id="2_qnlga"]
 
 [resource]
 script = ExtResource("1_g7587")
 dj = "uid://bnx6yfjfa6wcj"
+background = ExtResource("2_qnlga")
 result_songs = Dictionary[String, String]({
 "excellent": "uid://c06o50jnsmcxy",
 "gold": "uid://bjw4ot02i6liv",

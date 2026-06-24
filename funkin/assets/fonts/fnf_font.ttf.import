@@ -12,6 +12,7 @@ dest_files=["res://.godot/imported/fnf_font.ttf-5ee9cfd1f565119f7ff7600ff7ee95d9
 
 [params]
 
+Rendering=null
 antialiasing=1
 generate_mipmaps=false
 disable_embedded_bitmaps=true
@@ -25,7 +26,9 @@ hinting=1
 subpixel_positioning=1
 keep_rounding_remainders=true
 oversampling=0.0
+Fallbacks=null
 fallbacks=[]
+Compress=null
 compress=true
 preload=[]
 language_support={}

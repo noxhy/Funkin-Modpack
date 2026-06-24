@@ -55,7 +55,7 @@ func _input(event):
 				Global.change_scene_to(Constants.STORY_MODE_MENU_SCENE)
 
 func exit_scene():
-	Transitions.transition(&"fade")
+	TransitionManager.transition(&"fade")
 	Global.change_scene_to(GameManager.song_scene)
 
 func _on_animation_player_animation_finished(anim_name):

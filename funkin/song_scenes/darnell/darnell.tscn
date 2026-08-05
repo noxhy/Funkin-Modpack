@@ -66,7 +66,7 @@ position = Vector2(112, 600)
 
 [node name="Metronome" parent="." unique_id=1563362403 instance=ExtResource("11_6d88t")]
 unique_name_in_owner = true
-z_index = -1
+z_index = -2
 position = Vector2(720, 539)
 slope = 0.3
 update_rate = 0.04

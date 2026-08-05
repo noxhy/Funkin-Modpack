@@ -30,7 +30,7 @@ func _ready() -> void:
 		option_nodes.append(week_icon_instance)
 	
 	for node in get_tree().get_nodes_in_group(&"bop"):
-		$Conductor.connect("new_step", node.on_step_hit)
+		$Conductor.connect("new_beat", node.on_beat_hit)
 	
 	update_week(selected_week)
 	
@@ -60,7 +60,7 @@ func _input(event):
 		elif event.is_action_pressed("menu_cancel"):
 			can_click = false
 			SoundManager.cancel.play()
-			Global.change_scene_to("uid://rc52vcn2m7ob")
+			Global.change_scene_to(Constants.START_MENU_SCENE)
 
 
 # Updates visually what happens when a new index is set for a selection

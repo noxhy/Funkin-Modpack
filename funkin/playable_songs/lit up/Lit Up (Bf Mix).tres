@@ -1,7 +1,7 @@
-[gd_resource type="Resource" script_class="Song" format=3 uid="uid://r1vewm4pti0w"]
+[gd_resource type="Resource" script_class="Song" format=3]
 
-[ext_resource type="SpriteFrames" uid="uid://digynxqrdoj3g" path="res://Funkin-Modpack/funkin/assets/characters/darnell/icons.tres" id="1_78jjc"]
-[ext_resource type="Script" uid="uid://watdarflaprc" path="res://noah/resources/song.gd" id="1_og7cc"]
+[ext_resource type="SpriteFrames" path="res://Funkin-Modpack/funkin/assets/characters/darnell/icons.tres" id="1_78jjc"]
+[ext_resource type="Script" path="res://noah/resources/song.gd" id="1_og7cc"]
 
 [resource]
 script = ExtResource("1_og7cc")
@@ -14,7 +14,7 @@ difficulties = Dictionary[String, Dictionary]({
 "chart": "res://Funkin-Modpack/funkin/playable_songs/lit up/charts/lit-up-chart-bf.json"
 },
 "hard": {
-"chart": "res://Funkin-Modpack/funkin/playable_songs/lit up/charts/lit-up-chart-bf.json"
+"chart": "res://Funkin-Modpack/funkin/playable_songs/lit up/charts/Lit Up (Bf Mix)-hard.res"
 },
 "normal": {
 "chart": "res://Funkin-Modpack/funkin/playable_songs/lit up/charts/lit-up-chart-bf.json"

@@ -16,7 +16,7 @@ offsets = Dictionary[StringName, Vector2]({
 &"GF IDLE": Vector2(2.08189e-12, -52)
 })
 dance_animations = Array[StringName]([&"idle_left", &"idle_right"])
-dance_rate = 4
+dance_rate = 0
 icons = ExtResource("2_qn4ei")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1654351218]
@@ -24,5 +24,7 @@ texture_filter = 3
 position = Vector2(2.08189e-12, -52)
 sprite_frames = ExtResource("2_4vb5r")
 animation = &"idle_left"
+frame = 14
+frame_progress = 1.0
 
 [connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]

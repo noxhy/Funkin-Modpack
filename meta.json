@@ -3,7 +3,5 @@
 	"credits": "FunkinCrew",
 	"version": "1.0.0",
 	"supported_versions": ["3.3.0"],
-	"description": "A set of songs from Friday Night Funkin' as an example.",
-	"download_link": "https://github.com/noxhy/Funkin-Modpack",
-	"meta_link": "https://raw.githubusercontent.com/noxhy/Funkin-Modpack/refs/heads/main/meta.json"
+	"description": "A set of songs from Friday Night Funkin' as an example."
 }

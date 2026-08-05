@@ -1,7 +1,6 @@
 extends "res://noah/constants.gd"
 
 #region Scene UIDs
-var START_MENU_SCENE: String = "uid://b1kmgjxpce1de"
 var MAIN_MENU_SCENE: String = "uid://rc52vcn2m7ob"
 var STORY_MODE_MENU_SCENE: String = "uid://lh8hi5dk1sja"
 var FREEPLAY_MENU_SCENE: String = "uid://gbra80y44814"
@@ -14,3 +13,4 @@ var RESULTS_MENU_SCENE: String = "uid://cmwlnqqj5h0xy"
 
 func _init() -> void:
 	NOTE_TYPES["mom"] = ""
+	START_MENU_SCENE = "uid://b1kmgjxpce1de"

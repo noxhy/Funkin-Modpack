@@ -75,7 +75,7 @@ hold_frames = Dictionary[StringName, int]({
 &"gf sad": 2
 })
 dance_animations = Array[StringName]([&"idle_left", &"idle_right"])
-dance_rate = 4
+dance_rate = 0
 icons = SubResource("SpriteFrames_v8umh")
 color = Color(0.619608, 0.0784314, 0.282353, 1)
 
@@ -84,3 +84,5 @@ use_parent_material = true
 position = Vector2(0, -320)
 sprite_frames = ExtResource("3_mjknh")
 animation = &"idle_left"
+frame = 14
+frame_progress = 1.0

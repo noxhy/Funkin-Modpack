@@ -10,7 +10,7 @@ dj = "uid://c1s7cbxg2o4m0"
 background = ExtResource("2_7l6ng")
 result_songs = Dictionary[String, String]({
 "excellent": "uid://brvwivjswbekg",
-"gold": "uid://dxg0jrm60tjm",
+"gold": "uid://ce35a74i5sv80",
 "good": "uid://dxg0jrm60tjm",
 "great": "uid://dxg0jrm60tjm",
 "loss": "uid://dla8l3ws7tid8",

@@ -14,13 +14,13 @@ func _ready() -> void:
 	$AnimationPlayer.play("start")
 	Global.set_window_title("Start Screen")
 	
-	var keycode = SettingsManager.get_keybind("menu_accept")
-	$"UI/Play Label".text = "Press " + Global.get_keycode_string(keycode) + " to Play"
-	
 	$Conductor.stream_player = SoundManager.music
 	
 	if not SoundManager.music.playing:
 		SoundManager.music.play()
+	
+	update_bind_text(-1, 1)
+	Input.joy_connection_changed.connect(self.update_bind_text)
 	
 	await $Conductor.ready
 	
@@ -59,6 +59,9 @@ func _on_conductor_new_beat(current_beat, measure_relative):
 			tween.tween_property($"UI/Play Label", "theme_override_colors/font_color", Color(0.501961, 0.682353, 1, 0.8), $Conductor.seconds_per_beat * 2)
 	Global.bop_tween($UI/Logo, "scale", Vector2(0.95, 0.95), Vector2(0.9, 0.9), 0.2, Tween.TRANS_QUAD)
 
+
+func update_bind_text(d: int, i: int):
+	$"UI/Play Label".text = "Press " + Global.get_bind_string(&"menu_accept") + " to Play"
 
 
 func _on_animation_player_animation_finished(anim_name):

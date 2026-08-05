@@ -55,11 +55,9 @@ func _ready() -> void:
 	
 	load_page()
 	
-	var keycode = SettingsManager.get_keybind("character_select")
-	
 	$Above/ColorRect/RichTextLabel.text = str(
 		"[font_size=32][font=\"uid://c7hwqqieqbc47\"][font bt=-16.0][pulse freq=0.8 color=#ffffff40 ease=-2.0]",
-		"Press [", Global.get_keycode_string(keycode).to_upper(), "] to change character",
+		"Press [", Global.get_bind_string(&"character_select").to_upper(), "] to change character",
 		"[/pulse][/font]"
 	)
 

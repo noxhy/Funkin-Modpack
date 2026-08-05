@@ -10,11 +10,7 @@ func _ready() -> void:
 	Signals.connect(&"play_song_finished", self.finished)
 
 func _process(delta: float) -> void:
-	if player:
-		current_death_scene.player_position = player.global_position
-		current_death_scene.player_scale = Vector2(player.scale.x,player.scale.y)
-	
-	current_death_scene.camera_zoom = playstate_host.camera.get_zoom()
+	super(delta)
 
 
 func note_hit(note: Note, lane: int, hit_time: float, strum_manager: StrumManager):
@@ -24,7 +20,14 @@ func note_hit(note: Note, lane: int, hit_time: float, strum_manager: StrumManage
 
 
 func died():
+	if player:
+		current_death_scene.player_position = player.global_position
+		current_death_scene.player_scale = Vector2(player.scale.x, player.scale.y)
+	
+	current_death_scene.camera_zoom = playstate.camera.get_zoom()
+	
 	get_tree().change_scene_to_node(current_death_scene)
 
+
 func finished():
-	playstate_host.basic_event(0, "camera_position", [2])
+	playstate.basic_event(0, "camera_position", [2])

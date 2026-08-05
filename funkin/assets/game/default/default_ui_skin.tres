@@ -11,5 +11,5 @@ numbers_texture = ExtResource("1_cok72")
 rating_scale = 0.6
 numbers_scale = 0.4
 numbers_spacing = 92.0
-countdown_animation = "default_countdown"
+countdown = "uid://csl0ds70f0vst"
 pause_scene = "uid://l8gwfipcfkne"

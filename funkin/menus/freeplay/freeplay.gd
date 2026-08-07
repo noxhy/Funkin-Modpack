@@ -18,7 +18,7 @@ var difficulty_songs: Dictionary[String, Array] = {}
 var current_grade: int
 var current_highscore: int
 
-var dj = null
+var dj: AtlasSprite
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:

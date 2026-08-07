@@ -26,4 +26,5 @@ func _init() -> void:
 	DisplayServer.set_icon(load("uid://b6tvkvdbdai2u").get_image())
 	
 	Constants.set_script(preload("uid://osy8erwmdopi"))
-	Global.change_scene_to(Constants.START_MENU_SCENE, null, false)
+	if !ModManager.debug_mode:
+		Global.change_scene_to(Constants.START_MENU_SCENE, null, false)

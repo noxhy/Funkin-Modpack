@@ -12,13 +12,13 @@ var can_press: bool = true
 func _ready() -> void:
 	Global.set_window_title("Results Screen")
 #region Debug Tallies
-	# GameManager.reset_stats()
-	# GameManager.tallies.sick = randi() % 1500
-	# GameManager.tallies.good = randi() % 1500
-	# GameManager.tallies.bad = randi() % 750
-	# GameManager.tallies.shit = randi() % 200
-	# GameManager.tallies.total_notes = (
-	#	GameManager.tallies.sick + GameManager.tallies.good + GameManager.tallies.bad + GameManager.tallies.shit
+	#GameManager.reset_stats()
+	#GameManager.tallies.sick = randi() % 1500
+	#GameManager.tallies.good = randi() % 1500
+	#GameManager.tallies.bad = randi() % 750
+	#GameManager.tallies.shit = randi() % 200
+	#GameManager.tallies.total_notes = (
+	#GameManager.tallies.sick + GameManager.tallies.good + GameManager.tallies.bad + GameManager.tallies.shit
 	#)
 	#GameManager.tallies.max_combo = randi() % GameManager.tallies.total_notes
 	#GameManager.week_score = GameManager.tallies.total_notes * 350

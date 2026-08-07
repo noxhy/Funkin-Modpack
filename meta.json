@@ -2,6 +2,6 @@
 	"name": "Friday Night Funkin'",
 	"credits": "FunkinCrew",
 	"version": "1.0.0",
-	"supported_versions": ["3.3.0"],
+	"supported_versions": ["3.3.4"],
 	"description": "A set of songs from Friday Night Funkin' as an example."
 }

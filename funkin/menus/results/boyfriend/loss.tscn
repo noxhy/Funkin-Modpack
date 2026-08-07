@@ -1,21 +1,26 @@
 [gd_scene format=3 uid="uid://c5suhy07ww51g"]
 
-[ext_resource type="Script" uid="uid://c5ju3u657fyae" path="res://addons/gdanimate-rewrite-main/animate_symbol.gd" id="1_fi00i"]
-[ext_resource type="Script" uid="uid://dy4vnmv4435ty" path="res://addons/gdanimate-rewrite-main/animate_atlas.gd" id="2_t4d3l"]
-[ext_resource type="Script" uid="uid://dkyyuwqo0dy7q" path="res://addons/gdanimate-rewrite-main/adobe/adobe_atlas.gd" id="3_06jrg"]
+[ext_resource type="Script" uid="uid://doiv2eg6axeai" path="res://Funkin-Modpack/funkin/menus/results/result_node.gd" id="1_7kcqx"]
+[ext_resource type="Script" uid="uid://c5ju3u657fyae" path="res://addons/gdanimate/animate_symbol_2d.gd" id="1_fi00i"]
+[ext_resource type="Script" uid="uid://dy4vnmv4435ty" path="res://addons/gdanimate/formats/animate_symbol_library.gd" id="2_t4d3l"]
+[ext_resource type="Script" uid="uid://dkyyuwqo0dy7q" path="res://addons/gdanimate/formats/texture_atlas/atlas.gd" id="3_06jrg"]
 
-[sub_resource type="Resource" id="Resource_wevwq"]
+[sub_resource type="Resource" id="Resource_orxhg"]
 script = ExtResource("3_06jrg")
-folder_path = "res://Funkin-Modpack/funkin/assets/images/menus/results/results-bf/resultsSHIT/"
-format = "adobe"
+folder = "res://Funkin-Modpack/funkin/assets/images/menus/results/results-bf/resultsSHIT"
+override_enable = false
 metadata/_custom_type_script = "uid://dkyyuwqo0dy7q"
 
 [node name="Node2D" type="Node2D" unique_id=415596698]
+script = ExtResource("1_7kcqx")
+hold_frame = 146
 
 [node name="AnimateSymbol" type="Node2D" parent="." unique_id=655619692]
-position = Vector2(-248, 0)
+position = Vector2(8, -144)
 script = ExtResource("1_fi00i")
-symbol = "LOSS Animation"
-autoplay = true
+symbol_libraries = Array[ExtResource("2_t4d3l")]([SubResource("Resource_orxhg")])
+symbol = &"LOSS Animation"
 loop = true
-atlases = Array[ExtResource("2_t4d3l")]([SubResource("Resource_wevwq")])
+autoplay = &"LOSS Animation"
+
+[connection signal="animation_looped" from="AnimateSymbol" to="." method="_on_animate_symbol_animation_looped"]

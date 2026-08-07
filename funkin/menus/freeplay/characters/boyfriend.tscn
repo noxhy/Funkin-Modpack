@@ -1,10 +1,10 @@
 [gd_scene format=3 uid="uid://c1s7cbxg2o4m0"]
 
 [ext_resource type="Script" uid="uid://cblocwqwyjjjy" path="res://Funkin-Modpack/funkin/menus/freeplay/atlas_sprite.gd" id="1_uxy4b"]
-[ext_resource type="Script" uid="uid://3t6ei05ucncj" path="res://noah/noahAnimate.gd" id="3_8nr8s"]
+[ext_resource type="Script" uid="uid://c5ju3u657fyae" path="res://addons/gdanimate/animate_symbol_2d.gd" id="3_8nr8s"]
 [ext_resource type="FontFile" uid="uid://c7hwqqieqbc47" path="res://Funkin-Modpack/funkin/assets/fonts/results_background.ttf" id="3_dcg1w"]
-[ext_resource type="Script" uid="uid://dy4vnmv4435ty" path="res://addons/gdanimate-rewrite-main/animate_atlas.gd" id="4_t2sh6"]
-[ext_resource type="Script" uid="uid://dkyyuwqo0dy7q" path="res://addons/gdanimate-rewrite-main/adobe/adobe_atlas.gd" id="5_benro"]
+[ext_resource type="Script" uid="uid://dy4vnmv4435ty" path="res://addons/gdanimate/formats/animate_symbol_library.gd" id="4_t2sh6"]
+[ext_resource type="Script" uid="uid://dkyyuwqo0dy7q" path="res://addons/gdanimate/formats/texture_atlas/atlas.gd" id="5_benro"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_6h7lv"]
 font = ExtResource("3_dcg1w")
@@ -23,10 +23,10 @@ font = ExtResource("3_dcg1w")
 font_size = 48
 outline_size = 4
 
-[sub_resource type="Resource" id="Resource_t2sh6"]
+[sub_resource type="Resource" id="Resource_4na06"]
 script = ExtResource("5_benro")
-folder_path = "res://Funkin-Modpack/funkin/assets/images/menus/freeplay/characters/boyfriend/"
-format = "adobe"
+folder = "res://Funkin-Modpack/funkin/assets/images/menus/freeplay/characters/boyfriend"
+override_enable = false
 metadata/_custom_type_script = "uid://dkyyuwqo0dy7q"
 
 [node name="Boyfriend DJ" type="Node2D" unique_id=1967729973]
@@ -39,6 +39,12 @@ animation_data = Dictionary[String, String]({
 "intro": "boyfriend dj intro",
 "lose": "Boyfriend DJ loss reaction 1",
 "win": "Boyfriend DJ fist pump"
+})
+offset_data = Dictionary[String, Vector2]({
+"Boyfriend DJ": Vector2(128, -168),
+"Boyfriend DJ confirm": Vector2(104, -168),
+"Boyfriend DJ to CS": Vector2(99, -208),
+"boyfriend dj intro": Vector2(121, -318)
 })
 animation = "idle"
 metadata/_custom_type_script = "uid://cblocwqwyjjjy"
@@ -116,9 +122,10 @@ offset_bottom = 229.0
 text = "PROTECT YO NUTS"
 label_settings = SubResource("LabelSettings_jjooh")
 
-[node name="AnimateSymbol" type="Node2D" parent="." unique_id=1851201380]
-position = Vector2(448, -312)
+[node name="AnimateSymbol2D" type="Node2D" parent="." unique_id=1851201380]
 script = ExtResource("3_8nr8s")
-symbol = "Boyfriend DJ"
+symbol_libraries = Array[ExtResource("4_t2sh6")]([SubResource("Resource_4na06")])
+symbol = &"Boyfriend DJ"
 frame = 13
-atlases = Array[ExtResource("4_t2sh6")]([SubResource("Resource_t2sh6")])
+autoplay = &"Boyfriend DJ"
+offset = Vector2(128, -168)

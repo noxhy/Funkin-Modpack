@@ -18,8 +18,9 @@ class_name AtlasSprite
 		if animated_symbol != null:
 			animation = v
 			animated_symbol.symbol = animation_data.get(v, "")
+			animated_symbol.offset = offset_data.get(animated_symbol.symbol, Vector2.ZERO)
 
-@onready var animated_symbol = $AnimateSymbol
+@onready var animated_symbol = $AnimateSymbol2D
 
 signal finished
 signal looped
@@ -32,7 +33,6 @@ func play(id: String):
 	animation = id
 	animated_symbol.frame = 0
 	animated_symbol.playing = true
-	animated_symbol.offset = offset_data.get(id, Vector2.ZERO)
 
 func pause():
 	animated_symbol.playing = false

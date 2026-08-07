@@ -1,21 +1,28 @@
 [gd_scene format=3 uid="uid://kh424i3octdl"]
 
-[ext_resource type="Script" uid="uid://c5ju3u657fyae" path="res://addons/gdanimate-rewrite-main/animate_symbol.gd" id="1_g6fx6"]
-[ext_resource type="Script" uid="uid://dy4vnmv4435ty" path="res://addons/gdanimate-rewrite-main/animate_atlas.gd" id="2_hu6o4"]
-[ext_resource type="Script" uid="uid://dkyyuwqo0dy7q" path="res://addons/gdanimate-rewrite-main/adobe/adobe_atlas.gd" id="3_1y886"]
+[ext_resource type="Script" uid="uid://c5ju3u657fyae" path="res://addons/gdanimate/animate_symbol_2d.gd" id="1_g6fx6"]
+[ext_resource type="Script" uid="uid://doiv2eg6axeai" path="res://Funkin-Modpack/funkin/menus/results/result_node.gd" id="1_wr5st"]
+[ext_resource type="Script" uid="uid://dy4vnmv4435ty" path="res://addons/gdanimate/formats/animate_symbol_library.gd" id="2_hu6o4"]
+[ext_resource type="Script" uid="uid://dkyyuwqo0dy7q" path="res://addons/gdanimate/formats/texture_atlas/atlas.gd" id="3_1y886"]
 
-[sub_resource type="Resource" id="Resource_3y5nh"]
+[sub_resource type="Resource" id="Resource_j1xhb"]
 script = ExtResource("3_1y886")
-folder_path = "res://Funkin-Modpack/funkin/assets/images/menus/results/results-pico/resultsGREAT/"
-format = "adobe"
+folder = "res://Funkin-Modpack/funkin/assets/images/menus/results/results-pico/resultsGREAT"
+override_enable = false
 metadata/_custom_type_script = "uid://dkyyuwqo0dy7q"
 
 [node name="Good" type="Node2D" unique_id=1282684655]
+script = ExtResource("1_wr5st")
+hold_frame = 32
 
 [node name="AnimateSymbol" type="Node2D" parent="." unique_id=1220695434]
 position = Vector2(-64, 56)
 script = ExtResource("1_g6fx6")
-symbol = "pico great rank"
-autoplay = true
+symbol_libraries = Array[ExtResource("2_hu6o4")]([SubResource("Resource_j1xhb")])
+symbol = &"pico great rank"
+frame = 32
 loop = true
-atlases = Array[ExtResource("2_hu6o4")]([SubResource("Resource_3y5nh")])
+autoplay = &"pico great rank"
+centered = false
+
+[connection signal="animation_looped" from="AnimateSymbol" to="." method="_on_animate_symbol_animation_looped"]

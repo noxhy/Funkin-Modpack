@@ -1,21 +1,26 @@
 [gd_scene format=3 uid="uid://dyrcehub5js66"]
 
-[ext_resource type="Script" uid="uid://c5ju3u657fyae" path="res://addons/gdanimate-rewrite-main/animate_symbol.gd" id="1_0hsde"]
-[ext_resource type="Script" uid="uid://dy4vnmv4435ty" path="res://addons/gdanimate-rewrite-main/animate_atlas.gd" id="2_sv4s7"]
-[ext_resource type="Script" uid="uid://dkyyuwqo0dy7q" path="res://addons/gdanimate-rewrite-main/adobe/adobe_atlas.gd" id="3_rhekj"]
+[ext_resource type="Script" uid="uid://c5ju3u657fyae" path="res://addons/gdanimate/animate_symbol_2d.gd" id="1_0hsde"]
+[ext_resource type="Script" uid="uid://doiv2eg6axeai" path="res://Funkin-Modpack/funkin/menus/results/result_node.gd" id="1_ebrfw"]
+[ext_resource type="Script" uid="uid://dy4vnmv4435ty" path="res://addons/gdanimate/formats/animate_symbol_library.gd" id="2_sv4s7"]
+[ext_resource type="Script" uid="uid://dkyyuwqo0dy7q" path="res://addons/gdanimate/formats/texture_atlas/atlas.gd" id="3_rhekj"]
 
-[sub_resource type="Resource" id="Resource_koccx"]
+[sub_resource type="Resource" id="Resource_e6wfx"]
 script = ExtResource("3_rhekj")
-folder_path = "res://Funkin-Modpack/funkin/assets/images/menus/results/results-bf/resultsPERFECT/"
-format = "adobe"
+folder = "res://Funkin-Modpack/funkin/assets/images/menus/results/results-bf/resultsPERFECT"
+override_enable = false
 metadata/_custom_type_script = "uid://dkyyuwqo0dy7q"
 
 [node name="Node2D" type="Node2D" unique_id=582502032]
+script = ExtResource("1_ebrfw")
+hold_frame = 137
 
 [node name="AnimateSymbol" type="Node2D" parent="." unique_id=24359809]
-position = Vector2(472, 0)
+position = Vector2(96, -96)
 script = ExtResource("1_0hsde")
-symbol = "boyfriend perfect rank"
-autoplay = true
+symbol_libraries = Array[ExtResource("2_sv4s7")]([SubResource("Resource_e6wfx")])
+symbol = &"boyfriend perfect rank"
 loop = true
-atlases = Array[ExtResource("2_sv4s7")]([SubResource("Resource_koccx")])
+autoplay = &"boyfriend perfect rank"
+
+[connection signal="animation_looped" from="AnimateSymbol" to="." method="_on_animate_symbol_animation_looped"]

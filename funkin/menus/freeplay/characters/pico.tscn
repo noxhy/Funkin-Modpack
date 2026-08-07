@@ -4,14 +4,14 @@
 [ext_resource type="Texture2D" uid="uid://hixm41vvywvp" path="res://Funkin-Modpack/funkin/assets/images/menus/freeplay/characters/pico/middleLoop.png" id="2_0g3vl"]
 [ext_resource type="Texture2D" uid="uid://c3sgt5pj1cv85" path="res://Funkin-Modpack/funkin/assets/images/menus/freeplay/characters/pico/lowerLoop.png" id="2_h85ek"]
 [ext_resource type="SpriteFrames" uid="uid://de052qdphy3h1" path="res://Funkin-Modpack/funkin/assets/images/menus/freeplay/characters/pico/topLoop.res" id="4_f3030"]
-[ext_resource type="Script" uid="uid://3t6ei05ucncj" path="res://noah/noahAnimate.gd" id="6_b5agd"]
-[ext_resource type="Script" uid="uid://dy4vnmv4435ty" path="res://addons/gdanimate-rewrite-main/animate_atlas.gd" id="6_tl432"]
-[ext_resource type="Script" uid="uid://dkyyuwqo0dy7q" path="res://addons/gdanimate-rewrite-main/adobe/adobe_atlas.gd" id="7_6c8ho"]
+[ext_resource type="Script" uid="uid://c5ju3u657fyae" path="res://addons/gdanimate/animate_symbol_2d.gd" id="6_b5agd"]
+[ext_resource type="Script" uid="uid://dy4vnmv4435ty" path="res://addons/gdanimate/formats/animate_symbol_library.gd" id="6_tl432"]
+[ext_resource type="Script" uid="uid://dkyyuwqo0dy7q" path="res://addons/gdanimate/formats/texture_atlas/atlas.gd" id="7_6c8ho"]
 
-[sub_resource type="Resource" id="Resource_ocrp5"]
+[sub_resource type="Resource" id="Resource_1o1qe"]
 script = ExtResource("7_6c8ho")
-folder_path = "res://Funkin-Modpack/funkin/assets/images/menus/freeplay/characters/pico/"
-format = "adobe"
+folder = "res://Funkin-Modpack/funkin/assets/images/menus/freeplay/characters/pico"
+override_enable = false
 metadata/_custom_type_script = "uid://dkyyuwqo0dy7q"
 
 [node name="Pico DJ" type="Node2D" unique_id=1358730146]
@@ -113,11 +113,12 @@ animation = &"rifle info"
 frame = 37
 frame_progress = 1.0
 
-[node name="AnimateSymbol" type="Node2D" parent="." unique_id=1727482253]
+[node name="AnimateSymbol2D" type="Node2D" parent="." unique_id=1727482253]
 z_index = 1
 position = Vector2(448, -312)
 script = ExtResource("6_b5agd")
-symbol = "Pico DJ"
+symbol_libraries = Array[ExtResource("6_tl432")]([SubResource("Resource_1o1qe")])
+symbol = &"Pico DJ"
 frame = 13
-atlases = Array[ExtResource("6_tl432")]([SubResource("Resource_ocrp5")])
+centered = false
 metadata/_edit_lock_ = true

@@ -10,9 +10,9 @@ func _ready() -> void:
 
 func update_enemy(enemy: Character):
 	$"Health Bar".set_enemy_color(enemy.color)
-	$"Health Bar".set_enemy_icons(enemy.icons)
+	$"Health Bar".set_enemy_icons(load(enemy.icons))
 
 
 func update_player(player: Character):
 	$"Health Bar".set_player_color(player.color)
-	$"Health Bar".set_player_icons(player.icons)
+	$"Health Bar".set_player_icons(load(player.icons))

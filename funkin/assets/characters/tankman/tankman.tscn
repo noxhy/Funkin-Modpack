@@ -1,35 +1,7 @@
 [gd_scene format=3 uid="uid://cvw5oumi78kvr"]
 
 [ext_resource type="Script" uid="uid://bj7tgh8jkngdx" path="res://noah/game/character.gd" id="1_jvrgr"]
-[ext_resource type="Texture2D" uid="uid://1maoevhwp1gf" path="res://Funkin-Modpack/funkin/assets/characters/tankman/icon-tankman.png" id="2_y2cvw"]
 [ext_resource type="SpriteFrames" uid="uid://bswm8b7clqim1" path="res://Funkin-Modpack/funkin/assets/characters/tankman/tankman.res" id="3_kv1vj"]
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_jdded"]
-atlas = ExtResource("2_y2cvw")
-region = Rect2(0, 0, 150, 150)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_vkl4x"]
-atlas = ExtResource("2_y2cvw")
-region = Rect2(150, 0, 150, 150)
-
-[sub_resource type="SpriteFrames" id="SpriteFrames_5cccw"]
-animations = [{
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_jdded")
-}],
-"loop": 1,
-"name": &"default",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_vkl4x")
-}],
-"loop": 1,
-"name": &"losing",
-"speed": 5.0
-}]
 
 [node name="Tankman" type="Node2D" unique_id=2009616641 node_paths=PackedStringArray("animation_player")]
 script = ExtResource("1_jvrgr")
@@ -60,7 +32,7 @@ offsets = Dictionary[StringName, Vector2]({
 &"Tankman UP note 1": Vector2(0, -261),
 &"Tankman UP note MISS": Vector2(0, -261)
 })
-icons = SubResource("SpriteFrames_5cccw")
+icons = "uid://c4d42u4d21spo"
 color = Color(0.0313726, 0.0313726, 0.0313726, 1)
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=442673283]
@@ -69,5 +41,7 @@ use_parent_material = true
 position = Vector2(-8, -232)
 sprite_frames = ExtResource("3_kv1vj")
 animation = &"Tankman Idle Dance 1"
+frame = 13
+frame_progress = 1.0
 
 [connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]

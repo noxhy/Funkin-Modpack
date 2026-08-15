@@ -33,17 +33,19 @@ func _process(delta: float) -> void:
 	
 	for condition in conditions:
 		if condition[0]:
-			if player_icon.sprite_frames.get_animation_names().has(condition[1]):
-				player_icon.play(condition[1])
+			if player_icon.sprite_frames:
+				if player_icon.sprite_frames.get_animation_names().has(condition[1]):
+					player_icon.play(condition[1])
 			
-			if enemy_icon.sprite_frames.get_animation_names().has(condition[2]):
-				enemy_icon.play(condition[2])
+			if enemy_icon.sprite_frames:
+				if enemy_icon.sprite_frames.get_animation_names().has(condition[2]):
+					enemy_icon.play(condition[2])
 			
 			break
 
 
 func on_beat(current_beat: int, measure_relative: int):
-	var time: float = GameManager.conductor.seconds_per_beat * 0.5 * (1 / GameManager.conductor.stream_player.pitch_scale)
+	var time: float = GameManager.conductor.seconds_per_step * 2 / GameManager.conductor.stream_player.pitch_scale
 	
 	Global.bop_tween(player_icon, "scale", Vector2(0.8, 0.8), Vector2(0.9, 0.9), time, Tween.TRANS_QUAD)
 	Global.bop_tween(enemy_icon, "scale", Vector2(0.8, 0.8), Vector2(0.9, 0.9), time, Tween.TRANS_QUAD)

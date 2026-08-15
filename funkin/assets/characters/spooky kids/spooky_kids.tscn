@@ -2,34 +2,6 @@
 
 [ext_resource type="Script" uid="uid://bj7tgh8jkngdx" path="res://noah/game/character.gd" id="1_3qf0p"]
 [ext_resource type="SpriteFrames" uid="uid://c4b4opoweo3x7" path="res://Funkin-Modpack/funkin/assets/characters/spooky kids/spooky_kids.res" id="2_gedfe"]
-[ext_resource type="Texture2D" uid="uid://c72nt4q16hkkh" path="res://Funkin-Modpack/funkin/assets/characters/spooky kids/icon-spooky.png" id="2_noaia"]
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_mo0po"]
-atlas = ExtResource("2_noaia")
-region = Rect2(0, 0, 150, 150)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_sdf1k"]
-atlas = ExtResource("2_noaia")
-region = Rect2(150, 0, 150, 150)
-
-[sub_resource type="SpriteFrames" id="SpriteFrames_tr7q8"]
-animations = [{
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_mo0po")
-}],
-"loop": 1,
-"name": &"default",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_sdf1k")
-}],
-"loop": 1,
-"name": &"losing",
-"speed": 5.0
-}]
 
 [node name="Spooky Kids" type="Node2D" unique_id=1315903314 node_paths=PackedStringArray("animation_player")]
 script = ExtResource("1_3qf0p")
@@ -44,6 +16,8 @@ animation_names = Dictionary[StringName, StringName]({
 &"up": &"spooky UP NOTE"
 })
 offsets = Dictionary[StringName, Vector2]({
+&"idle_left": Vector2(-48, -256),
+&"idle_right": Vector2(-48, -256),
 &"note sing left": Vector2(-136, -248),
 &"spooky DOWN note": Vector2(-24, -176),
 &"spooky UP NOTE": Vector2(-64, -264),
@@ -51,8 +25,7 @@ offsets = Dictionary[StringName, Vector2]({
 &"spooky sing right": Vector2(80, -248)
 })
 dance_animations = Array[StringName]([&"idle_left", &"idle_right"])
-dance_rate = 4
-icons = SubResource("SpriteFrames_tr7q8")
+icons = "uid://bb3qik1pfqgux"
 color = Color(0.764706, 0.643137, 0.556863, 1)
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1967689494]

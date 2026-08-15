@@ -10,7 +10,7 @@ func _ready() -> void:
 		var page = pages.keys()[i]
 		var menu_option_instance = MENU_OPTION_PRELOAD.instantiate()
 		
-		menu_option_instance.text = page.to_upper()
+		menu_option_instance.text = pages[page].get("name", page.capitalize().to_upper()).to_upper()
 		menu_option_instance.icon = null
 		
 		$UI.add_child(menu_option_instance)

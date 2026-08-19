@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Song" format=3 uid="uid://bboflb7nne78o"]
+
+[ext_resource type="SpriteFrames" uid="uid://dfkjqte638jkv" path="res://Funkin-Modpack/funkin/assets/characters/daddy dearest/icons.tres" id="1_4cix4"]
+[ext_resource type="Script" uid="uid://watdarflaprc" path="res://noah/resources/song.gd" id="1_6qpuj"]
+
+[resource]
+script = ExtResource("1_6qpuj")
+vocals = Array[String](["uid://chbcrvaeype4o", "uid://p26vwmnwq3c2"])
+instrumental = "uid://b5sf2ya7vb01c"
+tempo = 190.0
+scene = "uid://blj8dbuorj1h0"
+difficulties = Dictionary[String, Dictionary]({
+"erect": {
+"chart": "res://Funkin-Modpack/funkin/playable_songs/dadbattle/data/dadbattle-chart-erect.json"
+},
+"nightmare": {
+"chart": "res://Funkin-Modpack/funkin/playable_songs/dadbattle/data/dadbattle-chart-erect.json"
+}
+})
+title = "DadBattle Erect"
+artist = "Kawai Sprite"
+charter = "Jenny Crowe + fabs + Spazkid"
+icons = ExtResource("1_4cix4")
+metadata/_custom_type_script = "uid://watdarflaprc"

@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Song" format=3 uid="uid://dp8qdpchec1st"]
+
+[ext_resource type="Script" uid="uid://watdarflaprc" path="res://noah/resources/song.gd" id="1_al02u"]
+[ext_resource type="SpriteFrames" uid="uid://d4dmedoamnwxr" path="res://Funkin-Modpack/funkin/assets/characters/parents/icons.tres" id="1_hg5df"]
+
+[resource]
+script = ExtResource("1_al02u")
+vocals = Array[String](["uid://cbhd8r1sx3s77", "uid://c41wb57my35tu"])
+instrumental = "uid://kkys8u7quu3u"
+tempo = 174.0
+scene = "uid://7dnhab71cxfx"
+difficulties = Dictionary[String, Dictionary]({
+"erect": {
+"chart": "res://Funkin-Modpack/funkin/playable_songs/cocoa/charts/cocoa-chart-erect.json"
+},
+"nightmare": {
+"chart": "res://Funkin-Modpack/funkin/playable_songs/cocoa/charts/cocoa-chart-erect.json"
+}
+})
+title = "Cocoa Erect"
+artist = "Saster"
+charter = "fabs + Spazkid"
+icons = ExtResource("1_hg5df")
+metadata/_custom_type_script = "uid://watdarflaprc"

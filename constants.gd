@@ -14,3 +14,4 @@ var RESULTS_MENU_SCENE: String = "uid://cmwlnqqj5h0xy"
 func _init() -> void:
 	NOTE_TYPES["mom"] = ""
 	START_MENU_SCENE = "uid://b1kmgjxpce1de"
+	DEFAULT_NOTE_SKIN = "uid://cj2hoqrld81vv"

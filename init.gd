@@ -2,6 +2,8 @@ extends Node
 
 # Called when the node enters the scene tree for the first time.
 func _init() -> void:
+	PhysicsServer2D.set_active(false)
+	PhysicsServer3D.set_active(false)
 	Preload.character_data["boyfriend"] = load("uid://bkhhp2v4u756o")
 	Preload.character_data["pico"] = load("uid://dskdxvwa3xf5t")
 	

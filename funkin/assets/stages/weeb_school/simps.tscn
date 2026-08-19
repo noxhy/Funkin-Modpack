@@ -3,7 +3,7 @@
 [ext_resource type="SpriteFrames" uid="uid://b5mm5evmuwbdd" path="res://Funkin-Modpack/funkin/assets/stages/weeb_school/simps.res" id="1_sqtcn"]
 [ext_resource type="Script" uid="uid://d17yv6wfgl74w" path="res://noah/offset_sprite.gd" id="2_riicu"]
 
-[node name="Simps" type="AnimatedSprite2D" unique_id=514439553]
+[node name="Simps" type="AnimatedSprite2D" unique_id=216215162]
 texture_filter = 1
 position = Vector2(-0.5, -39)
 sprite_frames = ExtResource("1_sqtcn")

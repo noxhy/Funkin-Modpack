@@ -1,5 +1,6 @@
 extends BasicHealthBar
 
+@onready var icon_manager = $Icons
 @onready var player_icon = $Icons/Player
 @onready var enemy_icon = $Icons/Enemy
 
@@ -18,17 +19,17 @@ var pixel: bool = false:
 func _ready() -> void:
 	super()
 	Signals.connect("play_conductor_beat_hit", on_beat)
+	Signals.play_health_changed.connect(update)
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
-	super(delta)
+
+func update(health: float):
 	var display_x: float = (value / max_value) * size.x
 	display_x = size.x - display_x
 	
-	$Icons.position = Vector2(display_x, 10)
+	icon_manager.position = Vector2(display_x, 10)
 	var conditions = [
-		[target_health >= 80, "winning", "losing"],
-		[target_health <= 20, "losing", "winning"],
+		[health >= 80, "winning", "losing"],
+		[health <= 20, "losing", "winning"],
 		[true, "default", "default"]
 	]
 	

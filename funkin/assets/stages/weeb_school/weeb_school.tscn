@@ -23,12 +23,16 @@ animation_names = Dictionary[StringName, StringName]({
 &"idle_left": &"idle_left",
 &"idle_right": &"idle_right"
 })
-dance_rate = 4
+dance_animations = Array[StringName]([&"idle_left", &"idle_right"])
+dance_rate = 0
 
 [node name="Simps" parent="Simps2" unique_id=853978315 instance=ExtResource("5_hrt6l")]
 z_index = 80
 position = Vector2(-646, 222)
 scale = Vector2(6, 6)
+animation = &"idle_left"
+frame = 14
+frame_progress = 1.0
 centered = false
 
 [node name="WeebStreet" type="Sprite2D" parent="." unique_id=717263029]

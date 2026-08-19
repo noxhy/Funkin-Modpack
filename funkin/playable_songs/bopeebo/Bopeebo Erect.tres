@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Song" format=3 uid="uid://dixayx581k24t"]
+
+[ext_resource type="SpriteFrames" uid="uid://dfkjqte638jkv" path="res://Funkin-Modpack/funkin/assets/characters/daddy dearest/icons.tres" id="1_7dr6v"]
+[ext_resource type="Script" uid="uid://watdarflaprc" path="res://noah/resources/song.gd" id="1_rgjg3"]
+
+[resource]
+script = ExtResource("1_rgjg3")
+vocals = Array[String](["uid://bset370ulefn7", "uid://nffdtw2qe8sj"])
+instrumental = "uid://dbkvwpnyjbyt5"
+tempo = 123.0
+scene = "uid://blj8dbuorj1h0"
+difficulties = Dictionary[String, Dictionary]({
+"erect": {
+"chart": "res://Funkin-Modpack/funkin/playable_songs/bopeebo/data/bopeebo-chart-erect.json"
+},
+"nightmare": {
+"chart": "res://Funkin-Modpack/funkin/playable_songs/bopeebo/data/bopeebo-chart-erect.json"
+}
+})
+title = "Bopeebo Erect"
+artist = "Kawai Sprite (feat. Saruky)"
+charter = "Jenny Crowe + fabs + Spazkid"
+icons = ExtResource("1_7dr6v")
+metadata/_custom_type_script = "uid://watdarflaprc"

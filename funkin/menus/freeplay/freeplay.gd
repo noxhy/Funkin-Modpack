@@ -224,13 +224,10 @@ func select(i: int, chart: bool = false):
 # Doesn't actually play the audio, just sends you to the scene
 func play_song(song: Song, difficulty: String):
 	var scene = song.scene
-	if song.difficulties[difficulty].has("scene"):
+	if not song.difficulties[difficulty].scene.is_empty():
 		scene = song.difficulties[difficulty].scene
 	
-	GameManager.current_song = song
-	GameManager.play_mode = GameManager.PLAY_MODE.FREEPLAY
-	GameManager.difficulty = difficulty
-	GameManager.freeplay = true
+	GameManager.load_songs([song], difficulty)
 	Global.change_scene_to(scene, "fade")
 
 

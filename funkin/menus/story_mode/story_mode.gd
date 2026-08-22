@@ -130,11 +130,7 @@ func select_option(i: int):
 		
 		can_click = false
 		SoundManager.accept.play()
-		GameManager.current_week = week
-		GameManager.week_songs = week.song_list
-		GameManager.current_week_song = 0
-		GameManager.play_mode = GameManager.PLAY_MODE.STORY_MODE
-		GameManager.freeplay = false
+		GameManager.load_songs_from_week(week, GameManager.difficulty)
 		SoundManager.music.stop()
 		get_tree().call_group("player", "play_animation", "cheer")
 		

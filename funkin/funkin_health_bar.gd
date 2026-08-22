@@ -16,6 +16,7 @@ var pixel: bool = false:
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
+	super()
 	Signals.connect("play_conductor_beat_hit", on_beat)
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -26,8 +27,8 @@ func _process(delta: float) -> void:
 	
 	$Icons.position = Vector2(display_x, 10)
 	var conditions = [
-		[GameManager.health >= 80, "winning", "losing"],
-		[GameManager.health <= 20, "losing", "winning"],
+		[target_health >= 80, "winning", "losing"],
+		[target_health <= 20, "losing", "winning"],
 		[true, "default", "default"]
 	]
 	

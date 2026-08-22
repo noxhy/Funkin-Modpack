@@ -4,7 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://ce3dgr61438sa" path="res://noah/game/strumlines/4key_strums.tscn" id="2_csc1d"]
 [ext_resource type="PackedScene" uid="uid://b35uowfrluxgt" path="res://Funkin-Modpack/funkin/funkin_health_bar.tscn" id="3_plkgl"]
 
-[node name="UI" type="CanvasLayer" unique_id=359206]
+[node name="UI" type="CanvasLayer" unique_id=359206 groups=["ui"]]
 offset = Vector2(640, 360)
 transform = Transform2D(1, 0, 0, 1, 640, 360)
 script = ExtResource("1_p8431")

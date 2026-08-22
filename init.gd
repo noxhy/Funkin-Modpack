@@ -6,7 +6,6 @@ func _init() -> void:
 	Preload.character_data["pico"] = load("uid://dskdxvwa3xf5t")
 	
 	GameManager.current_character = "boyfriend"
-	GameManager.character = Preload.character_data.get(GameManager.current_character)
 	
 	SoundManager.music.stream = load("uid://du4qr2rxqjkw")
 	SoundManager.accept.stream = load("uid://guk2nlj2xwt7")

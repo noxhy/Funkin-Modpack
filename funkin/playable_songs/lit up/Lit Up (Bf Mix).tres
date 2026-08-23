@@ -1,7 +1,23 @@
-[gd_resource type="Resource" script_class="Song" format=3]
+[gd_resource type="Resource" script_class="Song" format=3 uid="uid://thjjwwf3hkh2"]
 
-[ext_resource type="SpriteFrames" path="res://Funkin-Modpack/funkin/assets/characters/darnell/icons.tres" id="1_78jjc"]
-[ext_resource type="Script" path="res://noah/resources/song.gd" id="1_og7cc"]
+[ext_resource type="SpriteFrames" uid="uid://digynxqrdoj3g" path="res://Funkin-Modpack/funkin/assets/characters/darnell/icons.tres" id="1_78jjc"]
+[ext_resource type="Script" uid="uid://sdlh2p3y8fwk" path="res://noah/resources/song_difficulty_data.gd" id="1_brx38"]
+[ext_resource type="Script" uid="uid://watdarflaprc" path="res://noah/resources/song.gd" id="1_og7cc"]
+
+[sub_resource type="Resource" id="Resource_cuxi3"]
+script = ExtResource("1_brx38")
+chart = "res://Funkin-Modpack/funkin/playable_songs/lit up/charts/lit-up-chart-bf.json"
+metadata/_custom_type_script = "uid://sdlh2p3y8fwk"
+
+[sub_resource type="Resource" id="Resource_pql60"]
+script = ExtResource("1_brx38")
+chart = "res://Funkin-Modpack/funkin/playable_songs/lit up/charts/lit-up-chart-bf.json"
+metadata/_custom_type_script = "uid://sdlh2p3y8fwk"
+
+[sub_resource type="Resource" id="Resource_8fa4h"]
+script = ExtResource("1_brx38")
+chart = "res://Funkin-Modpack/funkin/playable_songs/lit up/charts/lit-up-chart-bf.json"
+metadata/_custom_type_script = "uid://sdlh2p3y8fwk"
 
 [resource]
 script = ExtResource("1_og7cc")
@@ -9,16 +25,10 @@ vocals = Array[String](["uid://dyu8olhk2gcah", "uid://4k4ic3uap0fg"])
 instrumental = "uid://bayc5dsfv3jfg"
 tempo = 176.0
 scene = "uid://bg3coqaywlx5b"
-difficulties = Dictionary[String, Dictionary]({
-"easy": {
-"chart": "res://Funkin-Modpack/funkin/playable_songs/lit up/charts/lit-up-chart-bf.json"
-},
-"hard": {
-"chart": "res://Funkin-Modpack/funkin/playable_songs/lit up/charts/Lit Up (Bf Mix)-hard.res"
-},
-"normal": {
-"chart": "res://Funkin-Modpack/funkin/playable_songs/lit up/charts/lit-up-chart-bf.json"
-}
+difficulties = Dictionary[String, ExtResource("1_brx38")]({
+"easy": SubResource("Resource_cuxi3"),
+"hard": SubResource("Resource_8fa4h"),
+"normal": SubResource("Resource_pql60")
 })
 events = "res://playable_songs/lit up/charts/events.tres"
 title = "Lit Up (Bf Mix)"

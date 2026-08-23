@@ -12,4 +12,5 @@ pixel_texture = true
 rating_scale = 5.0
 numbers_scale = 5.0
 numbers_spacing = 10
+countdown = "uid://jn7wxorjvni0"
 pause_scene = "uid://l8gwfipcfkne"

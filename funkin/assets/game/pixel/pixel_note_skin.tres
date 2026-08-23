@@ -16,7 +16,6 @@ hold_covers_texture = ExtResource("2_g1mvk")
 pixel_texture = true
 notes_scale = 6.75
 splash_scale = 5.0
-sustain_width = 7
 hold_covers_scale = 6.0
 animation_names = Dictionary[StringName, StringName]({
 &"down_cover": &"cover down",

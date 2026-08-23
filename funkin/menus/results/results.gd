@@ -29,8 +29,8 @@ func _ready() -> void:
 	#GameManager.difficulty = "nightmare"
 	#GameManager.current_song = load("res://assets/songs/playable_songs/cocoa/cocoa.tres")
 #endregion
+	rank = NoahStats.get_rank_from_stats(GameManager.last_song_stats)
 	
-	rank = GameManager.get_rank(GameManager.get_grade(GameManager.last_song_stats))
 	var character: PlayableCharacter = Preload.character_data[GameManager.current_character]
 	if rank == "loss":
 		$Audio/Intro.stream = load(character.get(&"loss_intro"))
@@ -45,7 +45,7 @@ func _ready() -> void:
 		%"Song Name".text = str(GameManager.current_song.title, " by ", GameManager.current_song.artist)
 	else:
 		%"Song Name".text = str(GameManager.current_week.week_name)
-	grade = min(int(GameManager.grade * 100), 100)
+	grade = min(int(GameManager.playlist_stats.grade * 100), 100)
 	%"Clear Percentage".text = str(grade, "%")
 	
 	$AnimationPlayer.play("intro")

@@ -106,7 +106,7 @@ func load_page():
 		menu_option_instance.index = index
 		
 		$UI.add_child(menu_option_instance)
-		var rank = GameManager.get_rank(SaveManager.get_grade(song_file, difficulty))
+		var rank = NoahStats.get_rank_from_grade(SaveManager.get_grade(song_file, difficulty))
 		menu_option_instance.display_rank(rank)
 		menu_option_instance.add_to_group("instances")
 		index += 1

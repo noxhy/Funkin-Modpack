@@ -486,19 +486,19 @@ tracks/10/keys = {
 "args": [NodePath("UI/Numbers/Combo Display"), "max_combo"],
 "method": &"tween_tally"
 }, {
-"args": [NodePath("UI/Numbers/Sick Display"), "sick"],
+"args": [NodePath("UI/Numbers/Sick Display"), "sicks"],
 "method": &"tween_tally"
 }, {
-"args": [NodePath("UI/Numbers/Good Display"), "good"],
+"args": [NodePath("UI/Numbers/Good Display"), "goods"],
 "method": &"tween_tally"
 }, {
-"args": [NodePath("UI/Numbers/Bad Display"), "bad"],
+"args": [NodePath("UI/Numbers/Bad Display"), "bads"],
 "method": &"tween_tally"
 }, {
 "args": [NodePath("UI/Numbers/Shit Display"), "shit"],
 "method": &"tween_tally"
 }, {
-"args": [NodePath("UI/Numbers/Miss Display"), "miss"],
+"args": [NodePath("UI/Numbers/Miss Display"), "misses"],
 "method": &"tween_tally"
 }]
 }

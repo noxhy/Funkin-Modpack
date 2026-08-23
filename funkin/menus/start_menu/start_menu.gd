@@ -32,9 +32,10 @@ func _process(_delta):
 	# Pressing enter
 	if Input.is_action_just_pressed("menu_accept"):
 		if intro_done:
-			$AnimationPlayer.play("press_enter")
-			SoundManager.accept.play()
-			can_click = false
+			if can_click:
+				$AnimationPlayer.play("press_enter")
+				SoundManager.accept.play()
+				can_click = false
 		else:
 			$AnimationPlayer.play("intro_finish")
 

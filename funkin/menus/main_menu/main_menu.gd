@@ -31,7 +31,7 @@ static var selected: int = 0
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	Global.set_window_title("Main Menu")
-	GameManager.song_scene = null
+	GameManager.song_scene = ''
 	
 	# Button Positions
 	

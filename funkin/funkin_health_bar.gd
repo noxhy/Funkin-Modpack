@@ -28,8 +28,8 @@ func update(health: float):
 	
 	icon_manager.position = Vector2(display_x, 10)
 	var conditions = [
-		[health >= 80, "winning", "losing"],
-		[health <= 20, "losing", "winning"],
+		[target_health >= 80, "winning", "losing"],
+		[target_health <= 20, "losing", "winning"],
 		[true, "default", "default"]
 	]
 	

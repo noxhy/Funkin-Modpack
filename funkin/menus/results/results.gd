@@ -11,40 +11,23 @@ var can_press: bool = true
 
 func _ready() -> void:
 	Global.set_window_title("Results Screen")
-#region Debug Tallies
-	#GameManager.reset_stats()
-	#GameManager.tallies.sick = randi() % 1500
-	#GameManager.tallies.good = randi() % 1500
-	#GameManager.tallies.bad = randi() % 750
-	#GameManager.tallies.shit = randi() % 200
-	#GameManager.tallies.total_notes = (
-	#GameManager.tallies.sick + GameManager.tallies.good + GameManager.tallies.bad + GameManager.tallies.shit
-	#)
-	#GameManager.tallies.max_combo = randi() % GameManager.tallies.total_notes
-	#GameManager.week_score = GameManager.tallies.total_notes * 350
-	#if GameManager.tallies.total_notes != GameManager.tallies.max_combo:
-	#	GameManager.tallies.miss = randi() % (GameManager.tallies.total_notes - GameManager.tallies.max_combo)
-	#GameManager.highscore = true
-	#GameManager.character = preload("res://assets/characters/boyfriend.tres")
-	#GameManager.difficulty = "nightmare"
-	#GameManager.current_song = load("res://assets/songs/playable_songs/cocoa/cocoa.tres")
-#endregion
+	rank = NoahStats.get_rank_from_stats(GameManager.playlist_stats)
 	
-	rank = GameManager.get_rank(GameManager.get_grade(GameManager.tallies))
+	var character: PlayableCharacter = Preload.character_data[GameManager.current_character]
 	if rank == "loss":
-		$Audio/Intro.stream = load(GameManager.character.get(&"loss_intro"))
+		$Audio/Intro.stream = load(character.get(&"loss_intro"))
 	else:
-		$Audio/Intro.stream = load(GameManager.character.get(&"normal_intro"))
+		$Audio/Intro.stream = load(character.get(&"normal_intro"))
 	
-	$Audio/Music.stream = load(GameManager.character.get(&"result_songs")[rank])
+	$Audio/Music.stream = load(character.get(&"result_songs")[rank])
 	$Audio/Intro.play()
 	
 	%Difficulty.play(GameManager.difficulty)
-	if GameManager.freeplay:
+	if GameManager.play_mode == GameManager.PLAY_MODE.FREEPLAY:
 		%"Song Name".text = str(GameManager.current_song.title, " by ", GameManager.current_song.artist)
 	else:
 		%"Song Name".text = str(GameManager.current_week.week_name)
-	grade = min(int(GameManager.grade * 100), 100)
+	grade = min(int(GameManager.playlist_stats.grade * 100), 100)
 	%"Clear Percentage".text = str(grade, "%")
 	
 	$AnimationPlayer.play("intro")
@@ -66,7 +49,7 @@ func _process(delta: float) -> void:
 			tween.tween_property($Audio/Music, "pitch_scale", 0.0, 0.5)
 			
 			GameManager.reset_stats()
-			if GameManager.freeplay:
+			if GameManager.play_mode == GameManager.PLAY_MODE.FREEPLAY:
 				Global.change_scene_to(Constants.FREEPLAY_MENU_SCENE)
 			else:
 				Global.change_scene_to(Constants.STORY_MODE_MENU_SCENE)
@@ -111,11 +94,11 @@ func _on_animation_player_animation_finished(anim_name: StringName) -> void:
 func tween_tally(node: NodePath, tally: String):
 	var tween = create_tween()
 	tween.set_trans(Tween.TRANS_QUART).set_ease(Tween.EASE_OUT)
-	tween.tween_property(get_node(node), "number", GameManager.week_tallies[tally], 0.5)
+	tween.tween_property(get_node(node), "number", GameManager.playlist_stats.get(tally), 0.5)
 
 
 func update_score():
-	%"Score Display".number = GameManager.week_score
+	%"Score Display".number = GameManager.playlist_stats.score
 
 
 func highscore():
@@ -143,7 +126,7 @@ func clear_tally():
 	$AnimationPlayer.play()
 	scrolling_text = rank.to_upper()
 	
-	var scene = load(GameManager.character["result_nodes"][rank])
+	var scene = load(Preload.character_data[GameManager.current_character]["result_nodes"][rank])
 	var instance = scene.instantiate()
 	
 	instance.position = Vector2(380, 360)

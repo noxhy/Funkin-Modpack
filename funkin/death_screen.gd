@@ -44,15 +44,14 @@ func _input(event):
 			
 			GameManager.reset_stats()
 			
-			if GameManager.freeplay:
-				match GameManager.play_mode:
-					GameManager.PLAY_MODE.CHARTING:
-						Global.change_scene_to(Constants.CHART_EDITOR_SCENE)
-					
-					_:
-						Global.change_scene_to(Constants.FREEPLAY_MENU_SCENE)
-			else:
-				Global.change_scene_to(Constants.STORY_MODE_MENU_SCENE)
+			match GameManager.play_mode:
+				GameManager.PLAY_MODE.PLAYLIST:
+					Global.change_scene_to(Constants.STORY_MODE_MENU_SCENE)
+				GameManager.PLAY_MODE.CHARTING:
+					Global.change_scene_to(Constants.CHART_EDITOR_SCENE)
+				_:
+					Global.change_scene_to(Constants.FREEPLAY_MENU_SCENE)
+				
 
 func exit_scene():
 	TransitionManager.transition(&"fade")

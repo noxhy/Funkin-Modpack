@@ -36,13 +36,13 @@ shader_parameter/brightness = -20.0
 [node name="Darnell Bf Mix" type="Node2D" unique_id=161033940]
 script = ExtResource("1_pgqlt")
 
-[node name="PlayState" parent="." unique_id=1341256185 node_paths=PackedStringArray("host", "ui", "camera") instance=ExtResource("2_ll1vv")]
+[node name="PlayState" parent="." unique_id=1341256185 node_paths=PackedStringArray("host", "camera") instance=ExtResource("2_ll1vv")]
 process_mode = 1
 host = NodePath("..")
-ui = NodePath("../UI")
 camera = NodePath("../CameraController")
 note_skin = ExtResource("3_sjwel")
 ui_skin = ExtResource("4_amk0d")
+next_scene = "uid://cmwlnqqj5h0xy"
 
 [node name="Camera" type="Camera2D" parent="." unique_id=977109525]
 z_index = 999

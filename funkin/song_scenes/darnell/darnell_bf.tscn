@@ -42,6 +42,7 @@ host = NodePath("..")
 camera = NodePath("../CameraController")
 note_skin = ExtResource("3_sjwel")
 ui_skin = ExtResource("4_amk0d")
+next_scene = "uid://cmwlnqqj5h0xy"
 
 [node name="Camera" type="Camera2D" parent="." unique_id=977109525]
 z_index = 999

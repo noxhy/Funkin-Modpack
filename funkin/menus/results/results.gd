@@ -11,25 +11,7 @@ var can_press: bool = true
 
 func _ready() -> void:
 	Global.set_window_title("Results Screen")
-#region Debug Tallies
-	#GameManager.reset_stats()
-	#GameManager.tallies.sick = randi() % 1500
-	#GameManager.tallies.good = randi() % 1500
-	#GameManager.tallies.bad = randi() % 750
-	#GameManager.tallies.shit = randi() % 200
-	#GameManager.tallies.total_notes = (
-	#GameManager.tallies.sick + GameManager.tallies.good + GameManager.tallies.bad + GameManager.tallies.shit
-	#)
-	#GameManager.tallies.max_combo = randi() % GameManager.tallies.total_notes
-	#GameManager.week_score = GameManager.tallies.total_notes * 350
-	#if GameManager.tallies.total_notes != GameManager.tallies.max_combo:
-	#	GameManager.tallies.miss = randi() % (GameManager.tallies.total_notes - GameManager.tallies.max_combo)
-	#GameManager.highscore = true
-	#GameManager.character = preload("res://assets/characters/boyfriend.tres")
-	#GameManager.difficulty = "nightmare"
-	#GameManager.current_song = load("res://assets/songs/playable_songs/cocoa/cocoa.tres")
-#endregion
-	rank = NoahStats.get_rank_from_stats(GameManager.last_song_stats)
+	rank = NoahStats.get_rank_from_stats(GameManager.playlist_stats)
 	
 	var character: PlayableCharacter = Preload.character_data[GameManager.current_character]
 	if rank == "loss":
@@ -112,11 +94,11 @@ func _on_animation_player_animation_finished(anim_name: StringName) -> void:
 func tween_tally(node: NodePath, tally: String):
 	var tween = create_tween()
 	tween.set_trans(Tween.TRANS_QUART).set_ease(Tween.EASE_OUT)
-	tween.tween_property(get_node(node), "number", GameManager.week_tallies[tally], 0.5)
+	tween.tween_property(get_node(node), "number", GameManager.playlist_stats.get(tally), 0.5)
 
 
 func update_score():
-	%"Score Display".number = GameManager.week_score
+	%"Score Display".number = GameManager.playlist_stats.score
 
 
 func highscore():

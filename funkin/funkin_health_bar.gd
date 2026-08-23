@@ -19,10 +19,10 @@ var pixel: bool = false:
 func _ready() -> void:
 	super()
 	Signals.connect("play_conductor_beat_hit", on_beat)
-	Signals.play_health_changed.connect(update)
 
 
-func update(health: float):
+func health_changed(v: float, delta: float):
+	super(v, delta)
 	var display_x: float = (value / max_value) * size.x
 	display_x = size.x - display_x
 	

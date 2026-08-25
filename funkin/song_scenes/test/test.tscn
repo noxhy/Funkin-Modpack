@@ -13,10 +13,9 @@
 [node name="Test" type="Node2D" unique_id=138125275]
 script = ExtResource("1_h1wkf")
 
-[node name="PlayState" parent="." unique_id=1668852 node_paths=PackedStringArray("host", "camera") instance=ExtResource("2_ab4ue")]
+[node name="PlayState" parent="." unique_id=1668852 node_paths=PackedStringArray("host") instance=ExtResource("2_ab4ue")]
 process_mode = 1
 host = NodePath("..")
-camera = NodePath("../CameraController")
 note_skin = ExtResource("3_t3ytx")
 ui_skin = ExtResource("4_sqoco")
 next_scene = "uid://cmwlnqqj5h0xy"
@@ -92,7 +91,7 @@ follow_viewport_enabled = true
 [node name="UI" parent="." unique_id=497178549 instance=ExtResource("8_ci40r")]
 layer = 10
 
-[node name="CameraController" type="Node" parent="." unique_id=1309664363 node_paths=PackedStringArray("parent_2d")]
+[node name="CameraController" type="Node" parent="." unique_id=1309664363 node_paths=PackedStringArray("parent_2d") groups=["cameras"]]
 script = ExtResource("9_2lxig")
 parent_2d = NodePath("../Camera")
 metadata/_custom_type_script = "uid://b4lmffueni5k"

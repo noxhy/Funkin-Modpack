@@ -14,10 +14,9 @@
 [node name="Senpai" type="Node2D" unique_id=739542381]
 script = ExtResource("1_j0bn6")
 
-[node name="PlayState" parent="." unique_id=102571385 node_paths=PackedStringArray("host", "camera") instance=ExtResource("2_hvfki")]
+[node name="PlayState" parent="." unique_id=102571385 node_paths=PackedStringArray("host") instance=ExtResource("2_hvfki")]
 process_mode = 1
 host = NodePath("..")
-camera = NodePath("../CameraController")
 note_skin = ExtResource("4_gvt2o")
 ui_skin = ExtResource("5_0s4pd")
 next_scene = "uid://cmwlnqqj5h0xy"
@@ -27,7 +26,7 @@ position = Vector2(139.7, 520.7)
 position_smoothing_enabled = true
 position_smoothing_speed = 3.0
 
-[node name="CameraController" type="Node" parent="." unique_id=498229867 node_paths=PackedStringArray("parent_2d")]
+[node name="CameraController" type="Node" parent="." unique_id=498229867 node_paths=PackedStringArray("parent_2d") groups=["cameras"]]
 script = ExtResource("11_gd42n")
 parent_2d = NodePath("../Camera")
 metadata/_custom_type_script = "uid://b4lmffueni5k"

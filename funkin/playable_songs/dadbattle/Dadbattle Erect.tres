@@ -2,6 +2,17 @@
 
 [ext_resource type="SpriteFrames" uid="uid://dfkjqte638jkv" path="res://Funkin-Modpack/funkin/assets/characters/daddy dearest/icons.tres" id="1_4cix4"]
 [ext_resource type="Script" uid="uid://watdarflaprc" path="res://noah/resources/song.gd" id="1_6qpuj"]
+[ext_resource type="Script" uid="uid://sdlh2p3y8fwk" path="res://noah/resources/song_difficulty_data.gd" id="1_fqtmp"]
+
+[sub_resource type="Resource" id="Resource_xtkua"]
+script = ExtResource("1_fqtmp")
+chart = "res://Funkin-Modpack/funkin/playable_songs/dadbattle/data/dadbattle-chart-erect.json"
+metadata/_custom_type_script = "uid://sdlh2p3y8fwk"
+
+[sub_resource type="Resource" id="Resource_lyg2s"]
+script = ExtResource("1_fqtmp")
+chart = "res://Funkin-Modpack/funkin/playable_songs/dadbattle/data/dadbattle-chart-erect.json"
+metadata/_custom_type_script = "uid://sdlh2p3y8fwk"
 
 [resource]
 script = ExtResource("1_6qpuj")
@@ -9,13 +20,9 @@ vocals = Array[String](["uid://chbcrvaeype4o", "uid://p26vwmnwq3c2"])
 instrumental = "uid://b5sf2ya7vb01c"
 tempo = 190.0
 scene = "uid://blj8dbuorj1h0"
-difficulties = Dictionary[String, Dictionary]({
-"erect": {
-"chart": "res://Funkin-Modpack/funkin/playable_songs/dadbattle/data/dadbattle-chart-erect.json"
-},
-"nightmare": {
-"chart": "res://Funkin-Modpack/funkin/playable_songs/dadbattle/data/dadbattle-chart-erect.json"
-}
+difficulties = Dictionary[String, ExtResource("1_fqtmp")]({
+"erect": SubResource("Resource_xtkua"),
+"nightmare": SubResource("Resource_lyg2s")
 })
 title = "DadBattle Erect"
 artist = "Kawai Sprite"

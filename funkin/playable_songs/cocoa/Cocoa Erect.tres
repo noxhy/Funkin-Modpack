@@ -2,6 +2,17 @@
 
 [ext_resource type="Script" uid="uid://watdarflaprc" path="res://noah/resources/song.gd" id="1_al02u"]
 [ext_resource type="SpriteFrames" uid="uid://d4dmedoamnwxr" path="res://Funkin-Modpack/funkin/assets/characters/parents/icons.tres" id="1_hg5df"]
+[ext_resource type="Script" uid="uid://sdlh2p3y8fwk" path="res://noah/resources/song_difficulty_data.gd" id="1_xfirj"]
+
+[sub_resource type="Resource" id="Resource_pha61"]
+script = ExtResource("1_xfirj")
+chart = "res://Funkin-Modpack/funkin/playable_songs/cocoa/charts/cocoa-chart-erect.json"
+metadata/_custom_type_script = "uid://sdlh2p3y8fwk"
+
+[sub_resource type="Resource" id="Resource_2dyfm"]
+script = ExtResource("1_xfirj")
+chart = "res://Funkin-Modpack/funkin/playable_songs/cocoa/charts/cocoa-chart-erect.json"
+metadata/_custom_type_script = "uid://sdlh2p3y8fwk"
 
 [resource]
 script = ExtResource("1_al02u")
@@ -9,13 +20,9 @@ vocals = Array[String](["uid://cbhd8r1sx3s77", "uid://c41wb57my35tu"])
 instrumental = "uid://kkys8u7quu3u"
 tempo = 174.0
 scene = "uid://7dnhab71cxfx"
-difficulties = Dictionary[String, Dictionary]({
-"erect": {
-"chart": "res://Funkin-Modpack/funkin/playable_songs/cocoa/charts/cocoa-chart-erect.json"
-},
-"nightmare": {
-"chart": "res://Funkin-Modpack/funkin/playable_songs/cocoa/charts/cocoa-chart-erect.json"
-}
+difficulties = Dictionary[String, ExtResource("1_xfirj")]({
+"erect": SubResource("Resource_pha61"),
+"nightmare": SubResource("Resource_2dyfm")
 })
 title = "Cocoa Erect"
 artist = "Saster"

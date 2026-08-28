@@ -45,19 +45,24 @@ func _ready() -> void:
 
 
 # Input Manager
-func _input(event):
+func _process(delta: float) -> void:
 	if can_click:
-		if event.is_action_pressed("menu_up"):
+		if Input.is_action_just_pressed(&"menu_up"):
 			update_week(selected_week - 1)
-		elif event.is_action_pressed("menu_down"):
+		
+		if Input.is_action_just_pressed(&"menu_down"):
 			update_week(selected_week + 1)
-		elif event.is_action_pressed("menu_left"):
+		
+		if Input.is_action_just_pressed(&"menu_left"):
 			update_difficulty(selected_difficulty - 1)
-		elif event.is_action_pressed("menu_right"):
+		
+		if Input.is_action_just_pressed(&"menu_right"):
 			update_difficulty(selected_difficulty + 1)
-		elif event.is_action_pressed("menu_accept"):
+		
+		if Input.is_action_just_pressed(&"menu_accept"):
 			select_option(selected_week)
-		elif event.is_action_pressed("menu_cancel"):
+		
+		if Input.is_action_just_pressed(&"menu_cancel"):
 			can_click = false
 			SoundManager.cancel.play()
 			Global.change_scene_to(Constants.START_MENU_SCENE)

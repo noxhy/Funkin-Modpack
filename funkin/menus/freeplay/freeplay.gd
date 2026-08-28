@@ -100,7 +100,10 @@ func load_page():
 		var menu_option_instance = MENU_OPTION_NODE.instantiate()
 		
 		menu_option_instance.text = song_file.title
-		menu_option_instance.icon = song_file.icons.get_frame_texture("default", 0)
+		var icons = load(song_file.icons)
+		if icons:
+			menu_option_instance.icon = icons.get_frame_texture("default", 0)
+		
 		menu_option_instance.position = Vector2(-270, -60)
 		menu_option_instance.scale = Vector2(0.75, 0.75)
 		menu_option_instance.index = index
@@ -150,13 +153,8 @@ func update(i: int):
 		tween.tween_property(j, "position", node_position, 0.25)
 		
 		if index == i:
-			
-			if song_file.icons.has_animation("winning") and !song_file.locked:
-				j.icon = song_file.icons.get_frame_texture("winning", 0)
 			j.state = "selected"
 		else:
-			
-			j.icon = options[j.index].icons.get_frame_texture("default", 0)
 			j.state = "idle"
 		
 		if options[index].locked:

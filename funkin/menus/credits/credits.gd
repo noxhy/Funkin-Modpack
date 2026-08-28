@@ -80,24 +80,17 @@ func _ready() -> void:
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta) -> void:
-	pass
-
-
-# Input Manager
-func _input(event):
-	
 	if can_click:
-		
-		if event.is_action_pressed("menu_up"):
+		if Input.is_action_just_pressed("menu_up"):
 			update(selected - 1)
 		
-		if event.is_action_pressed("menu_down"):
+		if Input.is_action_just_pressed("menu_down"):
 			update(selected + 1)
 		
-		if event.is_action_pressed("menu_accept"):
+		if Input.is_action_just_pressed("menu_accept"):
 			select(selected)
 		
-		if event.is_action_pressed("menu_cancel"):
+		if Input.is_action_just_pressed("menu_cancel"):
 			can_click = false
 			SoundManager.cancel.play()
 			Global.change_scene_to(Constants.MAIN_MENU_SCENE)

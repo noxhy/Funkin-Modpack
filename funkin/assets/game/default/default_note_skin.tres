@@ -14,7 +14,6 @@ notes_texture = ExtResource("1_lvg3v")
 splashes_texture = ExtResource("5_ixxvr")
 hold_covers_texture = ExtResource("2_hgpr1")
 notes_scale = 0.78
-sustain_width = 50
 hold_covers_scale = 1.2
 animation_names = Dictionary[StringName, StringName]({
 &"down_cover": &"cover down",
@@ -47,9 +46,9 @@ offsets = Dictionary[StringName, Vector2]({
 &"cover up": Vector2(-22, 31),
 &"cover up end": Vector2(-22, 31),
 &"cover up start": Vector2(-22, 31),
-&"down glow": Vector2(0, 1),
-&"left glow": Vector2(1, 2),
-&"right glow": Vector2(1, 1),
-&"up glow": Vector2(1, 3)
+&"glow_down_strum": Vector2(0.5, 1),
+&"glow_left_strum": Vector2(1, 2),
+&"glow_right_strum": Vector2(1, 1),
+&"glow_up_strum": Vector2(1, 3)
 })
 hit_sound = ExtResource("1_7y8y0")

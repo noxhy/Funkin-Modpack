@@ -1,6 +1,5 @@
 [gd_resource type="Resource" script_class="Song" format=3 uid="uid://dixayx581k24t"]
 
-[ext_resource type="SpriteFrames" uid="uid://dfkjqte638jkv" path="res://Funkin-Modpack/funkin/assets/characters/daddy dearest/icons.tres" id="1_7dr6v"]
 [ext_resource type="Script" uid="uid://sdlh2p3y8fwk" path="res://noah/resources/song_difficulty_data.gd" id="1_pha61"]
 [ext_resource type="Script" uid="uid://watdarflaprc" path="res://noah/resources/song.gd" id="1_rgjg3"]
 
@@ -27,5 +26,5 @@ difficulties = Dictionary[String, ExtResource("1_pha61")]({
 title = "Bopeebo Erect"
 artist = "Kawai Sprite (feat. Saruky)"
 charter = "Jenny Crowe + fabs + Spazkid"
-icons = ExtResource("1_7dr6v")
+icons = "uid://dfkjqte638jkv"
 metadata/_custom_type_script = "uid://watdarflaprc"

@@ -56,20 +56,23 @@ func _ready() -> void:
 
 
 # Input Manager
-func _input(event):
+func _process(delta: float) -> void:
 	if can_press:
-		if event.is_action_pressed(&"menu_up"):
+		if Input.is_action_just_pressed(&"menu_up"):
 			update(selected - 1)
-		elif event.is_action_pressed(&"menu_down"):
+		
+		if Input.is_action_just_pressed(&"menu_down"):
 			update(selected + 1)
-		elif event.is_action_pressed(&"menu_accept"):
+		
+		if Input.is_action_just_pressed(&"menu_accept"):
 			select(selected)
-		elif event.is_action_pressed(&"menu_cancel"):
+		
+		if Input.is_action_just_pressed(&"menu_cancel"):
 			can_press = false
 			SoundManager.cancel.play()
 			Global.change_scene_to("uid://b1kmgjxpce1de")
-			
-		elif event.is_action_pressed(&"chart_editor"):
+		
+		if Input.is_action_just_pressed(&"chart_editor"):
 			if OS.is_debug_build():
 				can_press = false
 				SoundManager.music.stop()

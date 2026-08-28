@@ -1,6 +1,5 @@
 [gd_resource type="Resource" script_class="Song" format=3 uid="uid://bboflb7nne78o"]
 
-[ext_resource type="SpriteFrames" uid="uid://dfkjqte638jkv" path="res://Funkin-Modpack/funkin/assets/characters/daddy dearest/icons.tres" id="1_4cix4"]
 [ext_resource type="Script" uid="uid://watdarflaprc" path="res://noah/resources/song.gd" id="1_6qpuj"]
 [ext_resource type="Script" uid="uid://sdlh2p3y8fwk" path="res://noah/resources/song_difficulty_data.gd" id="1_fqtmp"]
 
@@ -27,5 +26,5 @@ difficulties = Dictionary[String, ExtResource("1_fqtmp")]({
 title = "DadBattle Erect"
 artist = "Kawai Sprite"
 charter = "Jenny Crowe + fabs + Spazkid"
-icons = ExtResource("1_4cix4")
+icons = "uid://dfkjqte638jkv"
 metadata/_custom_type_script = "uid://watdarflaprc"

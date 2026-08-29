@@ -25,6 +25,7 @@ offsets = Dictionary[StringName, Vector2]({
 &"spooky sing right": Vector2(80, -248)
 })
 dance_animations = Array[StringName]([&"idle_left", &"idle_right"])
+dance_rate = 0
 icons = "uid://bb3qik1pfqgux"
 color = Color(0.764706, 0.643137, 0.556863, 1)
 
@@ -34,5 +35,7 @@ use_parent_material = true
 position = Vector2(-48, -256)
 sprite_frames = ExtResource("2_gedfe")
 animation = &"idle_left"
+frame = 7
+frame_progress = 1.0
 
 [connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]

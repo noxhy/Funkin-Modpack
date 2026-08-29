@@ -16,7 +16,7 @@ var total: float = 0.0
 @export var state: String:
 	set(v):
 		state = v
-		$Capsule.play_animation(state)
+		$Capsule.play(state)
 		
 		if v == "idle":
 			
@@ -63,6 +63,6 @@ func display_rank(_rank: Variant):
 		_rank = null
 	
 	if _rank != null:
-		animated_sprite.play_animation(_rank)
+		animated_sprite.play(_rank)
 	
 	rank = _rank

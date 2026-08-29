@@ -82,7 +82,7 @@ func _process(delta: float) -> void:
 # Updates visually what happens when a new index is set for a selection
 func update(i: int):
 	var old_node = (options.get(options.keys()[selected])).node
-	old_node.play_animation("idle")
+	old_node.play("idle")
 	
 	var old_node_tween = create_tween()
 	old_node_tween.tween_property(old_node, "scale", old_node.scale - Vector2(0.05, 0.05), 0.2).set_trans(Tween.TRANS_CUBIC).set_ease(Tween.EASE_OUT)
@@ -91,7 +91,7 @@ func update(i: int):
 	SoundManager.scroll.play()
 	
 	var new_node = (options.get(options.keys()[selected])).node
-	new_node.play_animation("selected")
+	new_node.play("selected")
 	
 	var tween = create_tween()
 	tween.set_parallel(true)

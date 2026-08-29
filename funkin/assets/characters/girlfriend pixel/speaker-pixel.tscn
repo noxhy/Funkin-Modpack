@@ -1,7 +1,8 @@
 [gd_scene format=3 uid="uid://b7qewyyacub5m"]
 
 [ext_resource type="SpriteFrames" uid="uid://c771gm7j20lte" path="res://Funkin-Modpack/funkin/assets/images/objects/speaker_pixel.tres" id="1_aewuf"]
-[ext_resource type="Script" uid="uid://d17yv6wfgl74w" path="res://noah/offset_sprite.gd" id="2_eqgj0"]
+[ext_resource type="Script" uid="uid://d17yv6wfgl74w" path="res://noah/offset_sprite_2d.gd" id="2_eqgj0"]
+
 
 [node name="Speaker" type="AnimatedSprite2D" unique_id=802710036]
 texture_filter = 1

@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://cj0kwltd54xru" path="res://Funkin-Modpack/funkin/assets/images/menus/background/menuBG.png" id="1_b4ekr"]
 [ext_resource type="Script" uid="uid://b1blhjns06ilt" path="res://noah/conductor.gd" id="2_leh0b"]
 [ext_resource type="SpriteFrames" uid="uid://bbwe77anwnrpv" path="res://Funkin-Modpack/funkin/assets/images/menus/main menu/menu_story_mode.res" id="3_ddte7"]
-[ext_resource type="Script" uid="uid://d17yv6wfgl74w" path="res://noah/offset_sprite.gd" id="4_mk0i5"]
+[ext_resource type="Script" uid="uid://d17yv6wfgl74w" path="res://noah/offset_sprite_2d.gd" id="4_mk0i5"]
 [ext_resource type="SpriteFrames" uid="uid://b7cugwdmdjj55" path="res://Funkin-Modpack/funkin/assets/images/menus/main menu/menu_freeplay.res" id="5_5vq1l"]
 [ext_resource type="SpriteFrames" uid="uid://dgb77avcfsrwk" path="res://Funkin-Modpack/funkin/assets/images/menus/main menu/menu_options.res" id="7_kl458"]
 [ext_resource type="SpriteFrames" uid="uid://c2ef5yqq08tfh" path="res://Funkin-Modpack/funkin/assets/images/menus/main menu/menu_credits.res" id="8_0vo0m"]
@@ -57,45 +57,29 @@ metadata/_edit_lock_ = true
 [node name="Story Mode" type="AnimatedSprite2D" parent="Button Manager" unique_id=1935662965 groups=["buttons"]]
 position = Vector2(-12.5, -267)
 sprite_frames = ExtResource("3_ddte7")
-animation = &"story_mode basic"
+animation = &"idle"
 script = ExtResource("4_mk0i5")
-animation_names = Dictionary[StringName, StringName]({
-&"idle": &"story_mode basic",
-&"selected": &"story_mode white"
-})
 metadata/_custom_type_script = "uid://d17yv6wfgl74w"
 
 [node name="Freeplay" type="AnimatedSprite2D" parent="Button Manager" unique_id=1660035681 groups=["buttons"]]
 position = Vector2(-12.5, -87)
 sprite_frames = ExtResource("5_5vq1l")
-animation = &"freeplay basic"
+animation = &"idle"
 script = ExtResource("4_mk0i5")
-animation_names = Dictionary[StringName, StringName]({
-&"idle": &"freeplay basic",
-&"selected": &"freeplay white"
-})
 metadata/_custom_type_script = "uid://d17yv6wfgl74w"
 
 [node name="Credits" type="AnimatedSprite2D" parent="Button Manager" unique_id=1817496608 groups=["buttons"]]
 position = Vector2(-12.5, 93)
 sprite_frames = ExtResource("8_0vo0m")
-animation = &"credits idle"
+animation = &"idle"
 script = ExtResource("4_mk0i5")
-animation_names = Dictionary[StringName, StringName]({
-&"idle": &"credits idle",
-&"selected": &"credits selected"
-})
 metadata/_custom_type_script = "uid://d17yv6wfgl74w"
 
 [node name="Options" type="AnimatedSprite2D" parent="Button Manager" unique_id=1914630445 groups=["buttons"]]
 position = Vector2(-12.5, 273)
 sprite_frames = ExtResource("7_kl458")
-animation = &"options basic"
+animation = &"idle"
 script = ExtResource("4_mk0i5")
-animation_names = Dictionary[StringName, StringName]({
-&"idle": &"options basic",
-&"selected": &"options white"
-})
 metadata/_custom_type_script = "uid://d17yv6wfgl74w"
 
 [connection signal="new_beat" from="Conductor" to="." method="_on_conductor_new_beat"]

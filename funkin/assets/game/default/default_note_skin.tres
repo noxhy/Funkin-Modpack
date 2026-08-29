@@ -15,40 +15,22 @@ splashes_texture = ExtResource("5_ixxvr")
 hold_covers_texture = ExtResource("2_hgpr1")
 notes_scale = 0.78
 hold_covers_scale = 1.2
-animation_names = Dictionary[StringName, StringName]({
-&"down_cover": &"cover down",
-&"down_splash": &"note splash blue 1",
-&"end_down_cover": &"cover down end",
-&"end_left_cover": &"cover left end",
-&"end_right_cover": &"cover right end",
-&"end_up_cover": &"cover up end",
-&"left_cover": &"cover left",
-&"left_splash": &"note splash purple 1",
-&"right_cover": &"cover right",
-&"right_splash": &"note splash red 1",
-&"start_down_cover": &"cover down start",
-&"start_left_cover": &"cover left start",
-&"start_right_cover": &"cover right start",
-&"start_up_cover": &"cover up start",
-&"up_cover": &"cover up",
-&"up_splash": &"note splash green 1"
-})
 offsets = Dictionary[StringName, Vector2]({
-&"cover down": Vector2(-22, 31),
-&"cover down end": Vector2(-22, 31),
-&"cover down start": Vector2(-22, 31),
-&"cover left": Vector2(-22, 31),
-&"cover left end": Vector2(-22, 31),
-&"cover left start": Vector2(-22, 31),
-&"cover right": Vector2(-22, 31),
-&"cover right end": Vector2(-22, 31),
-&"cover right start": Vector2(-22, 31),
-&"cover up": Vector2(-22, 31),
-&"cover up end": Vector2(-22, 31),
-&"cover up start": Vector2(-22, 31),
+&"down_cover": Vector2(-22, 31),
+&"end_down_cover": Vector2(-22, 31),
+&"end_left_cover": Vector2(-22, 31),
+&"end_right_cover": Vector2(-22, 31),
+&"end_up_cover": Vector2(-22, 31),
 &"glow_down_strum": Vector2(0.5, 1),
 &"glow_left_strum": Vector2(1, 2),
 &"glow_right_strum": Vector2(1, 1),
-&"glow_up_strum": Vector2(1, 3)
+&"glow_up_strum": Vector2(1, 3),
+&"left_cover": Vector2(-22, 31),
+&"right_cover": Vector2(-22, 31),
+&"start_down_cover": Vector2(-22, 31),
+&"start_left_cover": Vector2(-22, 31),
+&"start_right_cover": Vector2(-22, 31),
+&"start_up_cover": Vector2(-22, 31),
+&"up_cover": Vector2(-22, 31)
 })
 hit_sound = ExtResource("1_7y8y0")

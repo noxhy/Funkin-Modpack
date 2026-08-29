@@ -61,7 +61,7 @@ func update_selection(i: int):
 	i = Freeplay.selected_difficulty
 	var difficulty = difficulties[i]
 	
-	%"Difficulty Display".play_animation(difficulties[i])
+	%"Difficulty Display".play(difficulties[i])
 	
 	var tween = create_tween()
 	%"Difficulty Display".scale = Vector2(1.1, 1.1)

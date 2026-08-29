@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://4ir31o2pro22" path="res://Funkin-Modpack/funkin/menus/freeplay/capsule.gd" id="1_1nmrk"]
 [ext_resource type="SpriteFrames" uid="uid://4clsim45we1u" path="res://Funkin-Modpack/funkin/assets/images/menus/freeplay/capsule.res" id="1_vbem7"]
 [ext_resource type="Texture2D" uid="uid://c6h0t0s5r33rd" path="res://Funkin-Modpack/funkin/assets/images/menus/freeplay/lock.png" id="1_wa1ty"]
-[ext_resource type="Script" uid="uid://d17yv6wfgl74w" path="res://noah/offset_sprite.gd" id="2_v1ul3"]
+[ext_resource type="Script" uid="uid://d17yv6wfgl74w" path="res://noah/offset_sprite_2d.gd" id="2_v1ul3"]
 [ext_resource type="FontFile" uid="uid://bhwea5frxw2kr" path="res://Funkin-Modpack/funkin/assets/fonts/freeplay_song.ttf" id="4_1nmrk"]
 [ext_resource type="SpriteFrames" uid="uid://b05nhrgbkua1e" path="res://Funkin-Modpack/funkin/assets/images/menus/freeplay/rank_badges.res" id="6_lcnhi"]
 
@@ -25,16 +25,12 @@ texture = ExtResource("1_wa1ty")
 z_index = -1
 position = Vector2(-48, -64)
 sprite_frames = ExtResource("1_vbem7")
-animation = &"mp3 capsule w backing"
+animation = &"idle"
 centered = false
 script = ExtResource("2_v1ul3")
-animation_names = Dictionary[StringName, StringName]({
-&"idle": &"mp3 capsule w backing NOT SELECTED",
-&"selected": &"mp3 capsule w backing"
-})
 offsets = Dictionary[StringName, Vector2]({
-&"mp3 capsule w backing": Vector2(0, 0),
-&"mp3 capsule w backing NOT SELECTED": Vector2(8, 0)
+&"idle": Vector2(8, 0),
+&"selected": Vector2(0, 0)
 })
 metadata/_custom_type_script = "uid://d17yv6wfgl74w"
 
@@ -71,14 +67,6 @@ stretch_mode = 6
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=912016190]
 visible = false
 sprite_frames = ExtResource("6_lcnhi")
+animation = &"gold"
 script = ExtResource("2_v1ul3")
-animation_names = Dictionary[StringName, StringName]({
-&"?": &"default",
-&"excellent": &"EXCELLENT rank",
-&"gold": &"PERFECT rank GOLD",
-&"good": &"GOOD rank",
-&"great": &"GREAT rank",
-&"loss": &"LOSS rank",
-&"perfect": &"PERFECT rank"
-})
 metadata/_custom_type_script = "uid://d17yv6wfgl74w"

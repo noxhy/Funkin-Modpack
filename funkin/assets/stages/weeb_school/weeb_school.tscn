@@ -9,7 +9,8 @@
 [ext_resource type="PackedScene" uid="uid://ch1yo286ve0mt" path="res://Funkin-Modpack/funkin/assets/stages/weeb_school/simps.tscn" id="5_hrt6l"]
 [ext_resource type="Texture2D" uid="uid://8djsvg5er6g1" path="res://Funkin-Modpack/funkin/assets/stages/weeb_school/weebTreesBack.png" id="6_8vprs"]
 [ext_resource type="SpriteFrames" uid="uid://c8ixpbjgxpku5" path="res://Funkin-Modpack/funkin/assets/stages/weeb_school/petals.res" id="7_52auc"]
-[ext_resource type="Script" uid="uid://d17yv6wfgl74w" path="res://noah/offset_sprite.gd" id="8_njc57"]
+[ext_resource type="Script" uid="uid://d17yv6wfgl74w" path="res://noah/offset_sprite_2d.gd" id="8_njc57"]
+
 
 [node name="weed_school" type="Node2D" unique_id=2028769937]
 texture_filter = 1

@@ -24,7 +24,7 @@ func _ready() -> void:
 		week_icon_instance.position = Vector2(1280 / 2, 1000)
 		
 		$"UI/Week UI/SubViewport".add_child(week_icon_instance)
-		week_icon_instance.play_animation(i.week_animation)
+		week_icon_instance.play(i.week_animation)
 		
 		object_amount += 1
 		option_nodes.append(week_icon_instance)
@@ -109,7 +109,7 @@ func update_difficulty(i: int, week: Week = weeks[selected_week]):
 	i = selected_difficulty
 	GameManager.difficulty = difficulties[selected_difficulty]
 	
-	%"Difficulty Display".play_animation(difficulties[i])
+	%"Difficulty Display".play(difficulties[i])
 	
 	var tween = create_tween()
 	%"Difficulty Display".scale = Vector2(1.1, 1.1)

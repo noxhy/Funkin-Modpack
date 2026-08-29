@@ -1,7 +1,8 @@
 [gd_scene format=3 uid="uid://ce4fecrbyxrux"]
 
 [ext_resource type="SpriteFrames" uid="uid://cadj43xs00flg" path="res://Funkin-Modpack/funkin/assets/images/menus/difficulties.res" id="1_fp4pn"]
-[ext_resource type="Script" uid="uid://d17yv6wfgl74w" path="res://noah/offset_sprite.gd" id="2_532to"]
+[ext_resource type="Script" uid="uid://d17yv6wfgl74w" path="res://noah/offset_sprite_2d.gd" id="2_532to"]
+
 
 [node name="Difficulty Display" type="AnimatedSprite2D" unique_id=218920455]
 unique_name_in_owner = true

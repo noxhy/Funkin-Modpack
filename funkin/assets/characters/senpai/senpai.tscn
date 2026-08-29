@@ -30,6 +30,7 @@ offsets = Dictionary[StringName, Vector2]({
 &"idle_right": Vector2(2.08189e-12, -64)
 })
 dance_animations = Array[StringName]([&"idle_left", &"idle_right"])
+dance_rate = 0
 sing_duration = 8.0
 icons = "uid://d3utv1veneoej"
 color = Color(0.890196, 0.533333, 0.294118, 1)

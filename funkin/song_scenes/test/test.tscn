@@ -21,6 +21,11 @@ ui_skin = ExtResource("4_sqoco")
 next_scene = "uid://cmwlnqqj5h0xy"
 metadata/_custom_type_script = "uid://cmgmd88pfh7dd"
 
+[node name="CameraController" type="Node" parent="." unique_id=1309664363 node_paths=PackedStringArray("parent_2d") groups=["cameras"]]
+script = ExtResource("9_2lxig")
+parent_2d = NodePath("../Camera")
+metadata/_custom_type_script = "uid://b4lmffueni5k"
+
 [node name="Camera" type="Camera2D" parent="." unique_id=1969881465]
 position = Vector2(640, 432)
 position_smoothing_speed = 3.0
@@ -91,8 +96,3 @@ follow_viewport_enabled = true
 
 [node name="UI" parent="." unique_id=497178549 instance=ExtResource("8_ci40r")]
 layer = 10
-
-[node name="CameraController" type="Node" parent="." unique_id=1309664363 node_paths=PackedStringArray("parent_2d") groups=["cameras"]]
-script = ExtResource("9_2lxig")
-parent_2d = NodePath("../Camera")
-metadata/_custom_type_script = "uid://b4lmffueni5k"

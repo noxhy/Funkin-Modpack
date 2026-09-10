@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://c8853lemkr1jc"]
 
 [ext_resource type="Script" uid="uid://cuvteymxyy53u" path="res://Funkin-Modpack/funkin/song_scenes/funkin_song.gd" id="1_6bcsl"]
-[ext_resource type="PackedScene" uid="uid://l713j3okh2iq" path="res://noah/game/playstate.tscn" id="2_dkpbc"]
+[ext_resource type="Script" uid="uid://cmgmd88pfh7dd" path="res://noah/game/playstate.gd" id="2_6bcsl"]
 [ext_resource type="Resource" uid="uid://cj2hoqrld81vv" path="res://Funkin-Modpack/funkin/assets/game/default/default_note_skin.tres" id="4_fnsyj"]
 [ext_resource type="Resource" uid="uid://cykk1h52kdqv2" path="res://Funkin-Modpack/funkin/assets/game/default/default_ui_skin.tres" id="5_gia47"]
 [ext_resource type="PackedScene" uid="uid://o04ewby7jkf1" path="res://Funkin-Modpack/funkin/assets/stages/philly_streets/stage.tscn" id="7_xhwu8"]
@@ -14,12 +14,14 @@
 [node name="Darnell" type="Node2D" unique_id=1675426916]
 script = ExtResource("1_6bcsl")
 
-[node name="PlayState" parent="." unique_id=334125364 node_paths=PackedStringArray("host") instance=ExtResource("2_dkpbc")]
+[node name="PlayState" type="Node" parent="." unique_id=935202214 node_paths=PackedStringArray("host")]
 process_mode = 1
+script = ExtResource("2_6bcsl")
 host = NodePath("..")
 note_skin = ExtResource("4_fnsyj")
 ui_skin = ExtResource("5_gia47")
 next_scene = "uid://cmwlnqqj5h0xy"
+metadata/_custom_type_script = "uid://cmgmd88pfh7dd"
 
 [node name="Camera" type="Camera2D" parent="." unique_id=1702680818]
 position = Vector2(640, 360)

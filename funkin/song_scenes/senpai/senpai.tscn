@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://dgaywwoiwkbeu"]
 
 [ext_resource type="Script" uid="uid://cuvteymxyy53u" path="res://Funkin-Modpack/funkin/song_scenes/funkin_song.gd" id="1_j0bn6"]
-[ext_resource type="PackedScene" uid="uid://l713j3okh2iq" path="res://noah/game/playstate.tscn" id="2_hvfki"]
+[ext_resource type="Script" uid="uid://cmgmd88pfh7dd" path="res://noah/game/playstate.gd" id="2_j0mtg"]
 [ext_resource type="Resource" uid="uid://dmw77m5oxkyig" path="res://Funkin-Modpack/funkin/assets/game/pixel/pixel_note_skin.tres" id="4_gvt2o"]
 [ext_resource type="Resource" uid="uid://dsqgb7q6eq1mf" path="res://Funkin-Modpack/funkin/assets/game/pixel/pixel_ui_skin.tres" id="5_0s4pd"]
 [ext_resource type="PackedScene" uid="uid://cd3leoxyqnk4m" path="res://Funkin-Modpack/funkin/assets/stages/weeb_school/weeb_school.tscn" id="7_mjcyn"]
@@ -14,12 +14,14 @@
 [node name="Senpai" type="Node2D" unique_id=739542381]
 script = ExtResource("1_j0bn6")
 
-[node name="PlayState" parent="." unique_id=102571385 node_paths=PackedStringArray("host") instance=ExtResource("2_hvfki")]
+[node name="PlayState" type="Node" parent="." unique_id=1398186059 node_paths=PackedStringArray("host")]
 process_mode = 1
+script = ExtResource("2_j0mtg")
 host = NodePath("..")
 note_skin = ExtResource("4_gvt2o")
 ui_skin = ExtResource("5_0s4pd")
 next_scene = "uid://cmwlnqqj5h0xy"
+metadata/_custom_type_script = "uid://cmgmd88pfh7dd"
 
 [node name="Camera" type="Camera2D" parent="." unique_id=466771654]
 position = Vector2(139.7, 520.7)

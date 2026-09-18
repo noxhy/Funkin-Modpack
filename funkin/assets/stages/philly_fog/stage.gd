@@ -1,8 +1,11 @@
-extends Stage
+extends Node2D
 
 var CAR_PRELOAD = load("uid://ceow5qkjab7tv")
 var red_light: bool = true
 var car_list: Array[Node2D] = []
+
+func _ready() -> void:
+	Signals.play_conductor_beat_hit.connect(_on_conductor_new_beat)
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta) -> void:

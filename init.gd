@@ -28,4 +28,4 @@ func _init() -> void:
 	
 	Constants.set_script(preload("uid://osy8erwmdopi"))
 	if ModManager.start_scene:
-		Global.change_scene_to(Constants.START_MENU_SCENE, null, false)
+		Global.change_scene_to(Constants.START_MENU_SCENE, '', false)

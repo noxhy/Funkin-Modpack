@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="Song" format=3 uid="uid://b0kqwk2ry1mle"]
+
+[ext_resource type="Script" uid="uid://sdlh2p3y8fwk" path="res://noah/resources/song_difficulty_data.gd" id="1_70agg"]
+[ext_resource type="Script" uid="uid://watdarflaprc" path="res://noah/resources/song.gd" id="2_s6q3k"]
+
+[sub_resource type="Resource" id="Resource_70agg"]
+script = ExtResource("1_70agg")
+chart = "res://Funkin-Modpack/funkin/playable_songs/lit up/charts/lit-up-chart.json"
+metadata/_custom_type_script = "uid://sdlh2p3y8fwk"
+
+[sub_resource type="Resource" id="Resource_s6q3k"]
+script = ExtResource("1_70agg")
+chart = "res://Funkin-Modpack/funkin/playable_songs/lit up/charts/lit-up-chart.json"
+metadata/_custom_type_script = "uid://sdlh2p3y8fwk"
+
+[sub_resource type="Resource" id="Resource_ekcth"]
+script = ExtResource("1_70agg")
+chart = "res://Funkin-Modpack/funkin/playable_songs/lit up/charts/lit-up-chart.json"
+metadata/_custom_type_script = "uid://sdlh2p3y8fwk"
+
+[resource]
+script = ExtResource("2_s6q3k")
+vocals = Array[String](["uid://dr8gwhof0w2tv", "uid://d4lmd4k0bqqa"])
+instrumental = "uid://bbr5vvtr0qgxr"
+tempo = 176.0
+scene = "uid://c8853lemkr1jc"
+difficulties = Dictionary[String, ExtResource("1_70agg")]({
+"easy": SubResource("Resource_70agg"),
+"hard": SubResource("Resource_ekcth"),
+"normal": SubResource("Resource_s6q3k")
+})
+title = "Lit Up"
+artist = "Kawai Sprite"
+charter = "Jenny Crowe + Spazkid"
+icons = "uid://digynxqrdoj3g"
+metadata/_custom_type_script = "uid://watdarflaprc"

@@ -4,12 +4,14 @@
 [ext_resource type="Texture2D" uid="uid://bwxact2hluls0" path="res://Funkin-Modpack/funkin/assets/images/menus/freeplay/album covers/volume4.png" id="1_yohgl"]
 [ext_resource type="Script" uid="uid://watdarflaprc" path="res://noah/resources/song.gd" id="2_c0fke"]
 [ext_resource type="Resource" uid="uid://ca8cgisvna778" path="res://Funkin-Modpack/funkin/playable_songs/stress/Stress (Pico Mix).res" id="4_yohgl"]
-[ext_resource type="Resource" path="res://Funkin-Modpack/funkin/playable_songs/darnell/Darnell.res" id="5_rfqhp"]
+[ext_resource type="Resource" uid="uid://bnfg0g3g2hdaw" path="res://Funkin-Modpack/funkin/playable_songs/darnell/Darnell.res" id="5_rfqhp"]
+[ext_resource type="Resource" uid="uid://b0kqwk2ry1mle" path="res://Funkin-Modpack/funkin/playable_songs/lit up/Lit Up.tres" id="6_2dhr2"]
+[ext_resource type="Resource" uid="uid://c35c4ud6l0bhc" path="res://Funkin-Modpack/funkin/playable_songs/2hot/2hot.tres" id="7_03m1t"]
 
 [resource]
 script = ExtResource("1_5iepq")
 name = "Pico Funkin'"
 cover = ExtResource("1_yohgl")
 credits = "Funkin' Crew"
-song_list = Array[ExtResource("2_c0fke")]([ExtResource("4_yohgl"), ExtResource("5_rfqhp")])
+song_list = Array[ExtResource("2_c0fke")]([ExtResource("4_yohgl"), ExtResource("5_rfqhp"), ExtResource("6_2dhr2"), ExtResource("7_03m1t")])
 metadata/_custom_type_script = "uid://c85optaap1atb"

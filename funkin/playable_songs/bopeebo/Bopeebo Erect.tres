@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="Song" format=3 uid="uid://dixayx581k24t"]
+[gd_resource type="Resource" script_class="Song" format=3 uid="uid://1fypmp73jxty"]
 
 [ext_resource type="Script" uid="uid://sdlh2p3y8fwk" path="res://noah/resources/song_difficulty_data.gd" id="1_pha61"]
 [ext_resource type="Script" uid="uid://watdarflaprc" path="res://noah/resources/song.gd" id="1_rgjg3"]

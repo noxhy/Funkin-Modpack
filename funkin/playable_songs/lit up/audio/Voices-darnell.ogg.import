@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://d4lmd4k0bqqa"
+path="res://.godot/imported/Voices-darnell.ogg-3cf37921b402e55ca0e5a2056bfa0d8e.oggvorbisstr"
+
+[deps]
+
+source_file="res://Funkin-Modpack/funkin/playable_songs/lit up/audio/Voices-darnell.ogg"
+dest_files=["res://.godot/imported/Voices-darnell.ogg-3cf37921b402e55ca0e5a2056bfa0d8e.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

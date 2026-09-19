@@ -156,6 +156,7 @@ follow_viewport_enabled = true
 [node name="Player" parent="UI" unique_id=1016376170 instance=ExtResource("6_0wmjs")]
 unique_name_in_owner = true
 scale = Vector2(0.6, 0.6)
+icons = ""
 
 [node name="Background" type="CanvasLayer" parent="." unique_id=1166834372]
 layer = 0

@@ -11,7 +11,6 @@
 [ext_resource type="Texture2D" uid="uid://dxmfvagkwoxws" path="res://Funkin-Modpack/funkin/assets/images/menus/story mode/week icons/weekend1.png" id="9_na7qk"]
 [ext_resource type="Script" uid="uid://d17yv6wfgl74w" path="res://noah/offset_sprite_2d.gd" id="9_xp24p"]
 
-
 [sub_resource type="SpriteFrames" id="SpriteFrames_6d3aw"]
 animations = [{
 "frames": [{
@@ -91,13 +90,3 @@ animations = [{
 sprite_frames = SubResource("SpriteFrames_6d3aw")
 animation = &"weekend1"
 script = ExtResource("9_xp24p")
-animation_names = Dictionary[StringName, StringName]({
-&"tutorial": &"tutorial",
-&"week1": &"week1",
-&"week2": &"week2",
-&"week3": &"week3",
-&"week4": &"week4",
-&"week5": &"week5",
-&"week6": &"week6",
-&"week7": &"week7"
-})

@@ -211,7 +211,6 @@ scale = Vector2(0.7, 0.7)
 material = SubResource("ShaderMaterial_ub4sb")
 position = Vector2(-192, 134)
 scale = Vector2(0.374, 0.374)
-icons = ""
 
 [node name="Week 5" type="Node2D" parent="UI/Week Display/SubViewport" unique_id=1667310798 groups=["weeks"]]
 visible = false

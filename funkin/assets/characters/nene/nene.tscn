@@ -7,7 +7,6 @@
 [ext_resource type="SpriteFrames" uid="uid://0ds6v8fl8bd8" path="res://Funkin-Modpack/funkin/assets/characters/nene/a-bot_visualzier.res" id="4_spo4n"]
 [ext_resource type="Script" uid="uid://d17yv6wfgl74w" path="res://noah/offset_sprite_2d.gd" id="5_uhb7d"]
 
-
 [sub_resource type="AtlasTexture" id="AtlasTexture_m6gpj"]
 atlas = ExtResource("3_olp7v")
 region = Rect2(0, 42, 106, 23)

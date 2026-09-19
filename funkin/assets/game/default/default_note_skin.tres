@@ -13,7 +13,7 @@ strums_texture = ExtResource("6_wsgle")
 notes_texture = ExtResource("1_lvg3v")
 splashes_texture = ExtResource("5_ixxvr")
 hold_covers_texture = ExtResource("2_hgpr1")
-notes_scale = 0.78
+notes_scale = 0.7
 hold_covers_scale = 1.2
 offsets = Dictionary[StringName, Vector2]({
 &"down_cover": Vector2(-22, 31),

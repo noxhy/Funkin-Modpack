@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://cu574w6aeo3po" path="res://Funkin-Modpack/funkin/assets/weeks/funkin_week.gd" id="1_jg550"]
 [ext_resource type="Script" uid="uid://watdarflaprc" path="res://noah/resources/song.gd" id="2_qdr1t"]
-[ext_resource type="Resource" uid="uid://ia6rqsb2mp1v" path="res://Funkin-Modpack/funkin/playable_songs/senpai/Senpai.res" id="3_bhmme"]
+[ext_resource type="Resource" uid="uid://hw00fhx7vbay" path="res://Funkin-Modpack/funkin/playable_songs/senpai/Senpai.res" id="3_bhmme"]
 
 [resource]
 script = ExtResource("1_jg550")

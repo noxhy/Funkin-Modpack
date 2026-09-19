@@ -4,7 +4,6 @@
 [ext_resource type="Script" uid="uid://dfgytgar3447q" path="res://Funkin-Modpack/funkin/menus/freeplay/freeplay_arrow.gd" id="1_pwf8c"]
 [ext_resource type="Script" uid="uid://d17yv6wfgl74w" path="res://noah/offset_sprite_2d.gd" id="2_ej41f"]
 
-
 [node name="Arrow Sprite" type="Node2D" unique_id=218518666]
 script = ExtResource("1_pwf8c")
 

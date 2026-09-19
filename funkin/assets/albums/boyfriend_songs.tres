@@ -5,12 +5,12 @@
 [ext_resource type="Script" uid="uid://watdarflaprc" path="res://noah/resources/song.gd" id="3_dndsk"]
 [ext_resource type="Resource" uid="uid://dmtlnfyiwo81f" path="res://Funkin-Modpack/funkin/playable_songs/fresh/Fresh Erect.res" id="4_57m0f"]
 [ext_resource type="Resource" uid="uid://ct8grfybb6caa" path="res://Funkin-Modpack/funkin/playable_songs/darnell/Darnell (Bf Mix).res" id="5_7pltu"]
-[ext_resource type="Resource" path="res://Funkin-Modpack/funkin/playable_songs/lit up/Lit Up (Bf Mix).tres" id="6_h64rb"]
-[ext_resource type="Resource" uid="uid://ia6rqsb2mp1v" path="res://Funkin-Modpack/funkin/playable_songs/senpai/Senpai.res" id="7_4i11g"]
+[ext_resource type="Resource" uid="uid://thjjwwf3hkh2" path="res://Funkin-Modpack/funkin/playable_songs/lit up/Lit Up (Bf Mix).tres" id="6_h64rb"]
+[ext_resource type="Resource" uid="uid://hw00fhx7vbay" path="res://Funkin-Modpack/funkin/playable_songs/senpai/Senpai.res" id="7_4i11g"]
 [ext_resource type="Resource" uid="uid://dixayx581k24t" path="res://Funkin-Modpack/funkin/playable_songs/bopeebo/Bopeebo Erect.tres" id="7_rqxnq"]
 [ext_resource type="Resource" uid="uid://dp8qdpchec1st" path="res://Funkin-Modpack/funkin/playable_songs/cocoa/Cocoa Erect.tres" id="8_a8wu0"]
-[ext_resource type="Resource" path="res://Funkin-Modpack/funkin/playable_songs/eggnog/Eggnog Erect.res" id="8_p2ac8"]
-[ext_resource type="Resource" uid="uid://bboflb7nne78o" path="res://Funkin-Modpack/funkin/playable_songs/dadbattle/Dadbattle Erect.tres" id="9_kyjuh"]
+[ext_resource type="Resource" uid="uid://b0vcend23iwxt" path="res://Funkin-Modpack/funkin/playable_songs/eggnog/Eggnog Erect.res" id="8_p2ac8"]
+[ext_resource type="Resource" uid="uid://fab6epujbdoa" path="res://Funkin-Modpack/funkin/playable_songs/dadbattle/Dadbattle Erect.tres" id="9_kyjuh"]
 
 [resource]
 script = ExtResource("2_de8bw")

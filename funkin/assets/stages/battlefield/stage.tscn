@@ -1,16 +1,12 @@
 [gd_scene format=3 uid="uid://cmiw0sq3dx0ge"]
 
-[ext_resource type="Script" uid="uid://bgx1imb2x4q8y" path="res://noah/game/stage.gd" id="1_5fq04"]
 [ext_resource type="Texture2D" uid="uid://bkmkqx77pa4fg" path="res://Funkin-Modpack/funkin/assets/stages/battlefield/bg.png" id="2_xjsv1"]
 [ext_resource type="SpriteFrames" uid="uid://c7g8hweyo4u3" path="res://Funkin-Modpack/funkin/assets/stages/battlefield/sniper.res" id="3_ar6cq"]
 [ext_resource type="SpriteFrames" uid="uid://cmt42n5860jk0" path="res://Funkin-Modpack/funkin/assets/stages/battlefield/guy.res" id="4_v424k"]
 [ext_resource type="Script" uid="uid://bj7tgh8jkngdx" path="res://noah/game/character.gd" id="5_27l58"]
 [ext_resource type="Texture2D" uid="uid://k8skgtfffpuh" path="res://Funkin-Modpack/funkin/assets/stages/battlefield/bricksGround.png" id="5_md1te"]
-[ext_resource type="SpriteFrames" uid="uid://dt82dx1mf15r" path="res://Funkin-Modpack/funkin/assets/game/face.tres" id="6_g0w78"]
 
 [node name="Stage" type="Node2D" unique_id=682099508]
-script = ExtResource("1_5fq04")
-metadata/_custom_type_script = "uid://bgx1imb2x4q8y"
 
 [node name="Bg" type="Sprite2D" parent="." unique_id=960731010]
 z_index = -20
@@ -42,6 +38,7 @@ position = Vector2(-127, 349)
 scale = Vector2(1.15, 1.15)
 sprite_frames = ExtResource("3_ar6cq")
 animation = &"Tankmanidlebaked instance 1"
+frame_progress = 0.8010989
 metadata/_edit_lock_ = true
 
 [node name="Character2" type="Node" parent="." unique_id=1850315349 node_paths=PackedStringArray("animation_player")]
@@ -50,7 +47,6 @@ animation_player = NodePath("Guy")
 animation_names = Dictionary[StringName, StringName]({
 &"idle": &"BLTank2 instance 1"
 })
-icons = ExtResource("6_g0w78")
 metadata/_custom_type_script = "uid://bj7tgh8jkngdx"
 
 [node name="Guy" type="AnimatedSprite2D" parent="Character2" unique_id=1889421146]
@@ -59,4 +55,5 @@ position = Vector2(1398, 407)
 scale = Vector2(1.15, 1.15)
 sprite_frames = ExtResource("4_v424k")
 animation = &"BLTank2 instance 1"
+frame_progress = 0.8010989
 metadata/_edit_lock_ = true

@@ -2,7 +2,6 @@
 
 [ext_resource type="Script" uid="uid://cuvteymxyy53u" path="res://Funkin-Modpack/funkin/song_scenes/funkin_song.gd" id="1_8obse"]
 [ext_resource type="Script" uid="uid://cmgmd88pfh7dd" path="res://noah/game/playstate.gd" id="2_cqmvy"]
-[ext_resource type="Resource" uid="uid://cj2hoqrld81vv" path="res://Funkin-Modpack/funkin/assets/game/default/default_note_skin.tres" id="4_8nme4"]
 [ext_resource type="Resource" uid="uid://cykk1h52kdqv2" path="res://Funkin-Modpack/funkin/assets/game/default/default_ui_skin.tres" id="5_uia00"]
 [ext_resource type="PackedScene" uid="uid://cymgv4pu0e1rh" path="res://Funkin-Modpack/funkin/assets/stages/stage/stage.tscn" id="6_egett"]
 [ext_resource type="PackedScene" uid="uid://dg6rnkjn5f5gm" path="res://Funkin-Modpack/funkin/assets/characters/boyfriend/boyfriend.tscn" id="9_dqjx1"]
@@ -40,7 +39,6 @@ script = ExtResource("1_8obse")
 process_mode = 1
 script = ExtResource("2_cqmvy")
 host = NodePath("..")
-note_skin = ExtResource("4_8nme4")
 ui_skin = ExtResource("5_uia00")
 next_scene = "uid://cmwlnqqj5h0xy"
 metadata/_custom_type_script = "uid://cmgmd88pfh7dd"

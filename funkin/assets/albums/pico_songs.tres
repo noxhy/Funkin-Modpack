@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://bwxact2hluls0" path="res://Funkin-Modpack/funkin/assets/images/menus/freeplay/album covers/volume4.png" id="1_yohgl"]
 [ext_resource type="Script" uid="uid://watdarflaprc" path="res://noah/resources/song.gd" id="2_c0fke"]
 [ext_resource type="Resource" uid="uid://ca8cgisvna778" path="res://Funkin-Modpack/funkin/playable_songs/stress/Stress (Pico Mix).res" id="4_yohgl"]
-[ext_resource type="Resource" uid="uid://bnfg0g3g2hdaw" path="res://Funkin-Modpack/funkin/playable_songs/darnell/Darnell.res" id="5_rfqhp"]
+[ext_resource type="Resource" path="res://Funkin-Modpack/funkin/playable_songs/darnell/Darnell.res" id="5_rfqhp"]
 
 [resource]
 script = ExtResource("1_5iepq")

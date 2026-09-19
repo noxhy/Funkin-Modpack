@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://dg6rnkjn5f5gm"]
 
 [ext_resource type="Script" uid="uid://bj7tgh8jkngdx" path="res://noah/game/character.gd" id="1_mx020"]
-[ext_resource type="SpriteFrames" uid="uid://bvvc2hl0jc06w" path="res://Funkin-Modpack/funkin/assets/characters/boyfriend/boyfriend.res" id="3_cqa6h"]
+[ext_resource type="SpriteFrames" uid="uid://bysyry54e8nmk" path="res://Funkin-Modpack/funkin/assets/characters/boyfriend/boyfriend.res" id="3_cqa6h"]
 
 [node name="Boyfriend" type="Node2D" unique_id=2117704961 node_paths=PackedStringArray("animation_player")]
 script = ExtResource("1_mx020")
@@ -47,5 +47,4 @@ use_parent_material = true
 position = Vector2(-16, -160)
 sprite_frames = ExtResource("3_cqa6h")
 animation = &"BF idle dance"
-frame = 13
-frame_progress = 1.0
+frame_progress = 0.8

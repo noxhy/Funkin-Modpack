@@ -3,11 +3,13 @@
 [ext_resource type="Script" uid="uid://cu574w6aeo3po" path="res://Funkin-Modpack/funkin/assets/weeks/funkin_week.gd" id="1_wwy3r"]
 [ext_resource type="Script" uid="uid://watdarflaprc" path="res://noah/resources/song.gd" id="2_qnuov"]
 [ext_resource type="Resource" uid="uid://dmtlnfyiwo81f" path="res://Funkin-Modpack/funkin/playable_songs/fresh/Fresh Erect.res" id="3_qnuov"]
+[ext_resource type="Resource" uid="uid://1fypmp73jxty" path="res://Funkin-Modpack/funkin/playable_songs/bopeebo/Bopeebo Erect.tres" id="3_w8wsx"]
+[ext_resource type="Resource" uid="uid://fab6epujbdoa" path="res://Funkin-Modpack/funkin/playable_songs/dadbattle/Dadbattle Erect.tres" id="5_bsor6"]
 
 [resource]
 script = ExtResource("1_wwy3r")
 week_animation = &"week1"
 node_path = "UI/Week Display/SubViewport/Week 1"
 week_name = "Daddy Dearest"
-song_list = Array[ExtResource("2_qnuov")]([ExtResource("3_qnuov")])
+song_list = Array[ExtResource("2_qnuov")]([ExtResource("3_w8wsx"), ExtResource("3_qnuov"), ExtResource("5_bsor6")])
 metadata/_custom_type_script = "uid://goy42ocon1g1"

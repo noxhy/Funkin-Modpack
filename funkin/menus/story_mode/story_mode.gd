@@ -135,7 +135,7 @@ func select_option(i: int):
 		
 		can_click = false
 		SoundManager.accept.play()
-		GameManager.load_songs_from_week(week, GameManager.difficulty)
+		GameManager.load_from_week(week, GameManager.difficulty)
 		SoundManager.music.stop()
 		get_tree().call_group("player", "play_animation", "cheer")
 		
@@ -169,8 +169,9 @@ func validate_week(week: Week) -> bool:
 	else:
 		var difficulties = song_list[0].difficulties.keys()
 		for i in range(1, song_list.size()):
-			if song_list[i].get("difficulties").keys() != difficulties:
+			if !song_list[i].get("difficulties").has_all(difficulties):
 				printerr("(Week Validation) Unequal difficulties between songs")
+				printerr(song_list[i].title, " ", song_list[i].get("difficulties").keys(), " ", difficulties)
 				return false
 			continue
 	return true

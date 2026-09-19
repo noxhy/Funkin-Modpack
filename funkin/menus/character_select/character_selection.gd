@@ -148,7 +148,7 @@ func _on_conductor_new_beat(current_beat: int, _measure_relative: int) -> void:
 
 func _on_conductor_new_step(_current_step: int, _measure_relative: int) -> void:
 	time_of_next_step = $Audio/Music.get_playback_position()
-	time_of_next_step -= AudioServer.get_time_since_last_mix()
+	time_of_next_step += AudioServer.get_time_since_last_mix()
 	time_of_next_step -= AudioServer.get_output_latency()
 	time_of_next_step += $Conductor.seconds_per_step
 

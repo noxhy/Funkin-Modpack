@@ -13,7 +13,7 @@ script = ExtResource("1_70agg")
 chart = "res://Funkin-Modpack/funkin/playable_songs/lit up/charts/lit-up-chart.json"
 metadata/_custom_type_script = "uid://sdlh2p3y8fwk"
 
-[sub_resource type="Resource" id="Resource_ekcth"]
+[sub_resource type="Resource" id="Resource_43i15"]
 script = ExtResource("1_70agg")
 chart = "res://Funkin-Modpack/funkin/playable_songs/lit up/charts/lit-up-chart.json"
 metadata/_custom_type_script = "uid://sdlh2p3y8fwk"
@@ -26,7 +26,7 @@ tempo = 176.0
 scene = "uid://c8853lemkr1jc"
 difficulties = Dictionary[String, ExtResource("1_70agg")]({
 "easy": SubResource("Resource_70agg"),
-"hard": SubResource("Resource_ekcth"),
+"hard": SubResource("Resource_43i15"),
 "normal": SubResource("Resource_s6q3k")
 })
 title = "Lit Up"

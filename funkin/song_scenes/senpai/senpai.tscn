@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://dgaywwoiwkbeu"]
 
-[ext_resource type="Script" uid="uid://cuvteymxyy53u" path="res://Funkin-Modpack/funkin/song_scenes/funkin_song.gd" id="1_j0bn6"]
+[ext_resource type="Script" uid="uid://c3lsn88wxbpkd" path="res://Funkin-Modpack/funkin/song_scenes/senpai/senpai.gd" id="1_j0mtg"]
 [ext_resource type="Script" uid="uid://cmgmd88pfh7dd" path="res://noah/game/playstate.gd" id="2_j0mtg"]
 [ext_resource type="Resource" uid="uid://dmw77m5oxkyig" path="res://Funkin-Modpack/funkin/assets/game/pixel/pixel_note_skin.tres" id="4_gvt2o"]
 [ext_resource type="Resource" uid="uid://dsqgb7q6eq1mf" path="res://Funkin-Modpack/funkin/assets/game/pixel/pixel_ui_skin.tres" id="5_0s4pd"]
@@ -12,7 +12,7 @@
 [ext_resource type="PackedScene" uid="uid://cwgvima0s0hbm" path="res://Funkin-Modpack/funkin/funkin_ui.tscn" id="12_q80n4"]
 
 [node name="Senpai" type="Node2D" unique_id=739542381]
-script = ExtResource("1_j0bn6")
+script = ExtResource("1_j0mtg")
 
 [node name="PlayState" type="Node" parent="." unique_id=1398186059 node_paths=PackedStringArray("host")]
 process_mode = 1

@@ -2,11 +2,13 @@
 
 [ext_resource type="Script" uid="uid://cu574w6aeo3po" path="res://Funkin-Modpack/funkin/assets/weeks/funkin_week.gd" id="1_xkc3a"]
 [ext_resource type="Script" uid="uid://watdarflaprc" path="res://noah/resources/song.gd" id="2_4if71"]
-[ext_resource type="Resource" path="res://Funkin-Modpack/funkin/playable_songs/darnell/Darnell.res" id="4_3rnsb"]
+[ext_resource type="Resource" uid="uid://bnfg0g3g2hdaw" path="res://Funkin-Modpack/funkin/playable_songs/darnell/Darnell.res" id="4_3rnsb"]
+[ext_resource type="Resource" uid="uid://b0kqwk2ry1mle" path="res://Funkin-Modpack/funkin/playable_songs/lit up/Lit Up.tres" id="4_sian1"]
+[ext_resource type="Resource" uid="uid://c35c4ud6l0bhc" path="res://Funkin-Modpack/funkin/playable_songs/2hot/2hot.tres" id="5_0ytte"]
 
 [resource]
 script = ExtResource("1_xkc3a")
 week_animation = &"weekend1"
 node_path = "UI/Week Display/SubViewport/Weekend 1"
 week_name = "Due Debts"
-song_list = Array[ExtResource("2_4if71")]([ExtResource("4_3rnsb")])
+song_list = Array[ExtResource("2_4if71")]([ExtResource("4_3rnsb"), ExtResource("4_sian1"), ExtResource("5_0ytte")])

@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://b1kmgjxpce1de"]
 
 [ext_resource type="Script" uid="uid://b274t7dbncdpl" path="res://Funkin-Modpack/funkin/menus/start_menu/start_menu.gd" id="1_b8t6h"]
-[ext_resource type="PackedScene" uid="uid://2abrkhbxxlab" path="res://noah/conductor.tscn" id="2_n68yt"]
+[ext_resource type="Script" uid="uid://b1blhjns06ilt" path="res://noah/conductor.gd" id="2_1h8sn"]
 [ext_resource type="Texture2D" uid="uid://bm0kcxd60e8qn" path="res://Funkin-Modpack/funkin/assets/images/logo.png" id="5_7gvni"]
 [ext_resource type="FontFile" uid="uid://dmnmbpo1uy8px" path="res://Funkin-Modpack/funkin/assets/fonts/fnf_font_outline.ttf" id="6_88h0l"]
 [ext_resource type="PackedScene" uid="uid://dirqojr6g5tpn" path="res://Funkin-Modpack/funkin/assets/characters/girlfriend title/girlfriend_title.tscn" id="6_amf35"]
@@ -307,8 +307,10 @@ _data = {
 script = ExtResource("1_b8t6h")
 intro_done = false
 
-[node name="Conductor" parent="." unique_id=100897348 instance=ExtResource("2_n68yt")]
+[node name="Conductor" type="Node" parent="." unique_id=956853753]
+script = ExtResource("2_1h8sn")
 tempo = 102.0
+metadata/_custom_type_script = "uid://b1blhjns06ilt"
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1991742915]
 libraries/ = SubResource("AnimationLibrary_7eaud")

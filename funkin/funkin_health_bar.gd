@@ -1,35 +1,51 @@
-extends BasicHealthBar
+extends TextureProgressBar
 
 @onready var icon_manager = $Icons
 @onready var player_icon = $Icons/Player
 @onready var enemy_icon = $Icons/Enemy
 
-var pixel: bool = false:
+## Whether the bar should be smooth
+var smooth: bool = true
+
+## Used when smooth is true
+var smooth_speed: float = 25.0
+
+var intended_value: float = 0
+
+var pixel: bool = false :
 	set(v):
-		if v:
-			player_icon.texture_filter = TEXTURE_FILTER_NEAREST
-			enemy_icon.texture_filter = TEXTURE_FILTER_NEAREST
-		else:
-			player_icon.texture_filter = TEXTURE_FILTER_PARENT_NODE
-			enemy_icon.texture_filter = TEXTURE_FILTER_PARENT_NODE
+		var filter = TEXTURE_FILTER_NEAREST if v else TEXTURE_FILTER_PARENT_NODE
 		
+		player_icon.texture_filter = filter
+		enemy_icon.texture_filter = filter
 		pixel = v
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	super()
-	Signals.connect("play_conductor_beat_hit", on_beat)
+	Signals.play_health_changed.connect(on_health_change)
+	Signals.play_conductor_beat_hit.connect(on_beat)
 
-
-func health_changed(v: float, delta: float):
-	super(v, delta)
-	var display_x: float = (value / max_value) * size.x
-	display_x = size.x - display_x
+	if is_inside_tree():
+		var ps: PlayState = get_tree().get_first_node_in_group(&"playstate")
+		if ps:
+			min_value = ps.health_min
+			max_value = ps.health_max
+			value = ps.health
 	
-	icon_manager.position = Vector2(display_x, 10)
+	intended_value = value
+	
+	if SettingsManager.data.downscroll:
+		position.y *= -1
+
+func on_health_change(v: float, d: float):
+	if smooth:
+		intended_value = v
+	else:
+		value = v
+
 	var conditions = [
-		[target_health >= 80, "winning", "losing"],
-		[target_health <= 20, "losing", "winning"],
+		[v >= max_value * 0.8, "winning", "losing"],
+		[v <= max_value * 0.2, "losing", "winning"],
 		[true, "default", "default"]
 	]
 	
@@ -45,6 +61,15 @@ func health_changed(v: float, delta: float):
 			
 			break
 
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	if smooth:
+		value = lerpf(value, intended_value, 1.0 - exp(-delta * smooth_speed))
+
+	var display_x: float = (value / max_value) * size.x
+	display_x = size.x - display_x
+	
+	icon_manager.position = Vector2(display_x, 10)
 
 func on_beat(current_beat: int, measure_relative: int):
 	var time: float = GameManager.conductor.seconds_per_step * 2 / GameManager.conductor.stream_player.pitch_scale

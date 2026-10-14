@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://b35uowfrluxgt"]
 
-[ext_resource type="Texture2D" uid="uid://cycblrpqahhln" path="res://noah/assets/game/developer/healthBar.png" id="1_u175w"]
-[ext_resource type="Script" uid="uid://bkm5k63ljaial" path="res://Funkin-Modpack/funkin/funkin_health_bar.gd" id="2_8pxkm"]
+[ext_resource type="Script" uid="uid://3xp1hmobc01r" path="res://Funkin-Modpack/funkin/funkin_health_bar.gd" id="2_8pxkm"]
 [ext_resource type="Texture2D" uid="uid://dh4quhljfok4e" path="res://Funkin-Modpack/funkin/assets/game/icon-face.png" id="2_i06na"]
+[ext_resource type="Script" uid="uid://bnl7gbyo2i887" path="res://Funkin-Modpack/funkin/performance text.gd" id="3_4i8y8"]
 [ext_resource type="FontFile" uid="uid://bo022dgqs5iv6" path="res://Funkin-Modpack/funkin/assets/fonts/vcr.ttf" id="4_i06na"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qk3vi"]
@@ -73,8 +73,6 @@ pivot_offset = Vector2(300, 10)
 step = 0.001
 value = 50.0
 fill_mode = 1
-texture_under = ExtResource("1_u175w")
-texture_progress = ExtResource("1_u175w")
 tint_under = Color(1, 0, 0, 1)
 tint_progress = Color(0, 1, 0, 1)
 script = ExtResource("2_8pxkm")
@@ -119,3 +117,4 @@ text = "Score: 0 • Misses: 0"
 label_settings = SubResource("LabelSettings_578am")
 horizontal_alignment = 2
 vertical_alignment = 1
+script = ExtResource("3_4i8y8")

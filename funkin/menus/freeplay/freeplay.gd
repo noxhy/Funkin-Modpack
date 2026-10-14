@@ -232,14 +232,14 @@ func play_song(song: Song, difficulty: String):
 @warning_ignore("shadowed_variable")
 # Doesn't actually play the audio, just sends you to the scene
 func chart_song(song: Song, difficulty: String):
-	ChartManager.song = song
-	ChartManager.difficulty = difficulty
+	EditorResources.song = song
+	EditorResources.difficulty = difficulty
 	Global.change_scene_to(Constants.CHART_EDITOR_SCENE, "fade")
 
 
 @warning_ignore("unused_parameter")
 func _on_conductor_new_beat(current_beat, measure_relative):
-	if SettingsManager.get_value(SettingsManager.SEC_PREFERENCES, "ui_bops"):
+	if SettingsManager.data.ui_bops:
 		Global.bop_tween($Camera2D, "zoom", Vector2(1, 1), Vector2(1.005, 1.005), 0.2, Tween.TRANS_CUBIC)
 
 

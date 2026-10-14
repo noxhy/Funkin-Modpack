@@ -1,6 +1,5 @@
 [gd_scene format=3 uid="uid://ofcr80jgray3"]
 
-[ext_resource type="Script" path="res://Funkin-Modpack/funkin/assets/stages/mall/stage.gd" id="1_5tvrh"]
 [ext_resource type="Shader" uid="uid://bgwusoh6kicj3" path="res://Funkin-Modpack/funkin/assets/shaders/adjust_hsv.gdshader" id="2_l4rv2"]
 [ext_resource type="SpriteFrames" uid="uid://bloyytxjba2pp" path="res://Funkin-Modpack/funkin/assets/stages/mall/santa.res" id="2_uhonm"]
 [ext_resource type="SpriteFrames" uid="uid://bhckl31rft307" path="res://Funkin-Modpack/funkin/assets/stages/mall/bottom_boppers.res" id="3_imb35"]
@@ -32,7 +31,6 @@ shader_parameter/contrast = 0.0
 shader_parameter/brightness = 0.0
 
 [node name="Stage" type="Node2D" unique_id=389483772]
-script = ExtResource("1_5tvrh")
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1481511836]
 environment = SubResource("Environment_80ofe")

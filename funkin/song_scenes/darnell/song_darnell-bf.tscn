@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://c7j8ujqqdthpd"]
 
-[ext_resource type="PackedScene" uid="uid://by6thl7d7hn44" path="res://noah/templates/song_scene_2d.tscn" id="1_rxlqn"]
+[ext_resource type="PackedScene" uid="uid://by6thl7d7hn44" path="res://noah/templates/song_scene_template_2d.tscn" id="1_rxlqn"]
 [ext_resource type="Script" uid="uid://cuvteymxyy53u" path="res://Funkin-Modpack/funkin/song_scenes/funkin_song.gd" id="2_jwal7"]
 [ext_resource type="Resource" uid="uid://cykk1h52kdqv2" path="res://Funkin-Modpack/funkin/assets/game/default/default_ui_skin.tres" id="2_pwp4i"]
 [ext_resource type="PackedScene" uid="uid://q0a40tn5u1c8" path="res://Funkin-Modpack/funkin/assets/stages/philly_fog/stage.tscn" id="2_q74hy"]

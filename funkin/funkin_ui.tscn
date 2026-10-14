@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://cwgvima0s0hbm"]
 
 [ext_resource type="Script" uid="uid://byu172po8rot7" path="res://Funkin-Modpack/funkin/funkin_ui.gd" id="1_p8431"]
-[ext_resource type="PackedScene" uid="uid://ce3dgr61438sa" path="res://noah/templates/4key_strums.tscn" id="2_csc1d"]
+[ext_resource type="PackedScene" uid="uid://ce3dgr61438sa" path="res://noah/templates/4key_strums_template.tscn" id="2_csc1d"]
 [ext_resource type="Resource" uid="uid://cj2hoqrld81vv" path="res://Funkin-Modpack/funkin/assets/game/default/default_note_skin.tres" id="3_jo411"]
 [ext_resource type="PackedScene" uid="uid://b35uowfrluxgt" path="res://Funkin-Modpack/funkin/funkin_health_bar.tscn" id="3_plkgl"]
 [ext_resource type="Texture2D" uid="uid://dn1u3aq6xly7g" path="res://Funkin-Modpack/funkin/assets/game/default/healthBar.png" id="5_aspuy"]

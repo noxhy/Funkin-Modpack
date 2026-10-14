@@ -14,10 +14,9 @@
 [node name="Senpai" type="Node2D" unique_id=739542381]
 script = ExtResource("1_j0mtg")
 
-[node name="PlayState" type="Node" parent="." unique_id=1398186059 node_paths=PackedStringArray("host")]
+[node name="PlayState" type="Node" parent="." unique_id=1398186059 groups=["playstate"]]
 process_mode = 1
 script = ExtResource("2_j0mtg")
-host = NodePath("..")
 ui_skin = ExtResource("5_0s4pd")
 next_scene = "uid://cmwlnqqj5h0xy"
 metadata/_custom_type_script = "uid://cmgmd88pfh7dd"

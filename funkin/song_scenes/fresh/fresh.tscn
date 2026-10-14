@@ -35,10 +35,9 @@ shader_parameter/brightness = -33.0
 [node name="Fresh" type="Node2D" unique_id=1049894585]
 script = ExtResource("1_8obse")
 
-[node name="PlayState" type="Node" parent="." unique_id=1115001237 node_paths=PackedStringArray("host")]
+[node name="PlayState" type="Node" parent="." unique_id=1115001237 groups=["playstate"]]
 process_mode = 1
 script = ExtResource("2_cqmvy")
-host = NodePath("..")
 ui_skin = ExtResource("5_uia00")
 next_scene = "uid://cmwlnqqj5h0xy"
 metadata/_custom_type_script = "uid://cmgmd88pfh7dd"

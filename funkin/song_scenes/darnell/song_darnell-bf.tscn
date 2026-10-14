@@ -1,0 +1,87 @@
+[gd_scene format=3 uid="uid://c7j8ujqqdthpd"]
+
+[ext_resource type="PackedScene" uid="uid://by6thl7d7hn44" path="res://noah/templates/song_scene_2d.tscn" id="1_rxlqn"]
+[ext_resource type="Script" uid="uid://cuvteymxyy53u" path="res://Funkin-Modpack/funkin/song_scenes/funkin_song.gd" id="2_jwal7"]
+[ext_resource type="Resource" uid="uid://cykk1h52kdqv2" path="res://Funkin-Modpack/funkin/assets/game/default/default_ui_skin.tres" id="2_pwp4i"]
+[ext_resource type="PackedScene" uid="uid://q0a40tn5u1c8" path="res://Funkin-Modpack/funkin/assets/stages/philly_fog/stage.tscn" id="2_q74hy"]
+[ext_resource type="PackedScene" uid="uid://bpv5demojrg67" path="res://Funkin-Modpack/funkin/assets/characters/girlfriend/girlfriend.tscn" id="3_pwp4i"]
+[ext_resource type="Shader" uid="uid://bgwusoh6kicj3" path="res://Funkin-Modpack/funkin/assets/shaders/adjust_hsv.gdshader" id="4_jwal7"]
+[ext_resource type="PackedScene" uid="uid://dg6rnkjn5f5gm" path="res://Funkin-Modpack/funkin/assets/characters/boyfriend/boyfriend.tscn" id="5_k87ct"]
+[ext_resource type="PackedScene" uid="uid://k3e5qpeoyea4" path="res://Funkin-Modpack/funkin/assets/characters/darnell/darnell.tscn" id="6_pbnw7"]
+[ext_resource type="PackedScene" uid="uid://cwgvima0s0hbm" path="res://Funkin-Modpack/funkin/funkin_ui.tscn" id="7_g7cfn"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_3bt5w"]
+shader = ExtResource("4_jwal7")
+shader_parameter/hue = -5.0
+shader_parameter/saturation = -40.0
+shader_parameter/contrast = -25.0
+shader_parameter/brightness = -20.0
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_5x5ey"]
+shader = ExtResource("4_jwal7")
+shader_parameter/hue = -5.0
+shader_parameter/saturation = -40.0
+shader_parameter/contrast = -25.0
+shader_parameter/brightness = -20.0
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_1o3yj"]
+shader = ExtResource("4_jwal7")
+shader_parameter/hue = -5.0
+shader_parameter/saturation = -40.0
+shader_parameter/contrast = -25.0
+shader_parameter/brightness = -20.0
+
+[node name="SongScene2d" unique_id=749912918 instance=ExtResource("1_rxlqn")]
+script = ExtResource("2_jwal7")
+death_scene = null
+
+[node name="PlayState" parent="." index="0" unique_id=151161563]
+ui_skin = ExtResource("2_pwp4i")
+
+[node name="Stage" parent="." index="3" unique_id=801070622 instance=ExtResource("2_q74hy")]
+unique_name_in_owner = true
+
+[node name="Metronome" parent="." index="4" unique_id=1857178016 instance=ExtResource("3_pwp4i")]
+unique_name_in_owner = true
+z_index = 7
+material = SubResource("ShaderMaterial_3bt5w")
+position = Vector2(80, 176)
+
+[node name="Player" parent="." index="5" unique_id=2117704961 groups=["player"] instance=ExtResource("5_k87ct")]
+unique_name_in_owner = true
+z_index = 7
+material = SubResource("ShaderMaterial_5x5ey")
+position = Vector2(640, 288)
+
+[node name="Enemy" parent="." index="6" unique_id=239958260 groups=["enemy"] instance=ExtResource("6_pbnw7")]
+unique_name_in_owner = true
+z_index = 7
+material = SubResource("ShaderMaterial_1o3yj")
+position = Vector2(-528, 240)
+
+[node name="Position 1" type="Marker2D" parent="." index="7" unique_id=121128672 groups=["camera_positions"]]
+unique_name_in_owner = true
+position = Vector2(320, -40)
+gizmo_extents = 18.3
+
+[node name="Position 2" type="Marker2D" parent="." index="8" unique_id=18710140 groups=["camera_positions"]]
+unique_name_in_owner = true
+position = Vector2(0, -64)
+gizmo_extents = 26.5
+
+[node name="Position 3" type="Marker2D" parent="." index="9" unique_id=584808894 groups=["camera_positions"]]
+unique_name_in_owner = true
+position = Vector2(192, -76)
+gizmo_extents = 26.5
+
+[node name="Rating Marker" type="Marker2D" parent="." index="10" unique_id=1956684566]
+unique_name_in_owner = true
+position = Vector2(384, -168)
+gizmo_extents = 30.0
+
+[node name="Combo Marker" type="Marker2D" parent="." index="11" unique_id=2138642534]
+unique_name_in_owner = true
+position = Vector2(512, -120)
+gizmo_extents = 40.0
+
+[node name="UI" parent="." index="12" unique_id=359206 instance=ExtResource("7_g7cfn")]

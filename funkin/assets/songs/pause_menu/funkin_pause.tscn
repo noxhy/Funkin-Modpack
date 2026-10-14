@@ -31,7 +31,7 @@ tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0, 0.5),
-"transitions": PackedFloat32Array(1, 1),
+"transitions": PackedFloat32Array(-2, -2),
 "update": 0,
 "values": [Vector2(1280, 0), Vector2(0, 0)]
 }
@@ -77,7 +77,7 @@ bus = &"Music"
 anchors_preset = 10
 anchor_right = 1.0
 offset_left = 1280.0
-offset_right = 1280.0
+offset_right = 1280.0005
 offset_bottom = 133.0
 grow_horizontal = 2
 theme_override_constants/margin_left = 12

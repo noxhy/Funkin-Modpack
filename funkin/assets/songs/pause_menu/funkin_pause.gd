@@ -28,12 +28,13 @@ func _ready() -> void:
 	
 	if GameManager.current_song:
 		if GameManager.current_song.difficulties.is_empty():
-			pages.get(&"default").remove_at(pages.get(&"default").find(&"Change Difficulty"))
+			pages.get(&"default").erase(&"Change Difficulty")
 		
 		for difficulty in GameManager.current_song.difficulties:
 			pages.difficulties.append(difficulty)
 	else:
-		pages.get(&"default").remove_at(pages.get(&"default").find(&"Change Difficulty"))
+		pages.get(&"default").erase(&"Change Difficulty")
+	
 		
 	match GameManager.play_mode:
 		GameManager.PLAY_MODE.CHARTING:
@@ -54,8 +55,8 @@ func _ready() -> void:
 	
 	
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta) -> void:
-	var axis = Global.get_input_axis_just_pressed(&"menu_down", &"menu_up")
+func _process(delta: float) -> void:
+	var axis = NoahTools.get_input_axis_just_pressed(&"menu_down", &"menu_up")
 	
 	if axis:
 		change_selection(cur_selected - axis)

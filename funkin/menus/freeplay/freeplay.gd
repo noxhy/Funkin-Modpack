@@ -57,7 +57,7 @@ func _ready() -> void:
 	
 	$Above/ColorRect/RichTextLabel.text = str(
 		"[font_size=32][font=\"uid://c7hwqqieqbc47\"][font bt=-16.0][pulse freq=0.8 color=#ffffff40 ease=-2.0]",
-		"Press [", Global.get_bind_string(&"character_select").to_upper(), "] to change character",
+		"Press [", NoahTools.get_bind_string(&"character_select").to_upper(), "] to change character",
 		"[/pulse][/font]"
 	)
 
@@ -240,7 +240,7 @@ func chart_song(song: Song, difficulty: String):
 @warning_ignore("unused_parameter")
 func _on_conductor_new_beat(current_beat, measure_relative):
 	if SettingsManager.data.ui_bops:
-		Global.bop_tween($Camera2D, "zoom", Vector2(1, 1), Vector2(1.005, 1.005), 0.2, Tween.TRANS_CUBIC)
+		NoahTools.bop_tween(self, $Camera2D, "zoom", Vector2(1, 1), Vector2(1.005, 1.005), 0.2, Tween.TRANS_CUBIC)
 
 
 @warning_ignore("shadowed_variable")

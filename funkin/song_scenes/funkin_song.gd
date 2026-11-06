@@ -2,13 +2,11 @@ extends BasicSong
 class_name FunkinSong
 
 
-@export var death_scene: PackedScene = load("uid://bd083xcqslcsd")
 var current_death_scene = null
 var particle_material: ParticleProcessMaterial = load("uid://bpe5oamr6s010")
 
 func _ready() -> void:
 	super()
-	current_death_scene = death_scene.instantiate()
 	Signals.connect(&"play_song_finished", self.finished)
 
 func _process(delta: float) -> void:
@@ -88,11 +86,12 @@ func show_combo(rating: NoahStats.HIT_RATING, _combo: int):
 
 
 func died():
+	current_death_scene = load("uid://bd083xcqslcsd").instantiate()
 	if player:
 		current_death_scene.player_position = player.global_position
 		current_death_scene.player_scale = Vector2(player.scale.x, player.scale.y)
 	
-	current_death_scene.camera_zoom = playstate.camera.get_zoom()
+	current_death_scene.camera_zoom = playstate.camera.zoom
 	
 	get_tree().change_scene_to_node(current_death_scene)
 

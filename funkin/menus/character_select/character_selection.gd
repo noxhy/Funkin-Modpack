@@ -133,7 +133,7 @@ func load_locks():
 
 func _on_conductor_new_beat(current_beat: int, _measure_relative: int) -> void:
 	if SettingsManager.get_value(SettingsManager.SEC_PREFERENCES, "ui_bops"):
-		Global.bop_tween($Camera2D, "zoom", Vector2(1, 1), Vector2(1.005, 1.005), 0.2, Tween.TRANS_CUBIC)
+		NoahTools.bop_tween($Camera2D, "zoom", Vector2(1, 1), Vector2(1.005, 1.005), 0.2, Tween.TRANS_CUBIC)
 	
 	$Background/Parallax2D3/Speakers.playing = true
 	$Background/Parallax2D3/Speakers.frame = 0

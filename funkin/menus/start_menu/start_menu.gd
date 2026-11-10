@@ -58,7 +58,7 @@ func _on_conductor_new_beat(current_beat, measure_relative):
 			tween.tween_property($"UI/Play Label", "theme_override_colors/font_color", Color(0, 0.366667, 1, 0.8), $Conductor.seconds_per_beat * 2)
 		else:
 			tween.tween_property($"UI/Play Label", "theme_override_colors/font_color", Color(0.501961, 0.682353, 1, 0.8), $Conductor.seconds_per_beat * 2)
-	NoahTools.bop_tween(self, $UI/Logo, "scale", Vector2(0.95, 0.95), Vector2(0.9, 0.9), 0.2, Tween.TRANS_QUAD)
+	NoahTools.bop_tween($UI/Logo, "scale", Vector2(0.95, 0.95), Vector2(0.9, 0.9), 0.2, Tween.TRANS_QUAD)
 
 
 func update_bind_text(d: int, i: int):

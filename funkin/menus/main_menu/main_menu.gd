@@ -129,5 +129,5 @@ func select(i: int):
 func _on_conductor_new_beat(current_beat, measure_relative):
 	if can_press:
 		if SettingsManager.data.ui_bops:
-			NoahTools.bop_tween(self, $Camera2D, "zoom", Vector2(1, 1), Vector2(1.005, 1.005), 0.2, Tween.TRANS_CUBIC)
-			NoahTools.bop_tween(self, %Background, "scale", Vector2(1.1, 1.1), Vector2(1.105, 1.105), 0.2, Tween.TRANS_CUBIC)
+			NoahTools.bop_tween($Camera2D, "zoom", Vector2(1, 1), Vector2(1.005, 1.005), 0.2, Tween.TRANS_CUBIC)
+			NoahTools.bop_tween(%Background, "scale", Vector2(1.1, 1.1), Vector2(1.105, 1.105), 0.2, Tween.TRANS_CUBIC)

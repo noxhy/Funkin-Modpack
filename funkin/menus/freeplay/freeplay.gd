@@ -240,7 +240,7 @@ func chart_song(song: Song, difficulty: String):
 @warning_ignore("unused_parameter")
 func _on_conductor_new_beat(current_beat, measure_relative):
 	if SettingsManager.data.ui_bops:
-		NoahTools.bop_tween(self, $Camera2D, "zoom", Vector2(1, 1), Vector2(1.005, 1.005), 0.2, Tween.TRANS_CUBIC)
+		NoahTools.bop_tween($Camera2D, "zoom", Vector2(1, 1), Vector2(1.005, 1.005), 0.2, Tween.TRANS_CUBIC)
 
 
 @warning_ignore("shadowed_variable")

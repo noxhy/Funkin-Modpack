@@ -1,16 +1,16 @@
 [gd_resource type="Resource" script_class="FunkySong" format=3 uid="uid://1fypmp73jxty"]
 
-[ext_resource type="Script" uid="uid://sdlh2p3y8fwk" path="res://noah/resources/song_difficulty_data.gd" id="1_pha61"]
-[ext_resource type="Script" uid="uid://33u0mxahpbex" path="res://Funkin-Modpack/funkin/funky_song.gd" id="2_7dr6v"]
+[ext_resource type="Script" path="res://noah/resources/song_difficulty_data.gd" id="1_pha61"]
+[ext_resource type="Script" path="res://Funkin-Modpack/funkin/funky_song.gd" id="2_7dr6v"]
 
 [sub_resource type="Resource" id="Resource_fqtmp"]
 script = ExtResource("1_pha61")
-chart = "res://Funkin-Modpack/funkin/playable_songs/bopeebo/data/bopeebo-chart-erect.json"
+chart = "res://Funkin-Modpack/funkin/playable_songs/bopeebo/Bopeebo Erect-chart-erect.tres"
 metadata/_custom_type_script = "uid://sdlh2p3y8fwk"
 
 [sub_resource type="Resource" id="Resource_xtkua"]
 script = ExtResource("1_pha61")
-chart = "res://Funkin-Modpack/funkin/playable_songs/bopeebo/data/bopeebo-chart-erect.json"
+chart = "res://Funkin-Modpack/funkin/playable_songs/bopeebo/Bopeebo Erect-chart-nightmare.tres"
 metadata/_custom_type_script = "uid://sdlh2p3y8fwk"
 
 [resource]

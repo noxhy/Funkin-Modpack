@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="FunkySong" format=3 uid="uid://c35c4ud6l0bhc"]
 
-[ext_resource type="Script" uid="uid://sdlh2p3y8fwk" path="res://noah/resources/song_difficulty_data.gd" id="1_oqsd2"]
-[ext_resource type="Script" uid="uid://33u0mxahpbex" path="res://Funkin-Modpack/funkin/funky_song.gd" id="2_oqsd2"]
+[ext_resource type="Script" path="res://noah/resources/song_difficulty_data.gd" id="1_oqsd2"]
+[ext_resource type="Script" path="res://Funkin-Modpack/funkin/funky_song.gd" id="2_oqsd2"]
 
 [sub_resource type="Resource" id="Resource_05po3"]
 script = ExtResource("1_oqsd2")
@@ -10,12 +10,12 @@ metadata/_custom_type_script = "uid://sdlh2p3y8fwk"
 
 [sub_resource type="Resource" id="Resource_4y2l4"]
 script = ExtResource("1_oqsd2")
-chart = "res://Funkin-Modpack/funkin/playable_songs/2hot/charts/2hot-chart.json"
+chart = "res://Funkin-Modpack/funkin/playable_songs/2hot/2hot-chart-hard.tres"
 metadata/_custom_type_script = "uid://sdlh2p3y8fwk"
 
 [sub_resource type="Resource" id="Resource_8afsr"]
 script = ExtResource("1_oqsd2")
-chart = "res://Funkin-Modpack/funkin/playable_songs/2hot/charts/2hot-chart.json"
+chart = "res://Funkin-Modpack/funkin/playable_songs/2hot/2hot-chart-normal.tres"
 metadata/_custom_type_script = "uid://sdlh2p3y8fwk"
 
 [resource]
@@ -23,7 +23,7 @@ script = ExtResource("2_oqsd2")
 vocals = Array[String](["uid://f5e226ds6c85", "uid://cqekirmqj2xrt"])
 instrumental = "uid://ccwjnji8xag6o"
 tempo = 182.0
-scene = "uid://c8853lemkr1jc"
+scene = "uid://clyse54hyrcie"
 difficulties = Dictionary[String, ExtResource("1_oqsd2")]({
 "easy": SubResource("Resource_05po3"),
 "hard": SubResource("Resource_4y2l4"),

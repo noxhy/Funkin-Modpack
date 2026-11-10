@@ -74,8 +74,8 @@ func _process(delta: float) -> void:
 func on_beat(current_beat: int, measure_relative: int):
 	var time: float = GameManager.conductor.seconds_per_step * 2 / GameManager.conductor.stream_player.pitch_scale
 	
-	NoahTools.bop_tween(self, player_icon, ^"scale", Vector2(0.8, 0.8), Vector2(0.9, 0.9), time, Tween.TRANS_QUAD)
-	NoahTools.bop_tween(self, enemy_icon, ^"scale", Vector2(0.8, 0.8), Vector2(0.9, 0.9), time, Tween.TRANS_QUAD)
+	NoahTools.bop_tween(player_icon, ^"scale", Vector2(0.8, 0.8), Vector2(0.9, 0.9), time, Tween.TRANS_QUAD)
+	NoahTools.bop_tween(enemy_icon, ^"scale", Vector2(0.8, 0.8), Vector2(0.9, 0.9), time, Tween.TRANS_QUAD)
 
 
 func set_player_icons(icons: SpriteFrames):

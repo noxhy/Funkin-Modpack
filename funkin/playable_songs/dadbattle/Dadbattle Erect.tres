@@ -17,12 +17,22 @@ metadata/_custom_type_script = "uid://sdlh2p3y8fwk"
 script = ExtResource("2_4cix4")
 vocals = Array[String](["uid://chbcrvaeype4o", "uid://p26vwmnwq3c2"])
 instrumental = "uid://b5sf2ya7vb01c"
-tempo = 190.0
 scene = "uid://blj8dbuorj1h0"
-difficulties = Dictionary[String, ExtResource("1_fqtmp")]({
-"erect": SubResource("Resource_xtkua"),
-"nightmare": SubResource("Resource_lyg2s")
+difficulties = Dictionary[StringName, ExtResource("1_fqtmp")]({
+&"erect": SubResource("Resource_xtkua"),
+&"nightmare": SubResource("Resource_lyg2s")
 })
+strumlines = [{
+"audio_track": 0,
+"lane_count": 4,
+"left_lane": 0,
+"name": &"Player"
+}, {
+"audio_track": 1,
+"lane_count": 4,
+"left_lane": 4,
+"name": &"Enemy"
+}]
 title = "DadBattle Erect"
 artist = "Kawai Sprite"
 charter = "Jenny Crowe + fabs + Spazkid"

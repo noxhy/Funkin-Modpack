@@ -1,0 +1,44 @@
+[gd_resource type="Resource" script_class="Song" format=3 uid="uid://b85yasmsoakhw"]
+
+[ext_resource type="Script" uid="uid://sdlh2p3y8fwk" path="res://noah/resources/song_difficulty_data.gd" id="1_jhwlx"]
+[ext_resource type="Script" uid="uid://watdarflaprc" path="res://noah/resources/song.gd" id="2_5bpo1"]
+
+[sub_resource type="Resource" id="Resource_tdd73"]
+script = ExtResource("1_jhwlx")
+chart = "res://Funkin-Modpack/funkin/playable_songs/2hot/charts/2hot-easy.tres"
+
+[sub_resource type="Resource" id="Resource_twwmc"]
+script = ExtResource("1_jhwlx")
+chart = "res://Funkin-Modpack/funkin/playable_songs/2hot/charts/2hot-hard.tres"
+
+[sub_resource type="Resource" id="Resource_ut3wh"]
+script = ExtResource("1_jhwlx")
+chart = "res://Funkin-Modpack/funkin/playable_songs/2hot/charts/2hot-normal.tres"
+
+[resource]
+script = ExtResource("2_5bpo1")
+vocals = Array[String](["res://Funkin-Modpack/funkin/playable_songs/2hot/audio/Voices-darnell.ogg", "res://Funkin-Modpack/funkin/playable_songs/2hot/audio/Voices-pico.ogg"])
+instrumental = "res://Funkin-Modpack/funkin/playable_songs/2hot/audio/Inst.ogg"
+time_changes = Dictionary[float, Vector3]({
+0.0: Vector3(182, 4, 4)
+})
+difficulties = Dictionary[StringName, ExtResource("1_jhwlx")]({
+&"easy": SubResource("Resource_tdd73"),
+&"hard": SubResource("Resource_twwmc"),
+&"normal": SubResource("Resource_ut3wh")
+})
+events = "res://Funkin-Modpack/funkin/playable_songs/2hot/charts/events.tres"
+strumlines = [{
+"audio_track": 0,
+"lane_count": 4,
+"left_lane": 0,
+"name": &"Player"
+}, {
+"audio_track": 1,
+"lane_count": 4,
+"left_lane": 4,
+"name": &"Enemy"
+}]
+title = &"2hot"
+artist = &"Kawai Sprite"
+charter = &"Jenny Crowe + Spazkid + ninjamuffin99"

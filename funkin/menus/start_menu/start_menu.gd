@@ -21,10 +21,8 @@ func _ready() -> void:
 	
 	update_bind_text(-1, 1)
 	Input.joy_connection_changed.connect(self.update_bind_text)
-	
-	await $Conductor.ready
-	
-	$Conductor.tempo = SoundManager.music.stream.get_bpm()
+	$Conductor.connect(&"new_beat", %Metronome.on_beat_hit)
+	$Conductor.time_changes[0.0] = Vector3(SoundManager.music.stream.get_bpm(), 4, 4)
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -42,10 +40,6 @@ func _process(_delta):
 
 func _on_conductor_new_beat(current_beat, measure_relative):
 	# Metronome Bop Animation
-	if(measure_relative % 2 == 0):
-		%Metronome.can_dance = true
-		%Metronome.play_animation("idle", $Conductor.seconds_per_beat * 2)
-	
 	if intro_done:
 		var tween = create_tween()
 		tween.set_parallel(true)

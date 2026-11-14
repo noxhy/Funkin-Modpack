@@ -20,16 +20,27 @@ metadata/_custom_type_script = "uid://sdlh2p3y8fwk"
 
 [resource]
 script = ExtResource("2_pyqnv")
+icons = "uid://digynxqrdoj3g"
 vocals = Array[String](["uid://dyu8olhk2gcah", "uid://4k4ic3uap0fg"])
 instrumental = "uid://bayc5dsfv3jfg"
-tempo = 176.0
 scene = "uid://bg3coqaywlx5b"
-difficulties = Dictionary[String, ExtResource("1_brx38")]({
-"easy": SubResource("Resource_cuxi3"),
-"hard": SubResource("Resource_8fa4h"),
-"normal": SubResource("Resource_pql60")
+difficulties = Dictionary[StringName, ExtResource("1_brx38")]({
+&"easy": SubResource("Resource_cuxi3"),
+&"hard": SubResource("Resource_8fa4h"),
+&"normal": SubResource("Resource_pql60")
 })
 events = "res://playable_songs/lit up/charts/events.tres"
+strumlines = [{
+"audio_track": 0,
+"lane_count": 4,
+"left_lane": 0,
+"name": &"Player"
+}, {
+"audio_track": 1,
+"lane_count": 4,
+"left_lane": 4,
+"name": &"Enemy"
+}]
 title = "Lit Up (Bf Mix)"
 artist = "Saruky"
 charter = "fabs + Spazkid"

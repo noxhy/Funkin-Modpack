@@ -38,10 +38,7 @@ func _ready() -> void:
 		SoundManager.music.play()
 	
 	$Conductor.stream_player = SoundManager.music
-	
-	await $Conductor.ready
-	
-	$Conductor.tempo = SoundManager.music.stream.get_bpm()
+	$Conductor.time_changes[0.0] = Vector3(SoundManager.music.stream.get_bpm(), 4, 4)
 
 
 # Input Manager

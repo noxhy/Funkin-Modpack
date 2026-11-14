@@ -17,12 +17,23 @@ metadata/_custom_type_script = "uid://sdlh2p3y8fwk"
 script = ExtResource("2_hg5df")
 vocals = Array[String](["uid://cbhd8r1sx3s77", "uid://c41wb57my35tu"])
 instrumental = "uid://kkys8u7quu3u"
-tempo = 174.0
 scene = "uid://7dnhab71cxfx"
-difficulties = Dictionary[String, ExtResource("1_xfirj")]({
-"erect": SubResource("Resource_pha61"),
-"nightmare": SubResource("Resource_2dyfm")
+difficulties = Dictionary[StringName, ExtResource("1_xfirj")]({
+&"erect": SubResource("Resource_pha61"),
+&"nightmare": SubResource("Resource_2dyfm")
 })
+events = "uid://edshhvm4wn1o"
+strumlines = [{
+"audio_track": 0,
+"lane_count": 4,
+"left_lane": 0,
+"name": &"Player"
+}, {
+"audio_track": 1,
+"lane_count": 4,
+"left_lane": 4,
+"name": &"Enemy"
+}]
 title = "Cocoa Erect"
 artist = "Saster"
 charter = "fabs + Spazkid"

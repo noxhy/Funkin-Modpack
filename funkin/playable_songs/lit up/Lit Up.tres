@@ -20,15 +20,26 @@ metadata/_custom_type_script = "uid://sdlh2p3y8fwk"
 
 [resource]
 script = ExtResource("2_70agg")
+icons = "uid://ew4ceqmop5o5"
 vocals = Array[String](["uid://dr8gwhof0w2tv", "uid://d4lmd4k0bqqa"])
 instrumental = "uid://bbr5vvtr0qgxr"
-tempo = 176.0
 scene = "uid://c8853lemkr1jc"
-difficulties = Dictionary[String, ExtResource("1_70agg")]({
-"easy": SubResource("Resource_70agg"),
-"hard": SubResource("Resource_43i15"),
-"normal": SubResource("Resource_s6q3k")
+difficulties = Dictionary[StringName, ExtResource("1_70agg")]({
+&"easy": SubResource("Resource_70agg"),
+&"hard": SubResource("Resource_43i15"),
+&"normal": SubResource("Resource_s6q3k")
 })
+strumlines = [{
+"audio_track": 0,
+"lane_count": 4,
+"left_lane": 0,
+"name": &"Player"
+}, {
+"audio_track": 1,
+"lane_count": 4,
+"left_lane": 4,
+"name": &"Enemy"
+}]
 title = "Lit Up"
 artist = "Kawai Sprite"
 charter = "Jenny Crowe + Spazkid"

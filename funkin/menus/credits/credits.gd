@@ -73,10 +73,7 @@ func _ready() -> void:
 		SoundManager.music.play()
 	
 	$Conductor.stream_player = SoundManager.music
-	
-	await $Conductor.ready
-	
-	$Conductor.tempo = SoundManager.music.stream.get_bpm()
+	$Conductor.time_changes[0.0] = Vector3(SoundManager.music.stream.get_bpm(), 4, 4)
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta) -> void:
@@ -133,5 +130,5 @@ func select(i: int):
 
 func _on_conductor_new_beat(current_beat, measure_relative):
 	if SettingsManager.get_value("preferences", "ui_bops"):
-		Global.bop_tween($Camera2D, "zoom", Vector2(1, 1), Vector2(1.005, 1.005), 0.2, Tween.TRANS_CUBIC)
-		Global.bop_tween($Background/Background, "scale", Vector2(1, 1), Vector2(1.005, 1.005), 0.2, Tween.TRANS_CUBIC)
+		NoahTools.bop_tween($Camera2D, "zoom", Vector2.ONE, Vector2(1.005, 1.005), 0.2, Tween.TRANS_CUBIC)
+		NoahTools.bop_tween($Background/Background, "scale", Vector2.ONE, Vector2(1.005, 1.005), 0.2, Tween.TRANS_CUBIC)

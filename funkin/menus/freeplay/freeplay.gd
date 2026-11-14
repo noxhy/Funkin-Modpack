@@ -63,9 +63,7 @@ func _ready() -> void:
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(_delta):
-	
 	if can_click:
-		
 		if Input.is_action_just_pressed(&"menu_up") or Input.is_action_just_pressed(&"mouse_scroll_up"):
 			update(selected_song - 1)
 		elif Input.is_action_just_pressed(&"menu_down") or Input.is_action_just_pressed(&"mouse_scroll_down"):
@@ -100,7 +98,10 @@ func load_page():
 		var menu_option_instance = MENU_OPTION_NODE.instantiate()
 		
 		menu_option_instance.text = song_file.title
-		var icons = load(song_file.icons)
+		var icons = null
+		if "icons" in song_file:
+			icons = load(song_file.icons)
+		
 		if icons:
 			menu_option_instance.icon = icons.get_frame_texture("default", 0)
 		
@@ -132,7 +133,7 @@ func update(i: int):
 	if options.size() == 0:
 		return
 	
-	var song_file = options[instances[i].index]
+	var song_file: Song = options[instances[i].index]
 	
 	SoundManager.scroll.play()
 	$Audio/Music.stream = load(song_file.instrumental)
@@ -142,7 +143,7 @@ func update(i: int):
 	
 	$"Difficulty Selector".available_difficulties = song_file.difficulties.keys()
 	
-	$Conductor.tempo = song_file.tempo
+	$Conductor.time_changes = song_file.time_changes
 	
 	var tween = create_tween()
 	tween.set_parallel()
@@ -157,12 +158,12 @@ func update(i: int):
 		else:
 			j.state = "idle"
 		
-		if options[index].locked:
+		if "locke" in options[index] and options[index].locked:
 			j.icon = load("uid://0v2cxshetbif")
 		
 		index += 1
 	
-	if !song_file.locked: 
+	if "locked" in song_file and !song_file.locked: 
 		tween.tween_property($Audio/Music, "volume_db", 0.0, 1)
 	
 	var grade = SaveManager.get_grade(song_file, difficulty)
@@ -194,7 +195,7 @@ func select(i: int, chart: bool = false):
 			return
 		
 		# Lock Check
-		if song_file.locked:
+		if "locked" in song_file and song_file.locked:
 			return
 		
 		can_click = false

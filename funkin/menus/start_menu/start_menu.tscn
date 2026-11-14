@@ -309,7 +309,6 @@ intro_done = false
 
 [node name="Conductor" type="Node" parent="." unique_id=956853753]
 script = ExtResource("2_1h8sn")
-tempo = 102.0
 metadata/_custom_type_script = "uid://b1blhjns06ilt"
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1991742915]

@@ -1,0 +1,44 @@
+[gd_resource type="Resource" script_class="Song" format=3 uid="uid://dgo1jax50npc8"]
+
+[ext_resource type="Script" path="res://noah/resources/song_difficulty_data.gd" id="1_8gtkj"]
+[ext_resource type="Script" path="res://noah/resources/song.gd" id="2_dscrs"]
+
+[sub_resource type="Resource" id="Resource_br6g1"]
+script = ExtResource("1_8gtkj")
+chart = "res://Funkin-Modpack/funkin/playable_songs/lit up/charts/Lit Up (BF Mix)-easy.tres"
+
+[sub_resource type="Resource" id="Resource_okdcl"]
+script = ExtResource("1_8gtkj")
+chart = "res://Funkin-Modpack/funkin/playable_songs/lit up/charts/Lit Up (BF Mix)-normal.tres"
+
+[sub_resource type="Resource" id="Resource_onouo"]
+script = ExtResource("1_8gtkj")
+chart = "res://Funkin-Modpack/funkin/playable_songs/lit up/charts/Lit Up (BF Mix)-hard.tres"
+
+[resource]
+script = ExtResource("2_dscrs")
+vocals = Array[String](["res://Funkin-Modpack/funkin/playable_songs/lit up/audio/Voices-bf-bf.ogg", "res://Funkin-Modpack/funkin/playable_songs/lit up/audio/Voices-darnell-bf.ogg"])
+instrumental = "res://Funkin-Modpack/funkin/playable_songs/lit up/audio/Inst-bf.ogg"
+time_changes = Dictionary[float, Vector3]({
+0.0: Vector3(176, 4, 4)
+})
+difficulties = Dictionary[StringName, ExtResource("1_8gtkj")]({
+&"easy": SubResource("Resource_br6g1"),
+&"hard": SubResource("Resource_onouo"),
+&"normal": SubResource("Resource_okdcl")
+})
+events = "res://Funkin-Modpack/funkin/playable_songs/lit up/charts/events.tres"
+strumlines = [{
+"audio_track": 0,
+"lane_count": 4,
+"left_lane": 0,
+"name": &"Player"
+}, {
+"audio_track": 1,
+"lane_count": 4,
+"left_lane": 4,
+"name": &"Enemy"
+}]
+title = &"Lit Up (BF Mix)"
+artist = &"Saruky"
+charter = &"fabs + Spazkid"

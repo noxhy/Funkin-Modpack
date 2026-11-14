@@ -7,16 +7,19 @@
 script = ExtResource("1_ep0lb")
 animation_player = NodePath("AnimatedSprite2D")
 animation_names = Dictionary[StringName, StringName]({
-&"idle": &"gfDance"
+&"idle": &"gfDance",
+&"idle_left": &"idle_left",
+&"idle_right": &"idle_right"
 })
 offsets = Dictionary[StringName, Vector2]({
 &"gfDance": Vector2(0, -316)
 })
+dance_animations = Array[StringName]([&"idle_left", &"idle_right"])
+dance_rate = 0
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=112302982]
 position = Vector2(0, -316)
 sprite_frames = ExtResource("3_ktqsh")
-animation = &"gfDance"
-frame_progress = 0.501616
+animation = &"idle_left"
 
 [connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]
